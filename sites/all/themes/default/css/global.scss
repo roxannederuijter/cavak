@@ -15,6 +15,19 @@
   padding:10px 0 20px 0;
 }
 
+#zone-header {
+  width:100%;
+  #region-header-first {
+    width:100%;
+    margin:0 auto;
+    .field-name-field-image {
+      img {
+        width:100%;
+      }
+    }
+  }
+}
+
 /* Menu */
 .block-superfish-1 {
   ul {
@@ -34,6 +47,11 @@
       }
       a.active {
         color:$orange;
+      }
+    }
+    li.last {
+      a {
+        border-right:0;
       }
     }
   }

@@ -1,6 +1,7 @@
 name = Default - Block settings
 core = 7.x
 package = Default settings
+dependencies[] = bean
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = fe_block
@@ -8,6 +9,7 @@ dependencies[] = locale
 dependencies[] = menu
 dependencies[] = search
 dependencies[] = superfish
+features[fe_block_settings][] = bean-banner
 features[fe_block_settings][] = devel-execute_php
 features[fe_block_settings][] = devel-switch_user
 features[fe_block_settings][] = diff-inline

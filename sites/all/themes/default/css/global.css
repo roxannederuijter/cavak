@@ -4,7 +4,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body {
   font-size: 100%;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Ruda", sans-serif; }
 
 img {
   max-width: 100%;
@@ -38,13 +38,13 @@ h5 {
   font-size: 1em; }
 
 h1, h2, h2.block-title, h3, h4, h5 {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Ruda", sans-serif; }
 
 h3, h4, h5 {
   font-weight: 400; }
 
 p, a, a:link {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Ruda", sans-serif;
   font-size: 1em;
   text-decoration: none; }
 
@@ -201,9 +201,17 @@ input[type="button"]:hover,
 #zone-branding-wrapper {
   padding: 10px 0 20px 0; }
 
+#zone-header {
+  width: 100%; }
+  #zone-header #region-header-first {
+    width: 100%;
+    margin: 0 auto; }
+    #zone-header #region-header-first .field-name-field-image img {
+      width: 100%; }
+
 /* Menu */
 .block-superfish-1 ul li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Ruda", sans-serif;
   font-size: 0.938em;
   color: #fff;
   text-transform: uppercase;
@@ -215,5 +223,7 @@ input[type="button"]:hover,
   color: #f78b1f; }
 .block-superfish-1 ul li a.active {
   color: #f78b1f; }
+.block-superfish-1 ul li.last a {
+  border-right: 0; }
 
 /*# sourceMappingURL=global.css.map */
