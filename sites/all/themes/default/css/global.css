@@ -194,4 +194,26 @@ input[type="button"]:hover,
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
     margin-bottom: 20px; }
 
+/* Algemeen */
+#zone-menu-wrapper {
+  background-color: #000; }
+
+#zone-branding-wrapper {
+  padding: 10px 0 20px 0; }
+
+/* Menu */
+.block-superfish-1 ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.938em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 20px 0 20px;
+  border-right: 2px solid #f78b1f;
+  margin: 8px 0; }
+.block-superfish-1 ul li a:hover {
+  color: #f78b1f; }
+.block-superfish-1 ul li a.active {
+  color: #f78b1f; }
+
 /*# sourceMappingURL=global.css.map */
