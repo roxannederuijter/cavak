@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View - Sponsors feature.
+ */
+
+include_once 'view_sponsors.features.inc';

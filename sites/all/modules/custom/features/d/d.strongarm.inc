@@ -144,7 +144,7 @@ function d_strongarm() {
     'domain' => '',
     'prefix' => 'nl',
     'weight' => '0',
-    'javascript' => '8pykoY4qxQGXCuyXeV3dghyhgDTQRIKmxg4DY9gwabQ',
+    'javascript' => 'oODWm6jUhbuXvSK0fOprZr5AnpWEXFVp7BYxVDsH5W4',
   );
   $export['language_default'] = $strongarm;
 
