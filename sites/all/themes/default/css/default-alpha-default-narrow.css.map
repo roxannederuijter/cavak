@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;AAMA,sBAAuB;EACrB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;;AAGZ,uBAAwB;EACtB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;;AAGZ;;;;;;iDAMkD;EAChD,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX;;;;;;;;;;;;;2EACwB;IACtB,KAAK,EAAE,MAAM;EAEf;;;;;;0EAAuB;IACrB,YAAY,EAAE,IAAI",
+"sources": ["default-alpha-default-narrow.scss"],
+"names": [],
+"file": "default-alpha-default-narrow.css"
+}

@@ -1,0 +1,195 @@
+<?php
+define('CCK_LIST_DEFAULT_ROWS', 5);
+
+/**
+ *  Module version 6 create by iStryker
+ *  Module coverted to 7 by iStryker
+ *  Sponser by Themes 24/7  http://www.themes247.com
+ *  & Stryker Enteprise http://www.strykerenterprise.com
+ */
+
+/**
+ * @file
+ * Defines a field type that outputs data in an
+ * unordered or ordered list.
+ */
+
+/**
+ * Implements hook_field_info().
+ */
+function cck_list_field_info() {
+  return array(
+    'list' => array(
+      'label' => t('List'),
+      'description' => t('This field stores and renderes email addresses.'),
+      'settings' => array('rows' => CCK_LIST_DEFAULT_ROWS),
+      'default_widget' => 'text_textarea',
+      'default_formatter' => 'list_unordered',
+    ),
+  );
+}
+
+/**
+ * Implements hook_field_widget_info().
+ */
+function cck_list_field_widget_info() {
+  return array(
+    'cck_list_textarea' => array(
+      'label' => t('Text area'),
+      'field types' => array('list'),
+      'behaviors' => array(
+        'multiple values' => FIELD_BEHAVIOR_DEFAULT,
+        'default value' => FIELD_BEHAVIOR_NONE,
+      ),
+      'settings' => array(
+        'rows' => CCK_LIST_DEFAULT_ROWS,
+      ),
+    ),
+  );
+}
+
+/**
+ * Implements hook_field_formatter_info().
+ */
+function cck_list_field_formatter_info() {
+  return array(
+    'list_ordered' => array(
+      'label' => t('Ordered List'),
+      'multiple values' => FIELD_BEHAVIOR_DEFAULT,
+      'field types' => array('list'),
+    ),
+    'list_unordered' => array(
+      'label' => t('Unordered List'),
+      'multiple values' => FIELD_BEHAVIOR_DEFAULT,
+      'field types' => array('list'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_field_is_empty().
+ */
+function cck_list_field_is_empty($item, $field) {
+  if (empty($item['list'])) {
+    return TRUE;
+  }
+  return FALSE;
+}
+
+/**
+ * Implements hook_field_formatter_view().
+ */
+function cck_list_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
+
+  $element = array();
+  $settings = $display['settings'];
+  $formatter = $display['type'];
+
+  switch ($formatter) {
+    case 'list_unordered':
+      $type = 'ul';
+      break;
+    case 'list_ordered':
+      $type = 'ol';
+      break;
+  }
+
+  foreach ($items as $delta => $item) {
+    if (!empty($item['list'])) {
+
+      $lines = explode("\n", $item['list']);
+      $lines = array_map('trim', $lines);
+      $lines = array_filter($lines, 'strlen');
+      if (count($lines) > 0) {
+        $attributes = array();
+
+        if (!empty($instance['widget']['settings']['css_id'])) {
+          $attributes['id'] = $instance['widget']['settings']['css_id'] . '-' . $instance['id'];
+        }
+        if (!empty($instance['widget']['settings']['css_class'])) {
+          $attributes['class'] = $instance['widget']['settings']['css_class'];
+        }
+
+        $element[$delta] = array(
+          '#markup' => theme('item_list', array('items' => $lines, 'type' => $type, 'attributes' => $attributes)),
+        );
+      }
+    }
+  }
+  return $element;
+}
+
+/**
+ * Implements hook_field_widget_settings_form().
+ */
+function cck_list_field_widget_settings_form($field, $instance) {
+
+  $form = array();
+  $form['rows'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Number of Rows'),
+    '#default_value' => isset($instance['widget']['settings']['rows']) ? $instance['widget']['settings']['rows'] : CCK_LIST_DEFAULT_ROWS,
+    '#required' => TRUE,
+    '#element_validate' => array('_element_validate_integer_positive'),
+  );
+  $form['css_id'] = array(
+    '#type' => 'textfield',
+    '#title' => t('CSS ID'),
+    '#description' => t('Specify an ID to be assigned to the table element.') . '<br />' . t('The node ID will be appended to keep the ID unique.'),
+    '#default_value' => isset($instance['widget']['settings']['css_id']) ? $instance['widget']['settings']['css_id'] : '',
+    '#field_suffix' => '-##',
+  );
+  $form['css_class'] = array(
+     '#type' => 'textfield',
+     '#title' => t('CSS Class'),
+     '#description' => t('Specify a class to be added to the table element.'),
+     '#default_value' => isset($instance['widget']['settings']['css_class']) ? $instance['widget']['settings']['css_class'] : '',
+  );
+  return $form;
+}
+
+/**
+ * Implements hook_field_widget_form().
+ */
+function cck_list_field_widget_form(&$form, &$form_state, $field, $instance, $langcode, $items, $delta, $base) {
+  // it suggest I use += to avoid overwriting incoming $element & $element as parameter instead of $base
+  // if I do this it throws error of undefined operand type
+  // if I do this then I cannot put in default help
+  if (!empty($instance['description'] )) {
+    $description = t($instance['description']);
+  }
+  else {
+    $description = t('Enter list data, one row per line.');
+  }
+  $element = $base;
+  $element['list'] = array(
+    '#type' => 'textarea',
+    '#default_value' => isset($items[$delta]['list']) ? $items[$delta]['list'] : NULL,
+    '#rows' => $instance['widget']['settings']['rows'],
+    '#description' => $description,
+  );
+  return $element;
+}
+
+/**
+ * Implements hook_field_widget_error().
+ */
+function cck_list_field_widget_error($element, $error, $form, &$form_state) {
+  form_error($element['value'], $error['message']);
+}
+
+/**
+ * Implements hook_content_migrate_instance_alter().
+ *
+ * D6-D7 upgrade
+ * fixes new formatter names
+ */
+function cck_list_content_migrate_instance_alter(&$instance_value, &$field_value) {
+  if ($field_value['module'] == 'cck_list') {
+    foreach ($instance_value['display'] as $context => $settings) {
+      if (in_array($instance_value['display'][$context]['type'], array('list_unordered', 'list_ordered'))) {
+        $instance_value['display'][$context]['type'] = 'cck_list_' . $instance_value['display'][$context]['type'];
+      }
+    }
+  }
+}

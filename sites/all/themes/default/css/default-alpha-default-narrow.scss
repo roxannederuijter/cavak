@@ -1,0 +1,33 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+@import 'variables';
+
+.ds-2col > .group-left {
+  float: left;
+  width: 50%;
+}
+
+.ds-2col > .group-right {
+  float: left;
+  width: 50%;
+}
+
+.field-name-field-paragraph-s,
+.paragraphs-item-1-kolom-afbeelding,
+.paragraphs-item-1-kolom-tekst,
+.paragraphs-item-2-kolommen-afbeeldingen,
+.paragraphs-item-2-kolommen-tekst,
+.paragraphs-item-2-kolommen-tekst-afbeelding-link,
+.paragraphs-item-2-kolommen-tekst-afbeelding-rech {
+  float: left;
+  width: 100%;
+  .ds-2col > .group-left,
+  .ds-2col > .group-right {
+    width: 48.75%;
+  }
+  .ds-2col > .group-left {
+    margin-right: 2.5%;
+  }
+}

@@ -1,0 +1,183 @@
+body {
+  font-size: 100%;
+  font-family: $font;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-img {
+  margin: 0;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+h2.block-title {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h1, h2, h2.block-title, h3, h4, h5 {
+  font-family: $font;
+}
+
+h3, h4, h5 {
+  font-weight: 400;
+}
+
+p, a, a:link {
+  font-family: $font;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a, a:link {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover, a:link:hover {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.fa:before {
+  margin-right: 0.5em;
+  font-family: FontAwesome;
+}
+
+label {
+  font-weight: normal;
+}
+
+.form-textarea-wrapper textarea,
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: 1px solid #e0e0e0;
+  padding: 1.5%;
+  outline: none;
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+  max-width: 100%;
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  height: auto;
+  width: 80%;
+}
+
+.form-textarea-wrapper .grippie {
+  width: 80%;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.node-links ul li a {
+  text-shadow: none;
+  padding: 2% 4%;
+  display: inline-block;
+  border: none;
+  background: #dddddd;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.node-links ul li a:hover {
+  background: #cccccc;
+}
+
+#superfish-1-select {
+  width: 100%;
+  border-radius: 0;
+  padding-left: 40px;
+  background: #fff url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  border: #ccc;
+  background-size: 20px;
+  color: #000;
+}
+
+.ds-2col > .group-left {
+  float: left;
+  width: 100%;
+}
+
+.ds-2col > .group-right {
+  float: left;
+  width: 100%;
+}
+
+.field-name-field-paragraph-s,
+.paragraphs-item-1-kolom-afbeelding,
+.paragraphs-item-1-kolom-tekst,
+.paragraphs-item-2-kolommen-afbeeldingen,
+.paragraphs-item-2-kolommen-tekst,
+.paragraphs-item-2-kolommen-tekst-afbeelding-link,
+.paragraphs-item-2-kolommen-tekst-afbeelding-rech {
+  float: left;
+  width: 100%;
+  .ds-2col > .group-left,
+  .ds-2col > .group-right {
+    width: 100%;
+  }
+  .field-name-field-tekst-lang,
+  .field-name-field-tekst-rechts,
+  .field-name-field-afbeelding,
+  .field-name-field-afbeelding-rechts {
+    margin-bottom: 20px;
+  }
+}
+
+

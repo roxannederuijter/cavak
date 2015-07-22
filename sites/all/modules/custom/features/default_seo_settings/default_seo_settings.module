@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - Seo settings feature.
+ */
+
+include_once 'default_seo_settings.features.inc';

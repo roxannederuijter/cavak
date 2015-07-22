@@ -1,0 +1,70 @@
+name = Urban-Heroes Default profile
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+dependencies[] = features
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = ckeditor
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = email
+dependencies[] = features
+dependencies[] = globalredirect
+dependencies[] = googleanalytics
+dependencies[] = honeypot
+dependencies[] = l10n_update
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = media
+dependencies[] = metatag
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = strongarm
+dependencies[] = superfish
+dependencies[] = token
+dependencies[] = uh_views_responsive
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = views_slideshow
+dependencies[] = webform
+dependencies[] = xmlsitemap
+dependencies[] = paragraphs
+dependencies[] = admin_views
+dependencies[] = page_title
+dependencies[] = fe_block
+dependencies[] = features_diff
+dependencies[] = media_wysiwyg
+
+dependencies[] = plupload
+dependencies[] = multiform
+dependencies[] = media_bulk_upload
+dependencies[] = seo_checklist
+
+
+
+
+
+; Information added by Drupal.org packaging script on 2014-11-19
+version = "7.34"
+project = "drupal"
+datestamp = "1416429488"
+

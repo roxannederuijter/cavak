@@ -1,0 +1,54 @@
+/** superfish **/
+body {
+  padding-left: 30px !important;
+  font-size: 100%; }
+
+.admin-menu #fancy-menu {
+  padding-top: 50px; }
+
+#fancy-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000000;
+  margin: 0;
+  height: 100%;
+  width: 30px;
+  overflow: hidden;
+  transition: width 0.5s;
+  z-index: 998; }
+  #fancy-menu ul {
+    padding: 0; }
+    #fancy-menu ul li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: url("../img/icon-right.png") no-repeat left top;
+      background-size: 10px;
+      padding-left: 30px;
+      background-position-x: 10px;
+      background-position-y: 5px; }
+      #fancy-menu ul li a {
+        line-height: 20px;
+        font-size: 1.4em;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 20px;
+        display: block;
+        white-space: nowrap;
+        color: #ffffff;
+        text-decoration: none; }
+
+#fancy-menu.expanded {
+  width: auto;
+  padding-right: 20px;
+  -webkit-transition: all 500ms cubic-bezier(0, 0.005, 0, 1);
+  /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0, 0.005, 0, 1.65);
+  -moz-transition: all 500ms cubic-bezier(0, 0.005, 0, 1.65);
+  -o-transition: all 500ms cubic-bezier(0, 0.005, 0, 1.65);
+  transition: all 500ms cubic-bezier(0, 0.005, 0, 1.65);
+  /* custom */
+  overflow: auto; }
+
+/*# sourceMappingURL=fancy_side_menu.css.map */

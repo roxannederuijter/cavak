@@ -1,0 +1,6 @@
+name = Default - Roles
+core = 7.x
+package = Default settings
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = administrator

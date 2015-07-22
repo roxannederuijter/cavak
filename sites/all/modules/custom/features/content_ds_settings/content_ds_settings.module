@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - DS settings feature.
+ */
+
+include_once 'content_ds_settings.features.inc';

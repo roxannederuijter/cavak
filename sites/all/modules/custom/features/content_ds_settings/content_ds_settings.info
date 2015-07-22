@@ -1,0 +1,11 @@
+name = Content - DS settings
+core = 7.x
+package = Content
+dependencies[] = ctools
+dependencies[] = ds
+features[ctools][] = ds:ds:1
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_afbeeldingen|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst_afbeelding_link|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst_afbeelding_rech|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst|default
+features[features_api][] = api:2

@@ -1,0 +1,4 @@
+name = Views Slideshow Responsive
+description = Maakt views slideshow responsive
+core = 7.x
+package = uh

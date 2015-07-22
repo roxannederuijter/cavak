@@ -1,0 +1,8 @@
+name = Default - Talen
+core = 7.x
+package = Default settings
+dependencies[] = features
+dependencies[] = locale
+features[features_api][] = api:2
+features[language][] = en
+features[language][] = nl

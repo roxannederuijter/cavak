@@ -1,0 +1,17 @@
+; Module by iStryker
+; sponser by www.themes247.com & www.strykerenterprise.com
+name = List
+description = Defines a field type that outputs data in an order or unorder list.
+core = 7.x
+dependencies[] = field
+files[] = cck_list.module
+package = CCK
+
+
+
+; Information added by drupal.org packaging script on 2011-03-23
+version = "7.x-1.0-alpha4"
+core = "7.x"
+project = "cck_list"
+datestamp = "1300892767"
+

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - Superfish settings feature.
+ */
+
+include_once 'default_superfish_settings.features.inc';

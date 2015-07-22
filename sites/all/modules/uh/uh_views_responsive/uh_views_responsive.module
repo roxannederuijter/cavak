@@ -1,0 +1,5 @@
+<?php
+function uh_views_responsive_init(){
+  drupal_add_css(drupal_get_path('module', 'uh_views_responsive') . '/css/view-responsive.css');
+  drupal_add_js(drupal_get_path('module', 'uh_views_responsive') .'/scripts/view-responsive.js');
+}

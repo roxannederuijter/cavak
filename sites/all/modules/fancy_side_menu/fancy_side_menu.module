@@ -1,0 +1,86 @@
+<?php
+/**
+ * Implements hook_page_alter().
+ */
+function fancy_side_menu_page_alter(&$page) {
+
+  $default_choice = variable_get("fancy_side_menu_choice") != null ? variable_get("fancy_side_menu_choice") : 'main-menu';
+  $default_maxdepth = variable_get("fancy_side_menu_maxdepth") != null ? variable_get("fancy_side_menu_maxdepth") : '1';
+
+  $selected_menu = menu_tree_all_data($default_choice, $link = NULL, $default_maxdepth);
+  $output = menu_tree_output($selected_menu);
+
+  $output['#prefix'] = '<div id="fancy-menu">';
+  $output['#suffix'] = '</div>';
+  $output['#attached'] = array(
+    'js' => array(
+      drupal_get_path('module', 'fancy_side_menu') .'/script/fancy_side_menu.js' => array(
+        'every_page' => true,
+      ),
+    ),
+    'css' => array(
+        drupal_get_path('module', 'fancy_side_menu') .'/css/fancy_side_menu.css' => array(
+          'every_page' => true,
+        ),
+    ),
+  );
+
+  $page['page_bottom']['fancy_menu'] = $output;
+
+}
+
+/**
+ * Implements hook_menu().
+ */
+function fancy_side_menu_menu() {
+
+  $items = array();
+
+  $items['admin/config/fancy-side-menu'] = array(
+    'title' => 'Fancy side menu',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fancy_side_menu_admin'),
+    'access arguments' => array('administer fancy side menu settings'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_admin().
+ */
+function fancy_side_menu_admin() {
+
+  $menus = menu_get_menus($all = TRUE);
+
+  $default_choice = variable_get("fancy_side_menu_choice") != null ? variable_get("fancy_side_menu_choice") : 'main-menu';
+  $default_maxdepth = variable_get("fancy_side_menu_maxdepth") != null ? variable_get("fancy_side_menu_maxdepth") : '1';
+
+  $form = array();
+
+  $form['fancy_side_menu_choice'] = array(
+    '#type' => 'select',
+    '#title' => t('Menu choice'),
+    '#options' => $menus,
+    '#default_value' => $default_choice,
+    '#description' => t('Select which menu u want to display'),
+    '#required' => TRUE,
+  );
+
+  $form['fancy_side_menu_maxdepth'] = array(
+    '#type' => 'select',
+    '#title' => t('Max menu depth'),
+    '#options' => array(
+    '1' => '1',
+      '2' => '2',
+      '3' => '3',
+  ),
+    '#default_value' => $default_maxdepth,
+    '#description' => t('Select the depth of the menu to display'),
+    '#required' => TRUE,
+  );
+
+  return system_settings_form($form);
+}
+?>
