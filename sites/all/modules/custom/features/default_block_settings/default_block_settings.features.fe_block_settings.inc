@@ -389,7 +389,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => 'content',
@@ -610,6 +610,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-news-frontpage_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'news-frontpage_block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-sponsoren-block'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -623,7 +649,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -12,
       ),
       'seven' => array(
         'region' => '',

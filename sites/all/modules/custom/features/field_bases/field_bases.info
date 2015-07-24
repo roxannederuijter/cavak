@@ -13,6 +13,7 @@ features[field_base][] = field_file_image_alt_text
 features[field_base][] = field_file_image_title_text
 features[field_base][] = field_image
 features[field_base][] = field_paragraph_s
+features[field_base][] = field_paragraphs
 features[field_base][] = field_quote
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
