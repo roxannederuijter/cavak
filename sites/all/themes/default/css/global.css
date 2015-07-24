@@ -317,4 +317,25 @@ input[type="button"]:hover,
     right: 0;
     background-size: 46px; }
 
+/* Nieuws */
+.block-superfish-3 {
+  float: left;
+  padding-bottom: 10px; }
+  .block-superfish-3 h2.block-title {
+    float: left;
+    font-size: 18px;
+    padding-bottom: 0; }
+  .block-superfish-3 ul li {
+    margin: 0;
+    width: 100%;
+    margin-left: 0px;
+    border-bottom: 1px dashed #ddd; }
+    .block-superfish-3 ul li a {
+      font-size: 1em;
+      padding: 8px 0;
+      font-weight: 400;
+      color: #000; }
+    .block-superfish-3 ul li a.active {
+      color: #f78b1f; }
+
 /*# sourceMappingURL=global.css.map */

@@ -163,5 +163,32 @@
     right: 0;
     background-size: 46px;
   }
-
 }
+
+/* Nieuws */
+  .block-superfish-3 {
+    float:left;
+    padding-bottom:10px;
+    h2.block-title {
+      float: left;
+      font-size: 18px;
+      padding-bottom: 0;
+    }
+    ul {
+      li {
+        margin:0;
+        width:100%;
+        margin-left:0px;
+        border-bottom: 1px dashed #ddd;
+        a {
+          font-size:1em;
+          padding:8px 0;
+          font-weight:400;
+          color:#000;
+        }
+        a.active {
+          color:$orange;
+        }
+      }
+    }
+  }
