@@ -278,12 +278,12 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 2,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -294,8 +294,8 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => 'Nieuws',
+    'visibility' => 1,
   );
 
   $export['superfish-3'] = array(
