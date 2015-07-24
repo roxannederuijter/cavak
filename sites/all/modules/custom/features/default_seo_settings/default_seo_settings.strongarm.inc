@@ -565,6 +565,7 @@ function default_seo_settings_strongarm() {
   $strongarm->value = array(
     'file' => TRUE,
     'node' => TRUE,
+    'taxonomy' => TRUE,
     'user' => TRUE,
   );
   $export['path_alias_whitelist'] = $strongarm;
