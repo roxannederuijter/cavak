@@ -318,24 +318,24 @@ input[type="button"]:hover,
     background-size: 46px; }
 
 /* Nieuws */
-.block-superfish-3 {
+.block-superfish-2 {
   float: left;
   padding-bottom: 10px; }
-  .block-superfish-3 h2.block-title {
+  .block-superfish-2 h2.block-title {
     float: left;
     font-size: 18px;
     padding-bottom: 0; }
-  .block-superfish-3 ul li {
+  .block-superfish-2 ul li {
     margin: 0;
     width: 100%;
     margin-left: 0px;
     border-bottom: 1px dashed #ddd; }
-    .block-superfish-3 ul li a {
+    .block-superfish-2 ul li a {
       font-size: 1em;
       padding: 8px 0;
       font-weight: 400;
       color: #000; }
-    .block-superfish-3 ul li a.active {
+    .block-superfish-2 ul li a.active {
       color: #f78b1f; }
 
 /*# sourceMappingURL=global.css.map */
