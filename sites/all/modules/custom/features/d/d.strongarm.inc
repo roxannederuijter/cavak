@@ -144,7 +144,7 @@ function d_strongarm() {
     'domain' => '',
     'prefix' => 'nl',
     'weight' => '0',
-    'javascript' => '5l7-C2yeWhGDLO83BKUUbw3kpZHUSlDjdL0qXgojEUk',
+    'javascript' => '8JnTkpNP_Mz8s_67T9q3tJPSN7EE3hbz5E9apgCTdIw',
   );
   $export['language_default'] = $strongarm;
 
@@ -454,7 +454,7 @@ function d_strongarm() {
     'alpha_region_preface_first_force' => 0,
     'alpha_region_preface_first_zone' => 'preface',
     'alpha_region_preface_first_prefix' => '0',
-    'alpha_region_preface_first_columns' => '4',
+    'alpha_region_preface_first_columns' => '12',
     'alpha_region_preface_first_suffix' => '0',
     'alpha_region_preface_first_weight' => '1',
     'alpha_region_preface_first_position' => '0',
