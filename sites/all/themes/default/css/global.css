@@ -359,5 +359,7 @@ input[type="button"]:hover,
   .front .region-postscript-first img {
     width: 100%;
     margin: 0 auto; }
+.front #region-postscript-first {
+  width: 100%; }
 
 /*# sourceMappingURL=global.css.map */
