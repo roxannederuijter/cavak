@@ -348,5 +348,8 @@ input[type="button"]:hover,
     .front .zone-content-wrapper .node-front body {
       font-size: 14px;
       color: #fff; }
+    .front .zone-content-wrapper .node-front .field-name-field-film {
+      width: 374px;
+      height: 255px; }
 
 /*# sourceMappingURL=global.css.map */
