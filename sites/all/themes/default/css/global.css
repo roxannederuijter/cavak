@@ -351,5 +351,13 @@ input[type="button"]:hover,
     .front .zone-content-wrapper .node-front .field-name-field-film iframe {
       width: 374px;
       height: 255px; }
+.front .zone-postscript {
+  width: 100%; }
+.front .region-postscript-first {
+  width: 100%;
+  margin: 0; }
+  .front .region-postscript-first img {
+    width: 100%;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=global.css.map */
