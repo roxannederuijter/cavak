@@ -672,7 +672,7 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'content',
+        'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
         'weight' => -12,

@@ -134,13 +134,6 @@ function default_seo_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'page_title_front';
-  $strongarm->value = '[site:name] | [site:slogan]';
-  $export['page_title_front'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'page_title_pager_pattern';
   $strongarm->value = '';
   $export['page_title_pager_pattern'] = $strongarm;

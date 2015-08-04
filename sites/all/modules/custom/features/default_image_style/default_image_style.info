@@ -4,3 +4,4 @@ package = Default settings
 dependencies[] = image
 features[features_api][] = api:2
 features[image][] = banner_2560_x_660
+features[image][] = slideshow_205-104

@@ -25,5 +25,21 @@ function default_image_style_image_default_styles() {
     ),
   );
 
+  // Exported image style: slideshow_205-104.
+  $styles['slideshow_205-104'] = array(
+    'label' => 'slideshow 205x104',
+    'effects' => array(
+      4 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '',
+          'height' => 104,
+          'upscale' => 0,
+        ),
+        'weight' => 2,
+      ),
+    ),
+  );
+
   return $styles;
 }

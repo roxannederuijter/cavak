@@ -25,7 +25,6 @@ features[variable][] = custom_breadcrumbs_type_class
 features[variable][] = custom_breadcrumbs_use_exclude_list
 features[variable][] = custom_breadcrumbs_use_php_in_titles
 features[variable][] = page_title_default
-features[variable][] = page_title_front
 features[variable][] = page_title_pager_pattern
 features[variable][] = page_title_type_page
 features[variable][] = page_title_type_page_showfield
