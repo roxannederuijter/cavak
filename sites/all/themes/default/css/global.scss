@@ -208,8 +208,10 @@
         color:#fff;
       }
       .field-name-field-film {
-        width:374px;
-        height:255px;
+        iframe {
+          width:374px;
+          height:255px;
+        }
       }
     }
   }
