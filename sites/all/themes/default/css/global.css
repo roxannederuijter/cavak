@@ -345,7 +345,7 @@ input[type="button"]:hover,
     .front .zone-content-wrapper .node-front h2 {
       font-size: 18px;
       color: #fff; }
-    .front .zone-content-wrapper .node-front body {
+    .front .zone-content-wrapper .node-front .field-name-body {
       font-size: 14px;
       color: #fff; }
     .front .zone-content-wrapper .node-front .field-name-field-film iframe {
