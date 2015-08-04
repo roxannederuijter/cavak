@@ -340,5 +340,7 @@ input[type="button"]:hover,
 /* Home */
 .front .zone-content-wrapper {
   background-color: #161515; }
+  .front .zone-content-wrapper .node-front {
+    width: 66.6%; }
 
 /*# sourceMappingURL=global.css.map */
