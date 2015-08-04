@@ -534,7 +534,7 @@ function d_strongarm() {
     'alpha_region_postscript_first_force' => 0,
     'alpha_region_postscript_first_zone' => 'postscript',
     'alpha_region_postscript_first_prefix' => '0',
-    'alpha_region_postscript_first_columns' => '3',
+    'alpha_region_postscript_first_columns' => '12',
     'alpha_region_postscript_first_suffix' => '0',
     'alpha_region_postscript_first_weight' => '1',
     'alpha_region_postscript_first_position' => '0',
