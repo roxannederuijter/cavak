@@ -38,6 +38,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-googlemaps'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'googlemaps',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'contact',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => 0,
