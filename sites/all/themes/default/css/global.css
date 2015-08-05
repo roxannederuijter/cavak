@@ -338,6 +338,11 @@ input[type="button"]:hover,
       color: #f78b1f; }
 
 /* Home */
+.front .view-header {
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f78b1f; }
 .front .zone-content-wrapper {
   background-color: #161515; }
   .front .zone-content-wrapper .block-main {

@@ -195,6 +195,12 @@
 
   /* Home */
 .front {
+  .view-header {
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: $orange;
+  }
   .zone-content-wrapper {
     background-color: #161515;
     .block-main {
