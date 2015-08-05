@@ -10,6 +10,7 @@ dependencies[] = paragraphs
 dependencies[] = text
 features[features_api][] = api:2
 features[field_instance][] = paragraphs_item-1_kolom_afbeelding-field_afbeelding
+features[field_instance][] = paragraphs_item-1_kolom_afbeelding-field_titel
 features[field_instance][] = paragraphs_item-1_kolom_tekst-field_tekst_lang
 features[field_instance][] = paragraphs_item-1_kolom_tekst-field_titel
 features[field_instance][] = paragraphs_item-2_kolommen_afbeeldingen-field_afbeelding
