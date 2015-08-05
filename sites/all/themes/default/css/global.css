@@ -209,6 +209,9 @@ input[type="button"]:hover,
     #zone-header #region-header-first .field-name-field-image img {
       width: 100%; }
 
+.zone-footer-wrapper {
+  background-color: #161515; }
+
 /* Menu */
 .block-superfish-1 ul li a {
   font-family: "Ruda", sans-serif;

@@ -590,6 +590,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any link_image bean'.
+  $permissions['create any link_image bean'] = array(
+    'name' => 'create any link_image bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -668,6 +677,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'delete any image files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete any link_image bean'.
+  $permissions['delete any link_image bean'] = array(
+    'name' => 'delete any link_image bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'delete any page content'.
@@ -853,6 +871,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit any image files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit any link_image bean'.
+  $permissions['edit any link_image bean'] = array(
+    'name' => 'edit any link_image bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'edit any page content'.
@@ -1132,6 +1159,17 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'view any banner bean'.
   $permissions['view any banner bean'] = array(
     'name' => 'view any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view any link_image bean'.
+  $permissions['view any link_image bean'] = array(
+    'name' => 'view any link_image bean',
     'roles' => array(
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
