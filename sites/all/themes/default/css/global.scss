@@ -260,3 +260,13 @@
     width:100%;
   }
 }
+
+/* Agenda */
+#block-views-agenda-block {
+  h2.block-title {
+    text-transform:uppercase;
+  }
+  .views-field-field-datum, .views-field-title {
+    font-size:14px;
+  }
+}

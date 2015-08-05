@@ -382,4 +382,10 @@ input[type="button"]:hover,
 .context-contact #region-postscript-first {
   width: 100%; }
 
+/* Agenda */
+#block-views-agenda-block h2.block-title {
+  text-transform: uppercase; }
+#block-views-agenda-block .views-field-field-datum, #block-views-agenda-block .views-field-title {
+  font-size: 14px; }
+
 /*# sourceMappingURL=global.css.map */
