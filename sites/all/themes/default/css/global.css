@@ -387,5 +387,11 @@ input[type="button"]:hover,
   text-transform: uppercase; }
 #block-views-agenda-block .views-field-field-datum, #block-views-agenda-block .views-field-title {
   font-size: 14px; }
+#block-views-agenda-block .views-field-field-datum {
+  width: 30%;
+  float: left; }
+#block-views-agenda-block .views-field-title {
+  width: 70%;
+  float: left; }
 
 /*# sourceMappingURL=global.css.map */

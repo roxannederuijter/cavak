@@ -269,4 +269,12 @@
   .views-field-field-datum, .views-field-title {
     font-size:14px;
   }
+  .views-field-field-datum {
+    width: 30%;
+    float: left;
+  }
+  .views-field-title {
+    width:70%;
+    float:left;
+  }
 }
