@@ -12,4 +12,5 @@ features[ds_layout_settings][] = paragraphs_item|2_kolommen_afbeeldingen|default
 features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst_afbeelding_link|default
 features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst_afbeelding_rech|default
 features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst|default
+features[ds_view_modes][] = teaser
 features[features_api][] = api:2

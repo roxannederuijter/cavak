@@ -255,3 +255,27 @@ function content_ds_settings_ds_layout_settings_info() {
 
   return $export;
 }
+
+/**
+ * Implements hook_ds_view_modes_info().
+ */
+function content_ds_settings_ds_view_modes_info() {
+  $export = array();
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'teaser';
+  $ds_view_mode->label = 'teaser';
+  $ds_view_mode->entities = array(
+    'bean' => 'bean',
+    'field_collection_item' => 'field_collection_item',
+    'node' => 'node',
+    'paragraphs_item' => 'paragraphs_item',
+    'file' => 'file',
+    'taxonomy_term' => 'taxonomy_term',
+    'user' => 'user',
+  );
+  $export['teaser'] = $ds_view_mode;
+
+  return $export;
+}
