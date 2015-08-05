@@ -340,17 +340,21 @@ input[type="button"]:hover,
 /* Home */
 .front .zone-content-wrapper {
   background-color: #161515; }
-  .front .zone-content-wrapper .node-front {
-    width: 66.6%; }
-    .front .zone-content-wrapper .node-front h2 {
+  .front .zone-content-wrapper .block-main {
+    width: 66.6%;
+    float: left; }
+    .front .zone-content-wrapper .block-main .node-front h2 {
       font-size: 18px;
       color: #fff; }
-    .front .zone-content-wrapper .node-front .field-name-body {
+    .front .zone-content-wrapper .block-main .node-front .field-name-body {
       font-size: 14px;
       color: #fff; }
-    .front .zone-content-wrapper .node-front .field-name-field-film iframe {
+    .front .zone-content-wrapper .block-main .node-front .field-name-field-film iframe {
       width: 374px;
       height: 255px; }
+  .front .zone-content-wrapper .block-views-agenda-block {
+    width: 33.3%;
+    float: left; }
 .front .zone-postscript {
   width: 100%; }
 .front .region-postscript-first {

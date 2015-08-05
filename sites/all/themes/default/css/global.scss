@@ -196,23 +196,30 @@
   /* Home */
 .front {
   .zone-content-wrapper {
-    background-color:#161515;
-    .node-front {
-      width:66.6%;
-      h2 {
-        font-size:18px;
-        color:#fff;
-      }
-      .field-name-body {
-        font-size:14px;
-        color:#fff;
-      }
-      .field-name-field-film {
-        iframe {
-          width:374px;
-          height:255px;
+    background-color: #161515;
+    .block-main {
+      width: 66.6%;
+      float:left;
+      .node-front {
+        h2 {
+          font-size: 18px;
+          color: #fff;
+        }
+        .field-name-body {
+          font-size: 14px;
+          color: #fff;
+        }
+        .field-name-field-film {
+          iframe {
+            width: 374px;
+            height: 255px;
+          }
         }
       }
+    }
+    .block-views-agenda-block {
+      width:33.3%;
+      float:left;
     }
   }
   .zone-postscript {
