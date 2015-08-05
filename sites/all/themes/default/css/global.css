@@ -394,6 +394,6 @@ input[type="button"]:hover,
   width: 70%;
   float: left; }
 #block-views-agenda-block .views-row-last {
-  padding: 50px; }
+  padding: 50px 0; }
 
 /*# sourceMappingURL=global.css.map */
