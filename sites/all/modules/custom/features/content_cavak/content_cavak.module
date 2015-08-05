@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Cavak feature.
+ */
+
+include_once 'content_cavak.features.inc';
