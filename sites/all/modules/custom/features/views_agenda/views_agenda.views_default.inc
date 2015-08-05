@@ -33,6 +33,11 @@ function views_agenda_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Footer: Global: Unfiltered text */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a href="/eventz">NAAR AGENDA >></a>';
   /* Field: Content: Datum */
   $handler->display->display_options['fields']['field_datum']['id'] = 'field_datum';
   $handler->display->display_options['fields']['field_datum']['table'] = 'field_data_field_datum';
@@ -74,6 +79,14 @@ function views_agenda_views_default_views() {
 
   /* Display: Frontpage Block */
   $handler = $view->new_display('block', 'Frontpage Block', 'block');
+
+  /* Display: Pagina */
+  $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['defaults']['footer'] = FALSE;
+  $handler->display->display_options['path'] = 'Eventz';
   $translatables['agenda'] = array(
     t('Master'),
     t('Agenda'),
@@ -83,7 +96,9 @@ function views_agenda_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('<a href="/eventz">NAAR AGENDA >></a>'),
     t('Frontpage Block'),
+    t('Pagina'),
   );
   $export['agenda'] = $view;
 
