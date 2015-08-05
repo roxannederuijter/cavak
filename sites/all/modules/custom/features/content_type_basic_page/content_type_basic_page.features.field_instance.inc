@@ -46,6 +46,8 @@ function content_type_basic_page_field_default_field_instances() {
         '2_kolommen_tekst' => '2_kolommen_tekst',
         '2_kolommen_tekst_afbeelding_link' => '2_kolommen_tekst_afbeelding_link',
         '2_kolommen_tekst_afbeelding_rech' => '2_kolommen_tekst_afbeelding_rech',
+        'quote' => 'quote',
+        'video' => 'video',
       ),
       'bundle_weights' => array(
         '1_kolom_afbeelding' => 2,
@@ -54,6 +56,8 @@ function content_type_basic_page_field_default_field_instances() {
         '2_kolommen_tekst' => 5,
         '2_kolommen_tekst_afbeelding_link' => 6,
         '2_kolommen_tekst_afbeelding_rech' => 7,
+        'quote' => -10,
+        'video' => -10,
       ),
       'default_edit_mode' => 'open',
       'title' => 'Paragraph',
