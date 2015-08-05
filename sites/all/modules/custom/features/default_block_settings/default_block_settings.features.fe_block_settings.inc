@@ -662,6 +662,29 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['views--exp-zinema-page'] = array(
+    'cache' => -1,
+    'delta' => '-exp-zinema-page',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+  );
+
   $export['views-agenda-block'] = array(
     'cache' => -1,
     'custom' => 0,

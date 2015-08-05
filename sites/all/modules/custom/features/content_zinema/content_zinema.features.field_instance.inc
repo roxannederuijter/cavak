@@ -22,7 +22,7 @@ function content_zinema_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
     'entity_type' => 'node',
@@ -43,6 +43,37 @@ function content_zinema_field_default_field_instances() {
       ),
       'type' => 'text_textarea_with_summary',
       'weight' => 44,
+    ),
+  );
+
+  // Exported field_instance: 'node-zinema-field_catogorie'
+  $field_instances['node-zinema-field_catogorie'] = array(
+    'bundle' => 'zinema',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_plain',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_catogorie',
+    'label' => 'Catogorie',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 45,
     ),
   );
 
@@ -107,6 +138,7 @@ function content_zinema_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
+  t('Catogorie');
   t('Video');
 
   return $field_instances;

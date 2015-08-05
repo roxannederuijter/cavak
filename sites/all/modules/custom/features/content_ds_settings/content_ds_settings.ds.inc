@@ -195,12 +195,14 @@ function content_ds_settings_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'field_video',
         1 => 'title',
-        2 => 'body',
+        2 => 'field_catogorie',
+        3 => 'body',
       ),
     ),
     'fields' => array(
       'field_video' => 'ds_content',
       'title' => 'ds_content',
+      'field_catogorie' => 'ds_content',
       'body' => 'ds_content',
     ),
     'classes' => array(),

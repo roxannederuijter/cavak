@@ -36,6 +36,7 @@ features[fe_block_settings][] = user-login
 features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views--exp-news-page_1
+features[fe_block_settings][] = views--exp-zinema-page
 features[fe_block_settings][] = views-agenda-block
 features[fe_block_settings][] = views-front-block
 features[fe_block_settings][] = views-news-frontpage_block

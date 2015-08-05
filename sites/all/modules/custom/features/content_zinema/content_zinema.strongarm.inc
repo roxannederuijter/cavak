@@ -87,6 +87,13 @@ function content_zinema_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'metatag_enable_taxonomy_term__catogorie';
+  $strongarm->value = TRUE;
+  $export['metatag_enable_taxonomy_term__catogorie'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_zinema';
   $strongarm->value = array(
     0 => 'status',
