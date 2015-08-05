@@ -1,0 +1,15 @@
+name = Content - Webform
+core = 7.x
+package = Content
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = field_bases
+dependencies[] = node
+dependencies[] = strongarm
+dependencies[] = text
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[field_instance][] = node-webform-body
+features[node][] = webform
+features[variable][] = comment_webform
+features[variable][] = field_bundle_settings_node__webform
