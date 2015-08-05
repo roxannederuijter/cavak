@@ -354,7 +354,10 @@ input[type="button"]:hover,
       height: 255px; }
   .front .zone-content-wrapper .block-views-agenda-block {
     width: 33.3%;
-    float: left; }
+    float: left;
+    color: #f78b1f; }
+    .front .zone-content-wrapper .block-views-agenda-block a {
+      color: #f78b1f; }
 .front .zone-postscript {
   width: 100%; }
 .front .region-postscript-first {

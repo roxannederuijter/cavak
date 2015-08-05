@@ -220,6 +220,10 @@
     .block-views-agenda-block {
       width:33.3%;
       float:left;
+      color:$orange;
+      a {
+        color:$orange;
+      }
     }
   }
   .zone-postscript {
