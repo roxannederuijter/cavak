@@ -26,7 +26,6 @@ features[field_base][] = field_film
 features[field_base][] = field_functie
 features[field_base][] = field_image
 features[field_base][] = field_inhoud
-features[field_base][] = field_link_image
 features[field_base][] = field_naam
 features[field_base][] = field_paragraph_s
 features[field_base][] = field_paragraphs
