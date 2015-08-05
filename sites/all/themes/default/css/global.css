@@ -393,5 +393,7 @@ input[type="button"]:hover,
 #block-views-agenda-block .views-field-title {
   width: 70%;
   float: left; }
+#block-views-agenda-block .views-row-last {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=global.css.map */
