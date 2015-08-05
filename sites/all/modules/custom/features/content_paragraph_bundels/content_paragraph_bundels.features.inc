@@ -39,6 +39,16 @@ function content_paragraph_bundels_paragraphs_info() {
       'bundle' => '2_kolommen_tekst_afbeelding_rech',
       'locked' => '1',
     ),
+    'quote' => array(
+      'name' => 'Quote',
+      'bundle' => 'quote',
+      'locked' => '1',
+    ),
+    'video' => array(
+      'name' => 'Video',
+      'bundle' => 'video',
+      'locked' => '1',
+    ),
   );
   return $items;
 }
