@@ -3,6 +3,7 @@ core = 7.x
 package = Content
 dependencies[] = ctools
 dependencies[] = date
+dependencies[] = date_api
 dependencies[] = features
 dependencies[] = field_bases
 dependencies[] = image
