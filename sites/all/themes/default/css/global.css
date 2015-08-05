@@ -385,7 +385,7 @@ input[type="button"]:hover,
 /* Agenda */
 #block-views-agenda-block h2.block-title {
   text-transform: uppercase;
-  padding-bottom: 50px; }
+  padding-bottom: 18px; }
 #block-views-agenda-block .views-field-field-datum, #block-views-agenda-block .views-field-title {
   font-size: 14px; }
 #block-views-agenda-block .views-field-field-datum {
