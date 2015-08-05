@@ -31,5 +31,6 @@ features[field_base][] = field_samenvatting
 features[field_base][] = field_soort
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
+features[field_base][] = field_titel
 features[field_base][] = field_video
 features[taxonomy][] = catogorieen
