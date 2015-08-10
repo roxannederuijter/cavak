@@ -272,25 +272,27 @@
 }
 
 /* Agenda */
-#block-views-agenda-block {
-  h2.block-title {
-    text-transform:uppercase;
-    padding-bottom:18px;
-  }
-  .views-field-field-datum, .views-field-title {
-    font-size:14px;
-  }
-  .views-field-field-datum {
-    width: 30%;
-    float: left;
-  }
-  .views-field-title {
-    width:70%;
-    float:left;
-  }
-  .views-row-last {
-    padding:50px 0;
+.front {
+  #block-views-agenda-block {
+    h2.block-title {
+      text-transform:uppercase;
+      padding-bottom:18px;
+    }
+    .views-field-field-datum, .views-field-title {
+      font-size:14px;
+    }
+    .views-field-field-datum {
+      width: 30%;
+      float: left;
+    }
+    .views-field-title {
+      width:70%;
+      float:left;
+    }
+    .views-row-last {
+      padding:50px 0;
 
+    }
   }
 }
 

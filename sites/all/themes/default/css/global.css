@@ -391,18 +391,18 @@ input[type="button"]:hover,
   width: 100%; }
 
 /* Agenda */
-#block-views-agenda-block h2.block-title {
+.front #block-views-agenda-block h2.block-title {
   text-transform: uppercase;
   padding-bottom: 18px; }
-#block-views-agenda-block .views-field-field-datum, #block-views-agenda-block .views-field-title {
+.front #block-views-agenda-block .views-field-field-datum, .front #block-views-agenda-block .views-field-title {
   font-size: 14px; }
-#block-views-agenda-block .views-field-field-datum {
+.front #block-views-agenda-block .views-field-field-datum {
   width: 30%;
   float: left; }
-#block-views-agenda-block .views-field-title {
+.front #block-views-agenda-block .views-field-title {
   width: 70%;
   float: left; }
-#block-views-agenda-block .views-row-last {
+.front #block-views-agenda-block .views-row-last {
   padding: 50px 0; }
 
 .view-agenda .views-row {
