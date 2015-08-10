@@ -498,6 +498,7 @@ input[type="button"]:hover,
       font-weight: 100; }
 
 .view-zinema .views-row {
+  margin-bottom: 40px;
   width: 33.3%;
   float: left; }
   .view-zinema .views-row iframe.media-youtube-player {
