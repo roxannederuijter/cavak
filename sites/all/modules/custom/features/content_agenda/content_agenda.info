@@ -18,6 +18,7 @@ features[field_instance][] = node-agenda-field_inhoud
 features[field_instance][] = node-agenda-field_soort
 features[node][] = agenda
 features[variable][] = date_format_dag_maand
+features[variable][] = date_format_dag_maand_jaar_tijd
 features[variable][] = field_bundle_settings_node__agenda
 features[variable][] = language_content_type_agenda
 features[variable][] = menu_options_agenda
