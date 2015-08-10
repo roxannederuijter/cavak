@@ -517,4 +517,7 @@ input[type="button"]:hover,
     float: left;
     color: #f78b1f; }
 
+.pager li.pager-next a {
+  width: 70px; }
+
 /*# sourceMappingURL=global.css.map */
