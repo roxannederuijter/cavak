@@ -427,6 +427,7 @@ input[type="button"]:hover,
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-size: 2em; }
+  font-size: 2em;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=global.css.map */
