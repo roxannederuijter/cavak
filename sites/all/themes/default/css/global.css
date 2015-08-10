@@ -416,7 +416,7 @@ input[type="button"]:hover,
     width: 50%;
     float: left; }
     .view-agenda .views-row .field-name-title h2 {
-      font-size: 16; }
+      font-size: 16px; }
 
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
