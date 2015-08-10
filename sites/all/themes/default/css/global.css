@@ -284,7 +284,7 @@ a {
     height: 100px; }
 
 /* Banner */
-#block-bean-banner .field-name-field-quote {
+.field-name-field-quote {
   position: absolute;
   width: 20%;
   font-size: 2.813em;
