@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Views - banner feature.
+ */
+
+include_once 'views_banner.features.inc';
