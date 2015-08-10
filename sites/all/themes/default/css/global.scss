@@ -410,11 +410,11 @@
 #block-views-exp-zinema-page {
   .views-widget-filter-field_catogorie_tid {
     width:100%;
-    label {
+    label[for=edit-field-catogorie-tid] {
       margin-right:20px;
       float:left;
     }
-    label:after {
+    label[for=edit-field-catogorie-tid]:after {
       content:":";
     }
     .form-item {
