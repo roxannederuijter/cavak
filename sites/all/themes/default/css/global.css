@@ -411,7 +411,7 @@ input[type="button"]:hover,
   float: left;
   position: relative;
   box-sizing: border-box;
-  padding: 5%; }
+  padding: 2%; }
   .view-agenda .views-row .field-name-field-datum {
     width: 100%;
     float: left;
