@@ -441,7 +441,7 @@ input[type="button"]:hover,
   float: left; }
 
 .button input[type="button"] {
-  padding: 3px 2px;
+  padding: 6px 9px;
   background: #000;
   border-radius: 0px;
   color: #fff; }
