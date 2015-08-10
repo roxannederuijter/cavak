@@ -429,5 +429,7 @@ input[type="button"]:hover,
   margin-bottom: 20px;
   font-size: 2em;
   margin-top: 20px; }
+.entity-paragraphs-item .field-name-field-afbeelding img {
+  float: left; }
 
 /*# sourceMappingURL=global.css.map */
