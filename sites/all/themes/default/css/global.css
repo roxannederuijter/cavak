@@ -348,7 +348,8 @@ input[type="button"]:hover,
   font-weight: 600;
   color: #f78b1f; }
 .front .zone-content-wrapper {
-  background-color: #161515; }
+  background-color: #161515;
+  padding: 50px 0; }
   .front .zone-content-wrapper .block-main {
     width: 66.6%;
     float: left; }
