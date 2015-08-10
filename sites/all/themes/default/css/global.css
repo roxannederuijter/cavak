@@ -402,7 +402,7 @@ input[type="button"]:hover,
   padding: 50px 0; }
 
 /* Footer */
-#block-bean-logo-0 img {
+#block-bean-logo-0 img, #block-bean-socialmedia img {
   float: left; }
 
 /*# sourceMappingURL=global.css.map */
