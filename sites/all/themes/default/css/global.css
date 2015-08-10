@@ -407,5 +407,7 @@ input[type="button"]:hover,
 
 #block-bean-socialmedia {
   margin-top: 20px; }
+  #block-bean-socialmedia img {
+    padding-right: 1%; }
 
 /*# sourceMappingURL=global.css.map */
