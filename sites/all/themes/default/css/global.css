@@ -437,14 +437,18 @@ input[type="button"]:hover,
 
 .node-agenda .field-name-field-inhoud {
   margin-top: 20px; }
-.node-agenda .field-name-field-afbeelding3 img {
+.node-agenda .field-name-field-afbeelding3 {
+  width: 100%;
   float: left; }
+  .node-agenda .field-name-field-afbeelding3 img {
+    float: left; }
 
 .button input[type="button"] {
   padding: 6px 9px;
   background: #000;
   border-radius: 0px;
-  color: #fff; }
+  color: #fff;
+  margin-top: 30px; }
 
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
