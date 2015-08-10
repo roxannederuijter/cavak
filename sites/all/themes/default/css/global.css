@@ -492,8 +492,9 @@ input[type="button"]:hover,
     content: ":"; }
   #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item {
     float: left;
-    margin-right: 15px;
-    font-weight: 100 !important;
-    font-size: 15px; }
+    margin-right: 15px; }
+    #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item label {
+      font-size: 15px;
+      fontweight: 100; }
 
 /*# sourceMappingURL=global.css.map */
