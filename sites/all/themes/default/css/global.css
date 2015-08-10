@@ -528,4 +528,7 @@ input[type="button"]:hover,
   margin-bottom: 18px;
   font-size: 30px; }
 
+.views-field-field-crew img {
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
