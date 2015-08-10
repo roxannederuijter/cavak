@@ -480,4 +480,15 @@ input[type="button"]:hover,
 .entity-paragraphs-item .field-name-field-afbeelding img {
   float: left; }
 
+/* Zinema */
+#block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid {
+  width: 100%; }
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .edit-field-catogorie-tid {
+    margin-right: 20px;
+    float: left; }
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item {
+    float: left;
+    margin-right: 15px;
+    font-weight: 300; }
+
 /*# sourceMappingURL=global.css.map */
