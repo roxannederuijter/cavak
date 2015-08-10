@@ -1,3 +1,0 @@
-<?php
-?>
-<?php dpm($content);?>
