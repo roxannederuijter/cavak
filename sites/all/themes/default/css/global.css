@@ -497,4 +497,8 @@ input[type="button"]:hover,
       font-size: 15px;
       font-weight: 100; }
 
+.view-zinema .views-row {
+  width: 33.3%;
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
