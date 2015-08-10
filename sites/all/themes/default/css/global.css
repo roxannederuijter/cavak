@@ -195,6 +195,9 @@ input[type="button"]:hover,
     margin-bottom: 20px; }
 
 /* Algemeen */
+.zone-content-wrapper {
+  padding: 50px 0; }
+
 #zone-menu-wrapper {
   background-color: #000; }
 
