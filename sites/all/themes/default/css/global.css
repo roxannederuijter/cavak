@@ -405,4 +405,7 @@ input[type="button"]:hover,
 #block-bean-logo-0 img, #block-bean-socialmedia img {
   float: left; }
 
+#block-bean-socialmedia {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=global.css.map */
