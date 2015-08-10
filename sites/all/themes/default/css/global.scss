@@ -294,6 +294,25 @@
   }
 }
 
+.view-agenda {
+  .views-row {
+    width:33.3%;
+    float:left;
+    .field-name-field-datum {
+      width:50%;
+      float:left;
+      color:$orange;
+    }
+    .field-name-title {
+      width:50%;
+      float:left;
+      h2 {
+        font-size:16px;
+      }
+    }
+  }
+}
+
 /* Footer */
 #block-bean-logo-0, #block-bean-socialmedia {
   img {

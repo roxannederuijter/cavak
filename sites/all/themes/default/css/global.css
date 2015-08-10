@@ -405,6 +405,19 @@ input[type="button"]:hover,
 #block-views-agenda-block .views-row-last {
   padding: 50px 0; }
 
+.view-agenda .views-row {
+  width: 33.3%;
+  float: left; }
+  .view-agenda .views-row .field-name-field-datum {
+    width: 50%;
+    float: left;
+    color: #f78b1f; }
+  .view-agenda .views-row .field-name-title {
+    width: 50%;
+    float: left; }
+    .view-agenda .views-row .field-name-title h2 {
+      font-size: 16; }
+
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
   float: left; }
