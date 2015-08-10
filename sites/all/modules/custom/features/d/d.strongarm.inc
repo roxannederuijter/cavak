@@ -293,6 +293,7 @@ function d_strongarm() {
       'global.css' => 'global.css',
     ),
     'alpha_exclude' => array(
+      'sites/all/modules/date/date_api/date.css' => 0,
       'modules/field/theme/field.css' => 0,
       'modules/node/node.css' => 0,
       'modules/search/search.css' => 0,
@@ -593,8 +594,8 @@ function d_strongarm() {
     'alpha_region_footer_first_equal_height_container' => 0,
     'alpha_region_footer_second_force' => 0,
     'alpha_region_footer_second_zone' => 'footer',
-    'alpha_region_footer_second_prefix' => '0',
-    'alpha_region_footer_second_columns' => '12',
+    'alpha_region_footer_second_prefix' => '9',
+    'alpha_region_footer_second_columns' => '3',
     'alpha_region_footer_second_suffix' => '0',
     'alpha_region_footer_second_weight' => '2',
     'alpha_region_footer_second_position' => '0',
