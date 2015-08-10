@@ -405,33 +405,33 @@ input[type="button"]:hover,
 .front #block-views-agenda-block .views-row-last {
   padding: 50px 0; }
 
-.view-agenda .views-row {
+.context-eventz .view-agenda .views-row {
   width: 33.3%;
   margin-bottom: 50px;
   float: left;
   position: relative;
   box-sizing: border-box;
   padding: 2%; }
-  .view-agenda .views-row .field-name-field-datum {
+  .context-eventz .view-agenda .views-row .field-name-field-datum {
     width: 100%;
     float: left;
     color: #f78b1f;
     text-align: center; }
-  .view-agenda .views-row .field-name-title {
+  .context-eventz .view-agenda .views-row .field-name-title {
     width: 100%;
     float: left;
     text-align: center; }
-    .view-agenda .views-row .field-name-title h2 {
+    .context-eventz .view-agenda .views-row .field-name-title h2 {
       font-size: 16px; }
-  .view-agenda .views-row .field-name-field-inhoud {
+  .context-eventz .view-agenda .views-row .field-name-field-inhoud {
     text-align: center;
     height: 150px; }
-  .view-agenda .views-row .field-name-node-link {
+  .context-eventz .view-agenda .views-row .field-name-node-link {
     background-color: #000;
     width: 30%;
     margin: 0 auto;
     text-align: center; }
-    .view-agenda .views-row .field-name-node-link a {
+    .context-eventz .view-agenda .views-row .field-name-node-link a {
       color: #fff;
       font-size: 12px; }
 
