@@ -83,6 +83,5 @@
     <?php print render($content['field_soort']);?>
     <?php print render($content['field_inhoud']);?>
     <?php print render($content['field_afbeelding3']);?>
-    <FORM><INPUT Type="button" VALUE="Back" onClick="history.go(-1);return true;"></FORM>
-
+    <div class="button"><FORM><INPUT Type="button" VALUE="Terug naar het overzicht" onClick="history.go(-1);return true;"></FORM></div>
 </div>
