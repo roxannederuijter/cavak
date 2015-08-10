@@ -422,6 +422,13 @@ input[type="button"]:hover,
       font-size: 16px; }
   .view-agenda .views-row .field-name-field-inhoud, .view-agenda .views-row .field-name-node-link {
     text-align: center; }
+  .view-agenda .views-row .field-name-node-link {
+    background-color: #000;
+    width: 30%;
+    margin: 0 auto; }
+    .view-agenda .views-row .field-name-node-link a {
+      color: #fff;
+      font-size: 12px; }
 
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
