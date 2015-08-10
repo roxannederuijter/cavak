@@ -58,6 +58,7 @@ function views_cavak_views_default_views() {
     'image_link' => '',
   );
   $handler->display->display_options['fields']['field_crew']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_crew']['separator'] = '';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
