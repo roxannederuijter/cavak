@@ -435,6 +435,11 @@ input[type="button"]:hover,
       color: #fff;
       font-size: 12px; }
 
+.node-agenda .field-name-field-inhoud {
+  margin-top: 20px; }
+.node-agenda .field-name-field-afbeelding3 img {
+  float: left; }
+
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
   float: left; }
