@@ -297,20 +297,20 @@
 .view-agenda {
   .views-row {
     width:33.3%;
+    margin-bottom:50px;
     float:left;
     .field-name-field-datum {
       width:50%;
       float:left;
       color:$orange;
-      text-align:right;
+      text-align:center;
     }
     .field-name-title {
       width:50%;
       float:left;
-      text-align:left;
+      text-align:center;
       h2 {
         font-size:16px;
-
       }
     }
   }
