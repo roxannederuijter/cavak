@@ -195,6 +195,9 @@ input[type="button"]:hover,
     margin-bottom: 20px; }
 
 /* Algemeen */
+a {
+  color: #f78b1f; }
+
 .zone-content-wrapper {
   padding: 50px 0; }
 

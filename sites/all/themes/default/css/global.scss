@@ -7,6 +7,10 @@
 @import 'default-style';
 
 /* Algemeen */
+a {
+  color:$orange;
+}
+
 .zone-content-wrapper {
   padding:50px 0;
 }
