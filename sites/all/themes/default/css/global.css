@@ -440,6 +440,12 @@ input[type="button"]:hover,
 .node-agenda .field-name-field-afbeelding3 img {
   float: left; }
 
+.button input[type="button"] {
+  padding: 3px 2px;
+  background: #000;
+  border-radius: 0px;
+  color: #fff; }
+
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
   float: left; }

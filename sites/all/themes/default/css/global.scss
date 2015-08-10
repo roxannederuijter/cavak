@@ -344,6 +344,15 @@
   }
 }
 
+.button {
+  input[type="button"] {
+    padding: 3px 2px;
+    background: #000;
+    border-radius: 0px;
+    color: #fff;
+  }
+}
+
 /* Footer */
 #block-bean-logo-0, #block-bean-socialmedia {
   img {
@@ -389,3 +398,4 @@
     }
   }
 }
+
