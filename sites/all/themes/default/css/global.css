@@ -503,5 +503,17 @@ input[type="button"]:hover,
   .view-zinema .views-row iframe.media-youtube-player {
     width: 355.5px;
     height: 200px; }
+  .view-zinema .views-row .views-field-title {
+    width: 50%;
+    float: left; }
+    .view-zinema .views-row .views-field-title a {
+      color: #000; }
+    .view-zinema .views-row .views-field-title a:hover {
+      color: #f78b1f;
+      text-decoration: underline; }
+  .view-zinema .views-row .views-field-field-catogorie {
+    width: 50%;
+    float: left;
+    color: #f78b1f; }
 
 /*# sourceMappingURL=global.css.map */

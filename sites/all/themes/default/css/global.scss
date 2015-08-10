@@ -437,7 +437,22 @@
     iframe.media-youtube-player {
       width:355.5px;
       height:200px;
-
+    }
+    .views-field-title {
+      width:50%;
+      float:left;
+      a {
+        color:#000;
+      }
+      a:hover {
+        color:$orange;
+        text-decoration:underline;
+      }
+    }
+    .views-field-field-catogorie {
+      width:50%;
+      float:left;
+      color:$orange;
     }
   }
 }
