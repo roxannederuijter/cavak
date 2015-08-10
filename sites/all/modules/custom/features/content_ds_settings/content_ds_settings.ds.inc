@@ -88,7 +88,7 @@ function content_ds_settings_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'default';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '1',
+      'weight' => '0',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -252,15 +252,15 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'field_video',
-        1 => 'title',
+        0 => 'title',
+        1 => 'field_video',
         2 => 'field_catogorie',
         3 => 'body',
       ),
     ),
     'fields' => array(
-      'field_video' => 'ds_content',
       'title' => 'ds_content',
+      'field_video' => 'ds_content',
       'field_catogorie' => 'ds_content',
       'body' => 'ds_content',
     ),
