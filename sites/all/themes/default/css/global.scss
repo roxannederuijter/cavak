@@ -30,6 +30,7 @@
 
 .zone-footer-wrapper {
   background-color:#161515;
+  padding:50px 0;
 }
 
 /* Menu */
@@ -285,5 +286,12 @@
   .views-row-last {
     padding:50px 0;
 
+  }
+}
+
+/* Footer */
+#block-bean-logo-0 {
+  img {
+    float:right;
   }
 }

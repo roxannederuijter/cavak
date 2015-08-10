@@ -210,7 +210,8 @@ input[type="button"]:hover,
       width: 100%; }
 
 .zone-footer-wrapper {
-  background-color: #161515; }
+  background-color: #161515;
+  padding: 50px 0; }
 
 /* Menu */
 .block-superfish-1 ul li a {
@@ -399,5 +400,9 @@ input[type="button"]:hover,
   float: left; }
 #block-views-agenda-block .views-row-last {
   padding: 50px 0; }
+
+/* Footer */
+#block-bean-logo-0 img {
+  float: right; }
 
 /*# sourceMappingURL=global.css.map */
