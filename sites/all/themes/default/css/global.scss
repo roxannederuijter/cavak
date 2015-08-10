@@ -299,13 +299,15 @@
     width:33.3%;
     float:left;
     .field-name-field-datum {
-      width:26%;
+      width:50%;
       float:left;
       color:$orange;
+      text-align:right;
     }
     .field-name-title {
-      width:74%;
+      width:50%;
       float:left;
+      text-align:left;
       h2 {
         font-size:16px;
 

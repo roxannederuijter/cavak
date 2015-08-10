@@ -409,12 +409,14 @@ input[type="button"]:hover,
   width: 33.3%;
   float: left; }
   .view-agenda .views-row .field-name-field-datum {
-    width: 26%;
+    width: 50%;
     float: left;
-    color: #f78b1f; }
+    color: #f78b1f;
+    text-align: right; }
   .view-agenda .views-row .field-name-title {
-    width: 74%;
-    float: left; }
+    width: 50%;
+    float: left;
+    text-align: left; }
     .view-agenda .views-row .field-name-title h2 {
       font-size: 16px; }
 
