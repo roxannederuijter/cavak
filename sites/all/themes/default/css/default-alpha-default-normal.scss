@@ -27,3 +27,22 @@
     background-size: 37px;
   }
 }
+
+.front {
+  .zone-content-wrapper {
+    .block-main {
+      width: 70%;
+      .node-front {
+        .field-name-field-film {
+          iframe {
+            width: 337px;
+            height: 230px;
+          }
+        }
+      }
+    }
+    .block-views-agenda-block {
+      width:30%;
+    }
+  }
+}
