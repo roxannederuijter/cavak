@@ -336,8 +336,8 @@ a {
       font-size: 14px;
       color: #fff; }
     .front .zone-content-wrapper .block-main .node-front .field-name-field-film iframe {
-      width: 337px;
-      height: 230px; }
+      width: 100%;
+      height: auto; }
   .front .zone-content-wrapper .block-views-agenda-block {
     width: 100%;
     float: left;
