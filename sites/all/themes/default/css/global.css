@@ -256,7 +256,7 @@ a {
     left: 0px;
     z-index: 100;
     background: url("img/la.jpg") no-repeat center;
-    background-size: 29px;
+    background-size: 16px;
     width: 41px;
     height: 100px;
     text-indent: -9999px; }
@@ -270,17 +270,17 @@ a {
     z-index: 100;
     text-indent: -9999px;
     background: url("img/ra.jpg") no-repeat center;
-    background-size: 29px;
+    background-size: 16px;
     width: 41px;
     height: 100px; }
   #block-views-sponsoren-block .views-slideshow-controls-text-previous:hover {
     background: url("img/la-hover.jpg") no-repeat center;
-    background-size: 29px;
+    background-size: 16px;
     width: 41px;
     height: 100px; }
   #block-views-sponsoren-block .views-slideshow-controls-text-next:hover {
     background: url("img/ra-hover.jpg") no-repeat center;
-    background-size: 29px;
+    background-size: 16px;
     width: 41px;
     height: 100px; }
 

@@ -92,4 +92,23 @@
 .views-field-field-banner {
   display: inline-block; }
 
+/* Slideshow */
+#block-views-sponsoren-block .views-slideshow-controls-text-previous {
+  top: 31%;
+  left: 0px;
+  background-size: 29px;
+  width: 41px;
+  height: 100px; }
+#block-views-sponsoren-block .views-slideshow-controls-text-next {
+  top: 31%;
+  right: 0px;
+  z-index: 100;
+  background-size: 29px;
+  width: 41px;
+  height: 100px; }
+#block-views-sponsoren-block .views-slideshow-controls-text-previous:hover {
+  background-size: 29px; }
+#block-views-sponsoren-block .views-slideshow-controls-text-next:hover {
+  background-size: 29px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
