@@ -59,4 +59,26 @@
   }
 }
 
+.front {
+  .zone-content-wrapper {
+    .block-main {
+      width: 100%;
+      .group-left {
+        width: 100%;
+      }
+      .node-front {
+        .field-name-field-film {
+          iframe {
+            width: 337px;
+            height: 230px;
+          }
+        }
+      }
+    }
+    .block-views-agenda-block {
+      width:100%;
+    }
+  }
+}
+
 
