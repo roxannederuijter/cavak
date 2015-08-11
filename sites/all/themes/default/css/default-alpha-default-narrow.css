@@ -43,4 +43,16 @@
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
     margin-right: 2.5%; }
 
+/* Banner */
+.field-name-field-quotes {
+  position: absolute;
+  width: 300px;
+  font-size: 23px;
+  color: #fff;
+  top: 9%;
+  padding-left: 10%;
+  text-shadow: 1px 1px 1px #050505;
+  font-weight: 700;
+  line-height: 1.1; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
