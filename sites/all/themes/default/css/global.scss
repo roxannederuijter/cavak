@@ -129,42 +129,21 @@ a {
 
 /* Banner */
   .field-name-field-quotes {
-    position: absolute;
-    width: 300px;
-    font-size: 2.813em;
-    color: #fff;
-    top: 9%;
-    padding-left: 10%;
-    text-shadow: 1px 1px 1px #050505;
-    font-weight:700;
-    line-height:1.1;
-
-  }
-
-  .field-name-field-2titel {
-    position: absolute;
-    width: 20%;
-    font-size: 2.813em;
-    color: #fff;
-    top: 10%;
-    padding-left: 10%;
-    text-shadow: 1px 1px 1px #050505;
-    font-weight:700;
-    color:$orange;
+    display:none;
   }
 
 
 .block-news-frontpage-block {
   position: absolute;
   right: 0;
-  top: 10%;
-  width: 50%;
+  top: 5%;
+  width: 100%;
   float: left;
   .views-row {
     margin-bottom:8px;
     position:relative;
-    width:50%;
-    padding:6px;
+    width:100%;
+    padding:3px;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.7);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
@@ -173,7 +152,7 @@ a {
       a {
         color:#fff;
         text-transform: uppercase;
-        font-size:1.125em;
+        font-size:15px;
       }
     }
   }
