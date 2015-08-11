@@ -45,6 +45,7 @@
 
 /* Banner */
 .field-name-field-quotes {
+  display: inline-block;
   position: absolute;
   width: 300px;
   font-size: 40px;
