@@ -89,6 +89,9 @@
     right: 0;
     background-size: 33px; }
 
+.views-field-field-banner {
+  display: inline-block; }
+
 /* homepage */
 .front .zone-content-wrapper .block-main {
   width: 100%; }
