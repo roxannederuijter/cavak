@@ -92,15 +92,4 @@
 .views-field-field-banner {
   display: inline-block; }
 
-/* homepage */
-.front .zone-content-wrapper .block-main {
-  width: 100%; }
-  .front .zone-content-wrapper .block-main .group-left {
-    width: 100%; }
-  .front .zone-content-wrapper .block-main .node-front .field-name-field-film iframe {
-    width: 337px;
-    height: 230px; }
-.front .zone-content-wrapper .block-views-agenda-block {
-  width: 100%; }
-
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

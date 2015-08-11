@@ -325,8 +325,10 @@ a {
   background-color: #161515;
   padding: 50px 0; }
   .front .zone-content-wrapper .block-main {
-    width: 66.6%;
+    width: 100%;
     float: left; }
+    .front .zone-content-wrapper .block-main .group-left {
+      width: 100%; }
     .front .zone-content-wrapper .block-main .node-front h2 {
       font-size: 18px;
       color: #fff; }
@@ -334,10 +336,10 @@ a {
       font-size: 14px;
       color: #fff; }
     .front .zone-content-wrapper .block-main .node-front .field-name-field-film iframe {
-      width: 374px;
-      height: 255px; }
+      width: 337px;
+      height: 230px; }
   .front .zone-content-wrapper .block-views-agenda-block {
-    width: 33.3%;
+    width: 100%;
     float: left;
     color: #f78b1f; }
     .front .zone-content-wrapper .block-views-agenda-block a {

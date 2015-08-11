@@ -170,6 +170,7 @@ a {
   }
 
   /* Home */
+
 .front {
   .view-header {
     margin-bottom: 9px;
@@ -181,8 +182,11 @@ a {
     background-color: #161515;
     padding:50px 0;
     .block-main {
-      width: 66.6%;
+      width: 100%;
       float:left;
+      .group-left {
+        width: 100%;
+      }
       .node-front {
         h2 {
           font-size: 18px;
@@ -194,14 +198,14 @@ a {
         }
         .field-name-field-film {
           iframe {
-            width: 374px;
-            height: 255px;
+            width: 337px;
+            height: 230px;
           }
         }
       }
     }
     .block-views-agenda-block {
-      width:33.3%;
+      width:100%;
       float:left;
       color:$orange;
       a {
