@@ -308,10 +308,10 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'user_first',
+        'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -320,7 +320,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => -10,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
