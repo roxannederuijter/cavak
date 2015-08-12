@@ -599,8 +599,10 @@ a {
   top: 0;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 100; }
+  font-weight: 100;
+  right: 0; }
 #search-block-form input[type="text"] {
-  background-color: #f78b1f; }
+  background-color: #f78b1f;
+  width: 100%; }
 
 /*# sourceMappingURL=global.css.map */

@@ -604,8 +604,10 @@ a {
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
+    right:0;
   }
   input[type="text"] {
     background-color:$orange;
+    width:100%;
   }
 }
