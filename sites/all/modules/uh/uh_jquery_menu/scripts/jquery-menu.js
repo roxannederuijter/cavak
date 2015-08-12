@@ -177,6 +177,6 @@
 
 (function ($) {
     $(document).ready(function(){
-        $("#zone-branding-wrapper").sticky({topSpacing:-1});
+        $("#zone-menu-wrapper").sticky({topSpacing:-1});
     });
 })(jQuery);
