@@ -548,12 +548,14 @@ a {
 .context-filmrecruitzz .view-banner .views-row {
   height: 0; }
 .context-filmrecruitzz .field-name-title {
-  width: 50%; }
+  width: 50%;
+  text-align: center; }
   .context-filmrecruitzz .field-name-title h2 {
     color: #fff;
     font-size: 60px;
     font-weight: 100; }
 .context-filmrecruitzz .field-name-field-inhoud2 {
+  text-align: center;
   width: 50%; }
   .context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-subititel {
     color: #3989c9; }
