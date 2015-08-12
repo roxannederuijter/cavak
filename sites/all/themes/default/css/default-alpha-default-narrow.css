@@ -146,4 +146,16 @@
   width: 640px;
   height: 390px; }
 
+/* Webform */
+.webform-component--persoonsgegevens, .webform-component--over-mij {
+  float: left;
+  width: 50%; }
+  .webform-component--persoonsgegevens .webform-datepicker select, .webform-component--over-mij .webform-datepicker select {
+    width: 11%;
+    float: left; }
+
+.context-filmrecruitz input[type="submit"] {
+  float: right;
+  margin-right: 10%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

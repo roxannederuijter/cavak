@@ -179,5 +179,22 @@
 }
 
 
+/* Webform */
+.webform-component--persoonsgegevens, .webform-component--over-mij {
+  float:left;
+  width:50%;
+  .webform-datepicker {
+    select {
+      width:11%;
+      float:left;
+    }
+  }
+}
 
+.context-filmrecruitz {
+  input[type="submit"] {
+    float:right;
+    margin-right:10%;
+  }
+}
 

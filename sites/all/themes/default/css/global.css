@@ -579,7 +579,7 @@ a {
 /* Webform */
 .webform-component--persoonsgegevens, .webform-component--over-mij {
   float: left;
-  width: 50%; }
+  width: 100%; }
   .webform-component--persoonsgegevens span.fieldset-legend, .webform-component--over-mij span.fieldset-legend {
     color: #3989c9; }
   .webform-component--persoonsgegevens label, .webform-component--over-mij label {
@@ -589,7 +589,7 @@ a {
     float: left; }
 
 .context-filmrecruitz input[type="submit"] {
-  float: right;
+  float: none;
   margin-right: 10%; }
 
 /*# sourceMappingURL=global.css.map */

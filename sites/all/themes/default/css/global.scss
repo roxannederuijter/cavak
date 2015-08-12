@@ -576,7 +576,7 @@ a {
     color:#3989c9;
   }
   float:left;
-  width:50%;
+  width:100%;
   label {
     font-size:12px;
   }
@@ -590,7 +590,7 @@ a {
 
 .context-filmrecruitz {
   input[type="submit"] {
-    float:right;
+    float:none;
     margin-right:10%;
   }
 }
