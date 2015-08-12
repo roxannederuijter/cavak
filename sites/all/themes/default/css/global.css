@@ -593,16 +593,18 @@ a {
   margin-right: 10%; }
 
 /* Search block */
-#search-block-form input[type="submit"] {
-  background: none;
-  position: absolute;
-  top: 0;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 100;
-  right: 0; }
-#search-block-form input[type="text"] {
-  background-color: #f78b1f;
-  width: 100%; }
+#search-block-form {
+  margin-top: 20px; }
+  #search-block-form input[type="submit"] {
+    background: none;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    right: 0; }
+  #search-block-form input[type="text"] {
+    background-color: #f78b1f;
+    width: 100%; }
 
 /*# sourceMappingURL=global.css.map */
