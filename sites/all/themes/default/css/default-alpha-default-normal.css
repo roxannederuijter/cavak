@@ -47,4 +47,20 @@
     text-align: center;
     height: 150px; }
 
+.context-filmrecruitzz .field-name-title {
+  width: 50%; }
+  .context-filmrecruitzz .field-name-title h2 {
+    font-size: 60px; }
+.context-filmrecruitzz .field-name-field-inhoud2 {
+  width: 50%; }
+  .context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-subititel {
+    font-size: 35px; }
+.context-filmrecruitzz .view-id-filmrecruitz {
+  margin-top: 50px; }
+  .context-filmrecruitzz .view-id-filmrecruitz .views-row {
+    width: 33.3%;
+    float: left; }
+    .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
+      float: left; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
