@@ -121,4 +121,8 @@
     float: left;
     color: #f78b1f; }
 
+.node-zinema iframe.media-youtube-player {
+  width: 640px;
+  height: 390px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
