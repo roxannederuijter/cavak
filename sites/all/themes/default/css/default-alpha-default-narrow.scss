@@ -112,6 +112,27 @@
   }
 }
 
+.view-zinema {
+  .views-row {
+    width:50%;
+    float:left;
+    height:255px;
+    iframe.media-youtube-player {
+      width:305.5px;
+      height:200px;
+    }
+    .views-field-title {
+      width:50%;
+      float:left;
+    }
+    .views-field-field-catogorie {
+      width:50%;
+      float:left;
+      color:$orange;
+    }
+  }
+}
+
 
 
 

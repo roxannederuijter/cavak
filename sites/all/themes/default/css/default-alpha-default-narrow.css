@@ -106,4 +106,19 @@
   background-size: 29px;
   top: 14%; }
 
+.view-zinema .views-row {
+  width: 50%;
+  float: left;
+  height: 255px; }
+  .view-zinema .views-row iframe.media-youtube-player {
+    width: 305.5px;
+    height: 200px; }
+  .view-zinema .views-row .views-field-title {
+    width: 50%;
+    float: left; }
+  .view-zinema .views-row .views-field-field-catogorie {
+    width: 50%;
+    float: left;
+    color: #f78b1f; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
