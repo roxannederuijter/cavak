@@ -534,6 +534,6 @@ a {
   z-index: 997; }
 
 .is-sticky .zone-menu-wrapper {
-  top: 0px; }
+  top: 0 !important; }
 
 /*# sourceMappingURL=global.css.map */
