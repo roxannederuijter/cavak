@@ -491,6 +491,10 @@ a {
     float: left;
     color: #f78b1f; }
 
+.node-zinema iframe.media-youtube-player {
+  width: 100%;
+  height: auto; }
+
 .pager li.pager-next a {
   width: 70px; }
 
