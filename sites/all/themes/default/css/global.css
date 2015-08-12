@@ -584,7 +584,7 @@ a {
     color: #3989c9; }
   .webform-component--persoonsgegevens label, .webform-component--over-mij label {
     font-size: 12px; }
-  .webform-component--persoonsgegevens .webform-datepicker .select, .webform-component--over-mij .webform-datepicker .select {
+  .webform-component--persoonsgegevens .webform-datepicker select, .webform-component--over-mij .webform-datepicker select {
     width: 10%;
     float: left; }
 
