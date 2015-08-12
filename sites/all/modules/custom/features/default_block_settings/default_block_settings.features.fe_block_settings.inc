@@ -794,15 +794,16 @@ function default_block_settings_default_fe_block_settings() {
 
   $export['views-filmrecruitz-block'] = array(
     'cache' => -1,
+    'custom' => 0,
     'delta' => 'filmrecruitz-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'filmrecruitzz',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -813,6 +814,8 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-front-block'] = array(
