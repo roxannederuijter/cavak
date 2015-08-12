@@ -588,7 +588,7 @@ a {
     width: 11%;
     float: left; }
 
-.context-filmrecruitz .input[type="submit"] {
+.context-filmrecruitz input[type="submit"] {
   float: right;
   margin-right: 10%; }
 
