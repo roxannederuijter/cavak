@@ -125,4 +125,10 @@
   width: 640px;
   height: 390px; }
 
+/* Contact */
+.context-contact .zone-postscript p {
+  margin-bottom: 0; }
+.context-contact .zone-postscript iframe {
+  height: 350px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
