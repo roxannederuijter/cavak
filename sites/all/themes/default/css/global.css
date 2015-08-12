@@ -572,9 +572,9 @@ a {
   margin-top: 50px; }
   .context-filmrecruitzz .view-id-filmrecruitz .views-row {
     width: 100%;
-    float: left; }
+    float: none; }
     .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
-      float: left; }
+      float: none; }
 
 /* Webform */
 .webform-component--persoonsgegevens, .webform-component--over-mij {
