@@ -176,8 +176,10 @@ function content_news_field_default_field_instances() {
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
+        'settings' => array(
+          'trim_length' => 300,
+        ),
+        'type' => 'text_trimmed',
         'weight' => 2,
       ),
     ),
