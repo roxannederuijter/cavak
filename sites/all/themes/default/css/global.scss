@@ -407,13 +407,13 @@ a {
     margin-bottom:40px;
     width:100%;
     float:left;
-    height:255px;
+    height:auto;
     iframe.media-youtube-player {
       width:100%;
       height:auto;
     }
     .views-field-title {
-      width:50%;
+      width:100%;
       float:left;
       a {
         color:#000;
@@ -424,7 +424,7 @@ a {
       }
     }
     .views-field-field-catogorie {
-      width:50%;
+      width:100%;
       float:left;
       color:$orange;
     }

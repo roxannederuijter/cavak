@@ -474,12 +474,12 @@ a {
   margin-bottom: 40px;
   width: 100%;
   float: left;
-  height: 255px; }
+  height: auto; }
   .view-zinema .views-row iframe.media-youtube-player {
     width: 100%;
     height: auto; }
   .view-zinema .views-row .views-field-title {
-    width: 50%;
+    width: 100%;
     float: left; }
     .view-zinema .views-row .views-field-title a {
       color: #000; }
@@ -487,7 +487,7 @@ a {
       color: #f78b1f;
       text-decoration: underline; }
   .view-zinema .views-row .views-field-field-catogorie {
-    width: 50%;
+    width: 100%;
     float: left;
     color: #f78b1f; }
 
