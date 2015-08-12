@@ -138,5 +138,8 @@
   position: relative;
   box-sizing: border-box;
   padding: 2%; }
+  .context-eventz .view-agenda .views-row .field-name-field-inhoud {
+    text-align: center;
+    height: 176px; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

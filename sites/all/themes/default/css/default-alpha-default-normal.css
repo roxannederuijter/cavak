@@ -36,4 +36,15 @@
 .view-zinema .views-row {
   width: 33.3%; }
 
+.context-eventz .view-agenda .views-row {
+  width: 33.3%;
+  margin-bottom: 50px;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  padding: 2%; }
+  .context-eventz .view-agenda .views-row .field-name-field-inhoud {
+    text-align: center;
+    height: 150px; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
