@@ -493,7 +493,7 @@ a {
 
 .node-zinema iframe.media-youtube-player {
   width: 100%;
-  height: auto; }
+  height: 100%; }
 
 .pager li.pager-next a {
   width: 70px; }
