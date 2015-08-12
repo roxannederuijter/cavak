@@ -67,6 +67,21 @@ function content_ds_settings_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|news|default';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'news';
+  $ds_fieldsetting->view_mode = 'default';
+  $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '0',
+      'label' => 'hidden',
+      'format' => 'default',
+    ),
+  );
+  $export['node|news|default'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'node|news|teaser';
   $ds_fieldsetting->entity_type = 'node';
   $ds_fieldsetting->bundle = 'news';
@@ -76,6 +91,21 @@ function content_ds_settings_ds_field_settings_info() {
       'weight' => '1',
       'label' => 'hidden',
       'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '1',
+        'wrapper' => 'h2',
+        'class' => '',
+      ),
+    ),
+    'node_link' => array(
+      'weight' => '3',
+      'label' => 'hidden',
+      'format' => 'default',
+      'formatter_settings' => array(
+        'link text' => 'Lees meer',
+        'wrapper' => '',
+        'class' => '',
+      ),
     ),
   );
   $export['node|news|teaser'] = $ds_fieldsetting;
@@ -221,6 +251,36 @@ function content_ds_settings_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|news|default';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'news';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'title',
+        1 => 'field_paragraphs',
+      ),
+    ),
+    'fields' => array(
+      'title' => 'ds_content',
+      'field_paragraphs' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['node|news|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'node|news|teaser';
   $ds_layout->entity_type = 'node';
   $ds_layout->bundle = 'news';
@@ -234,12 +294,14 @@ function content_ds_settings_ds_layout_settings_info() {
       'right' => array(
         1 => 'title',
         2 => 'field_samenvatting',
+        3 => 'node_link',
       ),
     ),
     'fields' => array(
       'field_image' => 'left',
       'title' => 'right',
       'field_samenvatting' => 'right',
+      'node_link' => 'right',
     ),
     'classes' => array(),
     'wrappers' => array(
