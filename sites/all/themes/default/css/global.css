@@ -576,4 +576,9 @@ a {
     .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
       float: left; }
 
+/* Webform */
+.webform-component--persoonsgegevens, .webform-component--over-mij {
+  float: left;
+  width: 50%; }
+
 /*# sourceMappingURL=global.css.map */
