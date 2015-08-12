@@ -198,8 +198,13 @@
   }
 }
 
-.branding-data, #search-block-form {
+.branding-data {
   width:100%;
+  float:none;
+}
+
+#search-block-form {
+  width:60%;
   float:none;
 }
 
