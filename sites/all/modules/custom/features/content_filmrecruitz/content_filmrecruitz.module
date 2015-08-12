@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Filmrecruitz feature.
+ */
+
+include_once 'content_filmrecruitz.features.inc';
