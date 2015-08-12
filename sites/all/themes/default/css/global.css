@@ -547,12 +547,17 @@ a {
   background-image: url("img/bgfotoB.jpg"); }
 .context-filmrecruitzz .view-banner .views-row {
   height: 0; }
-.context-filmrecruitzz .field-name-title h2 {
-  color: #fff;
-  font-size: 60px; }
-.context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-subititel {
-  color: #3989c9; }
-.context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-tekst {
-  color: #fff; }
+.context-filmrecruitzz .field-name-title {
+  width: 50%; }
+  .context-filmrecruitzz .field-name-title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100; }
+.context-filmrecruitzz .field-name-field-inhoud2 {
+  width: 50%; }
+  .context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-subititel {
+    color: #3989c9; }
+  .context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-tekst {
+    color: #fff; }
 
 /*# sourceMappingURL=global.css.map */
