@@ -533,4 +533,7 @@ a {
   width: 100%;
   z-index: 997; }
 
+.is-sticky .zone-menu-wrapper {
+  top: 0px; }
+
 /*# sourceMappingURL=global.css.map */
