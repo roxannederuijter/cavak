@@ -521,4 +521,16 @@ a {
 .context-contact .zone-postscript iframe {
   height: 180px; }
 
+/* Sticky menu */
+.admin-menu .is-sticky .zone-branding-wrapper {
+  top: 29px !important; }
+.admin-menu .zone-branding-wrapper {
+  top: 28px; }
+
+.zone-branding-wrapper {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 997; }
+
 /*# sourceMappingURL=global.css.map */
