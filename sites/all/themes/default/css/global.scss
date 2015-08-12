@@ -21,6 +21,7 @@ a {
 
 #zone-branding-wrapper {
   padding:10px 0 20px 0;
+  background-color:#fff;
 }
 
 #zone-header {
@@ -507,6 +508,14 @@ a {
 .is-sticky {
   .zone-menu-wrapper{
     top: 0!important;
+  }
+}
+
+/* Filmrecruitz */
+.context-filmrecruitzz {
+  #zone-branding-wrapper {
+    padding:10px 0 20px 0;
+    background-color:#3989c9;
   }
 }
 
