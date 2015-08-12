@@ -587,5 +587,8 @@ a {
   .webform-component--persoonsgegevens .webform-datepicker select, .webform-component--over-mij .webform-datepicker select {
     width: 11%;
     float: left; }
+  .webform-component--persoonsgegevens .input[type="submit"], .webform-component--over-mij .input[type="submit"] {
+    float: right;
+    margin-right: 10%; }
 
 /*# sourceMappingURL=global.css.map */
