@@ -547,5 +547,8 @@ a {
   background-image: url("img/bgfotoB.jpg"); }
 .context-filmrecruitzz .view-banner .views-row {
   height: 0; }
+.context-filmrecruitzz .field-name-title h2 {
+  color: #fff;
+  font-size: 60p; }
 
 /*# sourceMappingURL=global.css.map */
