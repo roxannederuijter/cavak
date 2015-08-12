@@ -487,16 +487,16 @@ a {
 /* Sticky menu */
 .admin-menu{
   .is-sticky {
-    .zone-branding-wrapper{
+    .zone-menu-wrapper{
       top: 29px !important;
     }
   }
-  .zone-branding-wrapper{
+  .zone-menu-wrapper{
     top: 28px;
   }
 }
 
-.zone-branding-wrapper {
+.zone-menu-wrapper {
   background-color: #fff;
   position: absolute;
   width: 100%;
