@@ -608,6 +608,7 @@ a {
     width: 100%; }
 
 .branding-data, #search-block-form {
-  width: 50%; }
+  width: 50%;
+  float: left; }
 
 /*# sourceMappingURL=global.css.map */
