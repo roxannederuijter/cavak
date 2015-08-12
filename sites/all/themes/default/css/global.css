@@ -562,10 +562,12 @@ a {
     font-size: 35px; }
   .context-filmrecruitzz .field-name-field-inhoud2 .field-name-field-tekst {
     color: #fff; }
-.context-filmrecruitzz .view-id-filmrecruitz .views-row {
-  width: 33.3%;
-  float: left; }
-  .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
+.context-filmrecruitzz .view-id-filmrecruitz {
+  margin-top: 50px; }
+  .context-filmrecruitzz .view-id-filmrecruitz .views-row {
+    width: 33.3%;
     float: left; }
+    .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
+      float: left; }
 
 /*# sourceMappingURL=global.css.map */
