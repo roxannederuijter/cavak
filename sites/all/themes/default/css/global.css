@@ -582,7 +582,7 @@ a {
   width: 50%; }
   .webform-component--persoonsgegevens span.fieldset-legend, .webform-component--over-mij span.fieldset-legend {
     color: #3989c9; }
-  .webform-component--persoonsgegevens label[for=edit-submitted-persoonsgegevens-geboorte-datum], .webform-component--over-mij label[for=edit-submitted-persoonsgegevens-geboorte-datum] {
+  .webform-component--persoonsgegevens label, .webform-component--over-mij label {
     font-size: 12px; }
 
 /*# sourceMappingURL=global.css.map */
