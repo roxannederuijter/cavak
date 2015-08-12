@@ -452,6 +452,9 @@ a {
   margin-top: 20px; }
 .entity-paragraphs-item .field-name-field-afbeelding img {
   float: left; }
+.entity-paragraphs-item .field-name-field-video iframe {
+  width: 100%;
+  height: auto; }
 
 /* Zinema */
 #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid {

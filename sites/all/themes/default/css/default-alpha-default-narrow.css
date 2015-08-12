@@ -142,4 +142,8 @@
     text-align: center;
     height: 176px; }
 
+.entity-paragraphs-item .field-name-field-video iframe {
+  width: 100%;
+  height: auto; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
