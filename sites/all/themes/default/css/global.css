@@ -236,6 +236,10 @@ a {
 .block-superfish-1 ul li.last a {
   border-right: 0; }
 
+#superfish-1-select {
+  background-color: #000;
+  color: #fff; }
+
 /* Slideshow */
 #block-views-sponsoren-block {
   position: relative;
