@@ -3,16 +3,18 @@
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 @import 'variables';
 
-.field-name-field-quotes {
-  position: absolute;
-  width: 300px;
-  font-size: 2.813em;
-  color: #fff;
-  top: 9%;
-  padding-left: 10%;
-  text-shadow: 1px 1px 1px #050505;
-  font-weight:700;
-  line-height:1.1;
+.front {
+  .field-name-field-quotes {
+    position: absolute;
+    width: 300px;
+    font-size: 2.813em;
+    color: #fff;
+    top: 9%;
+    padding-left: 10%;
+    text-shadow: 1px 1px 1px #050505;
+    font-weight:700;
+    line-height:1.1;
+  }
 }
 
 .block-news-frontpage-block {

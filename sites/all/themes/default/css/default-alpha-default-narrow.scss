@@ -33,17 +33,19 @@
 }
 
 /* Banner */
-.field-name-field-quotes {
-  display:inline-block;
-  position: absolute;
-  width: 300px;
-  font-size: 40px;
-  color: #fff;
-  top: 9%;
-  padding-left: 10%;
-  text-shadow: 1px 1px 1px #050505;
-  font-weight:700;
-  line-height:1.1;
+.front {
+  .field-name-field-quotes {
+    display:inline-block;
+    position: absolute;
+    width: 300px;
+    font-size: 40px;
+    color: #fff;
+    top: 9%;
+    padding-left: 10%;
+    text-shadow: 1px 1px 1px #050505;
+    font-weight:700;
+    line-height:1.1;
+  }
 }
 
 .block-news-frontpage-block {
