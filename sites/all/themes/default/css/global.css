@@ -607,4 +607,7 @@ a {
     background-color: #f78b1f;
     width: 100%; }
 
+.branding-data, #search-block-form {
+  width: 50%; }
+
 /*# sourceMappingURL=global.css.map */

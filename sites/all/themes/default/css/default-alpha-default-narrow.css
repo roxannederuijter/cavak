@@ -158,4 +158,7 @@
   float: right;
   margin-right: 10%; }
 
+.branding-data, #search-block-form {
+  width: auto; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
