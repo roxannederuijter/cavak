@@ -572,6 +572,9 @@ a {
 
 /* Webform */
 .webform-component--persoonsgegevens, .webform-component--over-mij {
+  span.fieldset-legend {
+    color:#3989c9;
+  }
   float:left;
   width:50%;
 }
