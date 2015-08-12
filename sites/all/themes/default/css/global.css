@@ -472,12 +472,12 @@ a {
 
 .view-zinema .views-row {
   margin-bottom: 40px;
-  width: 33.3%;
+  width: 100%;
   float: left;
   height: 255px; }
   .view-zinema .views-row iframe.media-youtube-player {
-    width: 305.5px;
-    height: 200px; }
+    width: 100%;
+    height: auto; }
   .view-zinema .views-row .views-field-title {
     width: 50%;
     float: left; }

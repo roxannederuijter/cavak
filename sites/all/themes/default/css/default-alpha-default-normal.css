@@ -34,17 +34,6 @@
   width: 30%; }
 
 .view-zinema .views-row {
-  width: 33.3%;
-  height: 255px; }
-  .view-zinema .views-row iframe.media-youtube-player {
-    width: 305.5px;
-    height: 200px; }
-  .view-zinema .views-row .views-field-title {
-    width: 50%;
-    float: left; }
-  .view-zinema .views-row .views-field-field-catogorie {
-    width: 50%;
-    float: left;
-    color: #f78b1f; }
+  width: 33.3%; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
