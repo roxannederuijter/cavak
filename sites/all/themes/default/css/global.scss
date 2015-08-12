@@ -523,5 +523,10 @@ a {
   .zone-content-wrapper {
     background-image:url('img/bgfotoB.jpg');
   }
+  .view-banner {
+    .views-row {
+      height:0;
+    }
+  }
 }
 

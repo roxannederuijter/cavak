@@ -545,5 +545,7 @@ a {
   background-color: #3989c9; }
 .context-filmrecruitzz .zone-content-wrapper {
   background-image: url("img/bgfotoB.jpg"); }
+.context-filmrecruitzz .view-banner .views-row {
+  height: 0; }
 
 /*# sourceMappingURL=global.css.map */
