@@ -18,6 +18,7 @@ features[field_base][] = field_2titel
 features[field_base][] = field_afbeelding
 features[field_base][] = field_afbeelding2
 features[field_base][] = field_afbeelding3
+features[field_base][] = field_afbeelding4
 features[field_base][] = field_afbeelding_rechts
 features[field_base][] = field_banner
 features[field_base][] = field_categorie
