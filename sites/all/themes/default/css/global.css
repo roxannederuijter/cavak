@@ -523,7 +523,7 @@ a {
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-menu-wrapper {
-  top: 0px !important; }
+  top: 28px !important; }
 .admin-menu .zone-menu-wrapper {
   top: 105px; }
 
