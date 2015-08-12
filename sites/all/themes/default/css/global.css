@@ -607,11 +607,11 @@ a {
     background-color: #f78b1f;
     width: 100%; }
 
-.branding-data, #search-block-form {
+.branding-data {
   width: 50%;
   float: left; }
 
 #search-block-form {
-  float: none; }
+  width: 50%; }
 
 /*# sourceMappingURL=global.css.map */
