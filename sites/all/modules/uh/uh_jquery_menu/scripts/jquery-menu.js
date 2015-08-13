@@ -191,7 +191,7 @@
             var container = $(this).parent();
             var speed = 400; // speed in ms
 
-            $(this).css('cursor', 'pointer').on('click', function(){
+            container.css('cursor', 'pointer').on('click', function(){
                 location.href = image.parent().attr("href");
             });
 
