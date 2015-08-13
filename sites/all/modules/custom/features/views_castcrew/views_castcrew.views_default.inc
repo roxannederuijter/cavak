@@ -114,11 +114,11 @@ function views_castcrew_views_default_views() {
   );
   $handler->display->display_options['filters']['field_ik_ben__tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_ik_ben__tid']['vocabulary'] = 'ik_ben_';
-  $handler->display->display_options['path'] = 'cast';
+  $handler->display->display_options['path'] = 'filmrecruitz/cast';
 
   /* Display: Crew-page */
   $handler = $view->new_display('page', 'Crew-page', 'page_1');
-  $handler->display->display_options['path'] = 'crew';
+  $handler->display->display_options['path'] = 'filmrecruitz/crew';
   $translatables['cast_crew'] = array(
     t('Master'),
     t('Cast'),
