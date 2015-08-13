@@ -636,14 +636,14 @@ a {
   z-index: 1;
   border-bottom: 1px solid; }
 .view-id-cast_crew .views-field-field-profielfoto {
-  margin-top: -271px; }
+  margin-top: -300px; }
 .view-id-cast_crew .field-content.image-main {
   background-color: #3989c9;
   display: inline-block; }
 .view-id-cast_crew .views-field-title {
   position: relative;
   display: inline-block;
-  height: 271px;
+  height: 300px;
   width: 100%;
   z-index: 5; }
   .view-id-cast_crew .views-field-title span {
