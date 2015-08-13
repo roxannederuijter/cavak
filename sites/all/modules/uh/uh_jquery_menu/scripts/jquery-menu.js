@@ -191,6 +191,10 @@
             var container = $(this).parent();
             var speed = 400; // speed in ms
 
+            container.css('cursor', 'pointer').on('click', function(){
+                location.href = image.parent().attr("href");
+            });
+
             container.on("mouseenter",function() {
                 text.fadeIn(speed);
                 image.animate({opacity: '0.3'}, speed);
