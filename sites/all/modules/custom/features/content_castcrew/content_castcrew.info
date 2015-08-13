@@ -12,6 +12,7 @@ dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text
+dependencies[] = uh_jquery_menu
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[field_instance][] = node-crew_cast-field_catogorie_cast_crew

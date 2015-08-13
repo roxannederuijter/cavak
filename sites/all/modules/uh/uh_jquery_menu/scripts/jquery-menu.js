@@ -180,3 +180,32 @@
         $("#zone-menu-wrapper").sticky({topSpacing:-1});
     });
 })(jQuery);
+
+(function ($) {
+    $(document).ready(function(){
+
+        $('.view-id-cast_crew').find('.views-row').each(function() {
+            var imageContainer = $(this).find('.views-field-field-profielfoto');
+            var image = imageContainer.find("img:first");
+            var text = $(this).find('.views-field-field-naam');
+            var container = $(this);
+
+            image.on("mouseover",function() {
+
+                container.off("mouseout");
+
+                text.fadeIn('fast', function(){
+
+                    container.on("mouseout",function() {
+                        text.fadeOut('fast');
+                        image.css({'visibility': 'visible'});
+                    });
+
+                });
+
+                image.css({'visibility': 'hidden'});
+            });
+
+        });
+    });
+})(jQuery);

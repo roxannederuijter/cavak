@@ -44,12 +44,20 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['fields']['field_profielfoto']['table'] = 'field_data_field_profielfoto';
   $handler->display->display_options['fields']['field_profielfoto']['field'] = 'field_profielfoto';
   $handler->display->display_options['fields']['field_profielfoto']['label'] = '';
+  $handler->display->display_options['fields']['field_profielfoto']['element_type'] = 'span';
+  $handler->display->display_options['fields']['field_profielfoto']['element_class'] = 'image-main';
   $handler->display->display_options['fields']['field_profielfoto']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profielfoto']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profielfoto']['settings'] = array(
     'image_style' => '',
     'image_link' => '',
   );
+  /* Field: Field: Naam */
+  $handler->display->display_options['fields']['field_naam']['id'] = 'field_naam';
+  $handler->display->display_options['fields']['field_naam']['table'] = 'field_data_field_naam';
+  $handler->display->display_options['fields']['field_naam']['field'] = 'field_naam';
+  $handler->display->display_options['fields']['field_naam']['label'] = '';
+  $handler->display->display_options['fields']['field_naam']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
