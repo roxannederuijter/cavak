@@ -623,6 +623,9 @@ a {
   float: left;
   position: relative; }
 
+.view-id-cast_crew .views-row {
+  width: 33.3%;
+  float: left; }
 .view-id-cast_crew .views-field-field-naam {
   display: none;
   position: absolute;
