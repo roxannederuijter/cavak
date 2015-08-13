@@ -189,14 +189,17 @@
             var image = imageContainer.find("img:first");
             var text = $(this).parent().find('.views-field-field-naam');
             var container = $(this).parent();
+            var speed = 300; // speed in ms
 
             container.on("mouseenter",function() {
-                text.fadeIn('fast');
-                image.css({'visibility': 'hidden'});
+                text.fadeIn(speed);
+                image.animate({opacity: '0.3'}, speed);
+                //image.css({'visibility': 'hidden'});
             });
             container.on("mouseout",function() {
-                text.fadeOut('fast');
-                image.css({'visibility': 'visible'});
+                text.fadeOut(speed);
+                image.animate({opacity: '1'}, speed);
+                //image.css({'visibility': 'visible'});
             });
         });
     });
