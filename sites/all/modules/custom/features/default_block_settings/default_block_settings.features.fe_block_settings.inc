@@ -64,10 +64,10 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
-  $export['bean-logo'] = array(
+  $export['bean-logo-0'] = array(
     'cache' => 1,
     'custom' => 0,
-    'delta' => 'logo',
+    'delta' => 'logo-0',
     'module' => 'bean',
     'node_types' => array(),
     'pages' => '',
@@ -718,6 +718,33 @@ function default_block_settings_default_fe_block_settings() {
     'cache' => -1,
     'custom' => 0,
     'delta' => '-exp-cast_crew-page',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'filmrecruitz/crew
+filmrecruitz/cast',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -19,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views--exp-cast_crew-page_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => '-exp-cast_crew-page_1',
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'filmrecruitz/crew

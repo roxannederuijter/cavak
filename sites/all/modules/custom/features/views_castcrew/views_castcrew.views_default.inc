@@ -40,6 +40,42 @@ function views_castcrew_views_default_views() {
       'allow_secondary' => 0,
       'secondary_label' => 'Uitgebreide opties',
     ),
+    'field_ik_ben__tid' => array(
+      'bef_format' => 'bef_hidden',
+      'more_options' => array(
+        'bef_select_all_none' => FALSE,
+        'bef_collapsible' => 0,
+        'is_secondary' => 0,
+        'any_label' => '',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+          ),
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+        ),
+      ),
+    ),
+    'field_catogorie_cast_crew_tid' => array(
+      'bef_format' => 'bef',
+      'more_options' => array(
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 0,
+        'is_secondary' => 0,
+        'any_label' => '',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+          ),
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+        ),
+      ),
+    ),
   );
   $handler->display->display_options['exposed_form']['options']['input_required'] = 0;
   $handler->display->display_options['exposed_form']['options']['text_input_required'] = 'Selecteer een van de filters en klik op \'Toepassen\' om het resultaat te zien';
@@ -101,8 +137,29 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_ik_ben__tid']['value'] = array(
     16 => '16',
   );
+  $handler->display->display_options['filters']['field_ik_ben__tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['operator_id'] = 'field_ik_ben__tid_op';
+  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['label'] = 'Ik ben : (field_ik_ben_)';
+  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['operator'] = 'field_ik_ben__tid_op';
+  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['identifier'] = 'field_ik_ben__tid';
   $handler->display->display_options['filters']['field_ik_ben__tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_ik_ben__tid']['vocabulary'] = 'ik_ben_';
+  /* Filter criterion: Content: catogorie cast/crew (field_catogorie_cast_crew) */
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['id'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['table'] = 'field_data_field_catogorie_cast_crew';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+  );
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['vocabulary'] = 'catogorie_cast_crew';
 
   /* Display: Cast-page */
   $handler = $view->new_display('page', 'Cast-page', 'page');
@@ -136,6 +193,7 @@ function views_castcrew_views_default_views() {
 
   /* Display: Crew-page */
   $handler = $view->new_display('page', 'Crew-page', 'page_1');
+  $handler->display->display_options['exposed_block'] = TRUE;
   $handler->display->display_options['path'] = 'filmrecruitz/crew';
   $translatables['cast_crew'] = array(
     t('Master'),
@@ -154,6 +212,7 @@ function views_castcrew_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('Ik ben : (field_ik_ben_)'),
     t('Cast-page'),
     t('Crew-page'),
   );
