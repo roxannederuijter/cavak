@@ -49,8 +49,8 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['fields']['field_profielfoto']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profielfoto']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_profielfoto']['settings'] = array(
-    'image_style' => '',
-    'image_link' => '',
+    'image_style' => '300_x_300_',
+    'image_link' => 'content',
   );
   /* Field: Field: Naam */
   $handler->display->display_options['fields']['field_naam']['id'] = 'field_naam';
