@@ -572,7 +572,9 @@ a {
 
 .bean-filmrecruitz-button {
   .field-items {
-    float:left;
+    .field-item {
+      float:left;
+    }
   }
 }
 
