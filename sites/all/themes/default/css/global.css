@@ -624,9 +624,26 @@ a {
   position: relative; }
 
 .view-id-cast_crew .views-field-field-naam {
-  display: none; }
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: #333;
+  font-size: 24px;
+  text-shadow: #ddd 0px 0px 6px;
+  z-index: 1; }
+.view-id-cast_crew .views-field-field-profielfoto {
+  margin-top: -271px; }
 .view-id-cast_crew .field-content.image-main {
   background-color: blue;
   display: inline-block; }
+.view-id-cast_crew .views-field-title {
+  position: relative;
+  display: inline-block;
+  height: 271px;
+  width: 100%;
+  z-index: 5; }
+  .view-id-cast_crew .views-field-title span {
+    display: none; }
 
 /*# sourceMappingURL=global.css.map */

@@ -184,28 +184,20 @@
 (function ($) {
     $(document).ready(function(){
 
-        $('.view-id-cast_crew').find('.views-row').each(function() {
-            var imageContainer = $(this).find('.views-field-field-profielfoto');
+        $('.view-id-cast_crew').find('.views-row .views-field-title').each(function() {
+            var imageContainer = $(this).parent().find('.views-field-field-profielfoto');
             var image = imageContainer.find("img:first");
-            var text = $(this).find('.views-field-field-naam');
-            var container = $(this);
+            var text = $(this).parent().find('.views-field-field-naam');
+            var container = $(this).parent();
 
-            image.on("mouseover",function() {
-
-                container.off("mouseout");
-
-                text.fadeIn('fast', function(){
-
-                    container.on("mouseout",function() {
-                        text.fadeOut('fast');
-                        image.css({'visibility': 'visible'});
-                    });
-
-                });
-
+            container.on("mouseenter",function() {
+                text.fadeIn('fast');
                 image.css({'visibility': 'hidden'});
             });
-
+            container.on("mouseout",function() {
+                text.fadeOut('fast');
+                image.css({'visibility': 'visible'});
+            });
         });
     });
 })(jQuery);
