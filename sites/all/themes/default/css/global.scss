@@ -641,10 +641,11 @@ a {
   }
 
   .views-field-field-profielfoto {
-    .field-content {
-      background-color:blue;
-      display:inline-block;
-    }
+  }
+
+  .field-content.image-main {
+    background-color:blue;
+    display:inline-block;
   }
 
 }
