@@ -623,10 +623,9 @@ a {
   float: left;
   position: relative; }
 
-.views-field-field-naam {
+.view-id-cast_crew .views-field-field-naam {
   display: none; }
-
-.field-content.image-main {
+.view-id-cast_crew .field-content {
   background-color: blue;
   display: inline-block; }
 

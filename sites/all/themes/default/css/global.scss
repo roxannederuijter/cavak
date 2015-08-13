@@ -635,18 +635,21 @@ a {
   position:relative;
 }
 
-.views-field-field-naam {
-  display:none;
+.view-id-cast_crew {
+  .views-field-field-naam {
+    display:none;
+  }
+
+  .views-field-field-profielfoto {
+
+  }
+
+  .field-content {
+    background-color:blue;
+    display:inline-block;
+  }
 }
 
-.views-field-field-profielfoto {
-
-}
-
-.field-content.image-main {
-  background-color:blue;
-  display:inline-block;
-}
 
 
 
