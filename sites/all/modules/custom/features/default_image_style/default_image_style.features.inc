@@ -10,6 +10,21 @@
 function default_image_style_image_default_styles() {
   $styles = array();
 
+  // Exported image style: 300_x_300_.
+  $styles['300_x_300_'] = array(
+    'label' => '300 x 300 ',
+    'effects' => array(
+      5 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 300,
+          'height' => 300,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: banner_2560_x_660.
   $styles['banner_2560_x_660'] = array(
     'label' => 'Banner 2560 x 660',
