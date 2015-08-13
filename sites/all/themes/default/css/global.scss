@@ -570,6 +570,12 @@ a {
   }
 }
 
+.bean-filmrecruitz-button {
+  .field-items {
+    float:left;
+  }
+}
+
 /* Webform */
 .webform-component--persoonsgegevens, .webform-component--over-mij {
   span.fieldset-legend {
@@ -623,5 +629,6 @@ a {
   margin-left:10%;
   float:left;
   position:relative;
-
 }
+
+
