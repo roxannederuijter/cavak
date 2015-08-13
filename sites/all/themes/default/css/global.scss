@@ -637,16 +637,15 @@ a {
 
 .view-id-cast_crew {
   .views-field-field-naam {
-    display:none;
+    display: none;
     position: absolute;
-    top: 20px;
-    left: 10px;
-    color: #333;
+    top: 85px;
+    left: 141px;
+    color: #fff;
     font-size: 24px;
-    text-shadow: #ddd 0px 0px 6px;
     z-index: 1;
+    border-bottom: 1px solid;
   }
-
   .views-field-field-profielfoto {
     margin-top: -271px;
   }
@@ -667,7 +666,6 @@ a {
       display: none;
     }
   }
-
 }
 
 
