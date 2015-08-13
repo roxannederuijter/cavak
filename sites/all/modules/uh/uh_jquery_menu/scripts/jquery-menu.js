@@ -189,7 +189,7 @@
             var image = imageContainer.find("img:first");
             var text = $(this).parent().find('.views-field-field-naam');
             var container = $(this).parent();
-            var speed = 300; // speed in ms
+            var speed = 400; // speed in ms
 
             container.on("mouseenter",function() {
                 text.fadeIn(speed);
