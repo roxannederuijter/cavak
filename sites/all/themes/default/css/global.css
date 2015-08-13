@@ -576,8 +576,11 @@ a {
     .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
       float: none; }
 
-.bean-filmrecruitz-button .field-items .field-item {
-  float: left; }
+.bean-filmrecruitz-button {
+  margin-top: 50px; }
+  .bean-filmrecruitz-button .field-items .field-item {
+    float: left;
+    margin-right: 20px; }
 
 /* Webform */
 .webform-component--persoonsgegevens, .webform-component--over-mij {
