@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => '',
@@ -493,7 +493,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => 'content',
@@ -714,6 +714,33 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views--exp-cast_crew-page'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => '-exp-cast_crew-page',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'filmrecruitz/crew
+filmrecruitz/cast',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -18,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views--exp-news-page_1'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -753,7 +780,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -779,7 +806,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -13,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
