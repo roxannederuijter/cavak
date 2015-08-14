@@ -128,7 +128,7 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
-    'crew_cast' => 'crew_cast',
+    'crew' => 'crew',
   );
   /* Filter criterion: Content: Ik ben : (field_ik_ben_) */
   $handler->display->display_options['filters']['field_ik_ben__tid']['id'] = 'field_ik_ben__tid';

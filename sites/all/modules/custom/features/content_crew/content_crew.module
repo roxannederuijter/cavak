@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Crew feature.
+ */
+
+include_once 'content_crew.features.inc';
