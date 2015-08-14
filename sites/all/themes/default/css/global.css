@@ -630,10 +630,9 @@ a {
 .view-id-cast_crew .views-field-field-naam {
   display: none;
   position: absolute;
-  width: 100%;
-  text-align: center;
   top: 85px;
-  left: 0px;
+  left: 0;
+  text-align: center;
   color: #fff;
   font-size: 24px;
   z-index: 1;
