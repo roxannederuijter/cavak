@@ -625,12 +625,15 @@ a {
 
 .view-id-cast_crew .views-row {
   width: 33.3%;
-  float: left; }
+  float: left;
+  position: relative; }
 .view-id-cast_crew .views-field-field-naam {
   display: none;
   position: absolute;
+  width: 100%;
+  text-align: center;
   top: 85px;
-  left: 141px;
+  left: 0px;
   color: #fff;
   font-size: 24px;
   z-index: 1;

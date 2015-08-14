@@ -639,12 +639,15 @@ a {
   .views-row {
     width:33.3%;
     float:left;
+    position:relative;
   }
   .views-field-field-naam {
     display: none;
     position: absolute;
+    width:100%;
+    text-align:center;
     top: 85px;
-    left: 141px;
+    left: 0px;
     color: #fff;
     font-size: 24px;
     z-index: 1;
