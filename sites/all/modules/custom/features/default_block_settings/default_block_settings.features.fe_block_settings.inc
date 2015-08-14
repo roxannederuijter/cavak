@@ -720,8 +720,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => '-exp-cast_crew-page',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'filmrecruitz/crew
-filmrecruitz/cast',
+    'pages' => 'filmrecruitz/cast',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -747,8 +746,7 @@ filmrecruitz/cast',
     'delta' => '-exp-cast_crew-page_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'filmrecruitz/crew
-filmrecruitz/cast',
+    'pages' => 'filmrecruitz/crew',
     'roles' => array(),
     'themes' => array(
       'default' => array(
