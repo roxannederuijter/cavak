@@ -688,6 +688,15 @@ a {
   .form-item-field-catogorie-cast-crew-tid {
     .form-item {
       float:left;
+      background-color: gray;
+      border-radius: 3px;
+      color: #fff;
+      text-align: center;
+      padding: 3px;
+      float:left;
+    }
+    .form-item.highlight {
+      float:left;
       background-color: #000;
       border-radius: 3px;
       color: #fff;
