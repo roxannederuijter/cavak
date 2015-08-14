@@ -676,7 +676,8 @@ a {
     color: #fff;
     text-align: center;
     padding: 3px 20px;
-    float: left; }
+    float: left;
+    margin: 0 10px; }
   .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="checkbox"] {
     display: none; }
 
