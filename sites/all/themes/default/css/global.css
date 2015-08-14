@@ -651,4 +651,14 @@ a {
   .view-id-cast_crew .views-field-title span {
     display: none; }
 
+.views-widget-filter-field_catogorie_cast_crew_tid label[for=edit-field-catogorie-cast-crew-tid] {
+  background-color: #000;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+  float: left; }
+.views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid .form-item {
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
