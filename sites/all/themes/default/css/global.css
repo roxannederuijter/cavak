@@ -669,6 +669,6 @@ a {
     padding: 3px;
     float: left; }
   .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="checkbox"] {
-    display: no; }
+    display: none; }
 
 /*# sourceMappingURL=global.css.map */
