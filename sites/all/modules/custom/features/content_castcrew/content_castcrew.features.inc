@@ -19,11 +19,11 @@ function content_castcrew_ctools_plugin_api($module = NULL, $api = NULL) {
 function content_castcrew_node_info() {
   $items = array(
     'crew_cast' => array(
-      'name' => t('crew/cast'),
+      'name' => t('Cast'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Titel'),
       'help' => '',
     ),
   );

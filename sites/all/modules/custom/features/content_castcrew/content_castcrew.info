@@ -1,4 +1,4 @@
-name = Content - castcrew
+name = Content - cast
 core = 7.x
 package = Content
 dependencies[] = ctools
