@@ -33,7 +33,6 @@ features[field_base][] = field_file_image_title_text
 features[field_base][] = field_film
 features[field_base][] = field_foto_s
 features[field_base][] = field_functie
-features[field_base][] = field_ik_ben_
 features[field_base][] = field_image
 features[field_base][] = field_inhoud
 features[field_base][] = field_inhoud2

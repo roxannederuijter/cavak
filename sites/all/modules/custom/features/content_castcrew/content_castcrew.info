@@ -18,7 +18,6 @@ features[features_api][] = api:2
 features[field_instance][] = node-crew_cast-field_catogorie_cast_crew
 features[field_instance][] = node-crew_cast-field_ervaring
 features[field_instance][] = node-crew_cast-field_foto_s
-features[field_instance][] = node-crew_cast-field_ik_ben_
 features[field_instance][] = node-crew_cast-field_naam
 features[field_instance][] = node-crew_cast-field_over_mij
 features[field_instance][] = node-crew_cast-field_profielfoto

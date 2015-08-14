@@ -130,20 +130,6 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'crew' => 'crew',
   );
-  /* Filter criterion: Content: Ik ben : (field_ik_ben_) */
-  $handler->display->display_options['filters']['field_ik_ben__tid']['id'] = 'field_ik_ben__tid';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['table'] = 'field_data_field_ik_ben_';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['field'] = 'field_ik_ben__tid';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['value'] = array(
-    16 => '16',
-  );
-  $handler->display->display_options['filters']['field_ik_ben__tid']['exposed'] = TRUE;
-  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['operator_id'] = 'field_ik_ben__tid_op';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['label'] = 'Ik ben : (field_ik_ben_)';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['operator'] = 'field_ik_ben__tid_op';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['expose']['identifier'] = 'field_ik_ben__tid';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['type'] = 'select';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['vocabulary'] = 'ik_ben_';
   /* Filter criterion: Content: catogorie cast/crew (field_catogorie_cast_crew) */
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['id'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['table'] = 'field_data_field_catogorie_cast_crew';
@@ -180,15 +166,6 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'crew_cast' => 'crew_cast',
   );
-  /* Filter criterion: Content: Ik ben : (field_ik_ben_) */
-  $handler->display->display_options['filters']['field_ik_ben__tid']['id'] = 'field_ik_ben__tid';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['table'] = 'field_data_field_ik_ben_';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['field'] = 'field_ik_ben__tid';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['value'] = array(
-    15 => '15',
-  );
-  $handler->display->display_options['filters']['field_ik_ben__tid']['type'] = 'select';
-  $handler->display->display_options['filters']['field_ik_ben__tid']['vocabulary'] = 'ik_ben_';
   $handler->display->display_options['path'] = 'filmrecruitz/cast';
 
   /* Display: Crew-page */
@@ -212,7 +189,6 @@ function views_castcrew_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
-    t('Ik ben : (field_ik_ben_)'),
     t('Cast-page'),
     t('Crew-page'),
   );

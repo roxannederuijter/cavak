@@ -136,41 +136,6 @@ function content_castcrew_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-crew_cast-field_ik_ben_'
-  $field_instances['node-crew_cast-field_ik_ben_'] = array(
-    'bundle' => 'crew_cast',
-    'default_value' => array(
-      0 => array(
-        'tid' => 12,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'taxonomy',
-        'settings' => array(),
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 5,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_ik_ben_',
-    'label' => 'Ik ben :',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
-      'weight' => 47,
-    ),
-  );
-
   // Exported field_instance: 'node-crew_cast-field_naam'
   $field_instances['node-crew_cast-field_naam'] = array(
     'bundle' => 'crew_cast',
@@ -304,7 +269,6 @@ function content_castcrew_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Ervaring');
   t('Foto\'s');
-  t('Ik ben :');
   t('Naam');
   t('Over mij');
   t('Profielfoto');
