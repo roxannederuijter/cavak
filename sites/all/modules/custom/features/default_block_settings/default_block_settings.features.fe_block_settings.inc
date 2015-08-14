@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => '',
@@ -382,14 +382,15 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 2,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => 'nieuws*',
+    'pages' => 'filmrecruitz/crew
+filmrecruitz/cast',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -398,7 +399,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Nieuws',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -493,7 +494,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => 'content',
@@ -727,7 +728,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -19,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -753,7 +754,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -805,7 +806,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -831,7 +832,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => '',
