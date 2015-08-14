@@ -162,13 +162,25 @@ a {
         margin:0;
         margin-left:0px;
         a {
-          font-size:1em;
-          padding:8px 0;
-          font-weight:400;
-          color:$blue;
+          font-size: 18px;
+          padding: 0px 11px;
+          font-weight: 700;
+          color: $blue;
+          text-transform: uppercase;
+          border-right: 1px solid $blue;
         }
         a.active {
           color:$blue;
+        }
+      }
+      li.first {
+        a {
+          padding-left:0;
+        }
+      }
+      li.last {
+        a {
+          border-right:none;
         }
       }
     }
