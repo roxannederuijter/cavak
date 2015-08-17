@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -13,
+        'weight' => -12,
       ),
       'seven' => array(
         'region' => '',
@@ -272,6 +272,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['menu-menu-filmrecruitz-menu'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'menu-filmrecruitz-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['node-recent'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -382,15 +408,16 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 2,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => 'filmrecruitz/crew
-filmrecruitz/cast',
+    'pages' => 'filmrecruitz*
+cast
+crew',
     'roles' => array(),
     'themes' => array(
       'default' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -19,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -494,7 +521,7 @@ filmrecruitz/cast',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => 'content',
@@ -728,7 +755,7 @@ filmrecruitz/cast',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -754,7 +781,7 @@ filmrecruitz/cast',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -806,7 +833,7 @@ filmrecruitz/cast',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
@@ -832,7 +859,7 @@ filmrecruitz/cast',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => '',
@@ -963,6 +990,58 @@ filmrecruitz/cast',
         'status' => 1,
         'theme' => 'default',
         'weight' => -12,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['webform-client-block-60'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'client-block-60',
+    'module' => 'webform',
+    'node_types' => array(),
+    'pages' => 'filmrecruitz/cast',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -17,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['webform-client-block-61'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'client-block-61',
+    'module' => 'webform',
+    'node_types' => array(),
+    'pages' => 'filmrecruitz/crew',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',

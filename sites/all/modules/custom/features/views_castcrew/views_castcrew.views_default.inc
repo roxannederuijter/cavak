@@ -136,6 +136,7 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'Categroie';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
@@ -172,6 +173,7 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'Catogorie';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
@@ -187,6 +189,7 @@ function views_castcrew_views_default_views() {
   /* Display: Crew-page */
   $handler = $view->new_display('page', 'Crew-page', 'page_1');
   $handler->display->display_options['exposed_block'] = TRUE;
+  $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['path'] = 'filmrecruitz/crew';
   $translatables['cast_crew'] = array(
     t('Master'),
@@ -205,7 +208,9 @@ function views_castcrew_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('Categroie'),
     t('Cast-page'),
+    t('Catogorie'),
     t('Crew-page'),
   );
   $export['cast_crew'] = $view;
