@@ -725,13 +725,24 @@ a {
 
 .node-crew-cast {
   .field-name-field-naam {
-
+     font-size:24px;
+     color:#000;
   }
   .field-name-field-ervaring {
     color:$blue;
+    font-size:14px;
+    .field-label {
+      font-size:16px;
+      font-weight:100;
+    }
   }
   .field-name-field-over-mij {
     color:$blue;
+    font-size:14px;
+    .field-label {
+      font-size:16px;
+      font-weight:100;
+    }
   }
 }
 

@@ -685,9 +685,20 @@ a {
   .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="checkbox"] {
     display: none; }
 
+.node-crew-cast .field-name-field-naam {
+  font-size: 24px;
+  color: #000; }
 .node-crew-cast .field-name-field-ervaring {
-  color: #3989c9; }
+  color: #3989c9;
+  font-size: 14px; }
+  .node-crew-cast .field-name-field-ervaring .field-label {
+    font-size: 16px;
+    font-weight: 100; }
 .node-crew-cast .field-name-field-over-mij {
-  color: #3989c9; }
+  color: #3989c9;
+  font-size: 14px; }
+  .node-crew-cast .field-name-field-over-mij .field-label {
+    font-size: 16px;
+    font-weight: 100; }
 
 /*# sourceMappingURL=global.css.map */
