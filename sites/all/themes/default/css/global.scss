@@ -777,9 +777,12 @@ a {
 
 .page-filmrecruitz-cast, .page-filmrecruitz-crew {
   .block-webform {
+    width: 20%;
+    float: left;
+    margin-bottom: 15px;
     .field-name-title {
       a {
-        background-color: $orange;
+        background-color: #f78b1f;
         border-radius: 3px;
         color: #fff;
         text-align: center;
@@ -788,8 +791,7 @@ a {
         margin: 0 10px;
         float: left;
         font-size: 16px;
-        margin-top: 7px;
-        width: 3%;
+        margin-top: -11px;
       }
     }
   }
