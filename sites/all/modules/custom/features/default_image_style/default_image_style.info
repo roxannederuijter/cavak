@@ -3,6 +3,7 @@ core = 7.x
 package = Default settings
 dependencies[] = image
 features[features_api][] = api:2
+features[image][] = 250_x_250_
 features[image][] = 300_x_300_
 features[image][] = banner_2560_x_660
 features[image][] = slideshow_205-104

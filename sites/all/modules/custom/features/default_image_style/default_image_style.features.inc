@@ -10,6 +10,21 @@
 function default_image_style_image_default_styles() {
   $styles = array();
 
+  // Exported image style: 250_x_250_.
+  $styles['250_x_250_'] = array(
+    'label' => '250 x 250 ',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 250,
+          'height' => 250,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: 300_x_300_.
   $styles['300_x_300_'] = array(
     'label' => '300 x 300 ',

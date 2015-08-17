@@ -87,7 +87,7 @@ function content_castcrew_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '250_x_250_',
         ),
         'type' => 'image',
         'weight' => 0,
