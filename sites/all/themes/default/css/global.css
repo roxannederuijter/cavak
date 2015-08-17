@@ -685,4 +685,9 @@ a {
   .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="checkbox"] {
     display: none; }
 
+.node-crew-cast .field-name-field-naam .field-name-field-ervaring {
+  color: #3989c9; }
+.node-crew-cast .field-name-field-naam .field-name-field-over-mij {
+  color: #3989c9; }
+
 /*# sourceMappingURL=global.css.map */
