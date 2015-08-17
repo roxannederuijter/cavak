@@ -717,7 +717,7 @@ a {
   width: 58%;
   float: left; }
 
-.page-filmrecruitz-cast .block-webform .field-name-title a {
+.page-filmrecruitz-cast .block-webform .field-name-title a, .page-filmrecruitz-crew .block-webform .field-name-title a {
   background-color: #f78b1f;
   border-radius: 3px;
   color: #fff;
