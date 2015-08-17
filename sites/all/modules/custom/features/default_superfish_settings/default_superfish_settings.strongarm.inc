@@ -623,7 +623,7 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_small_2';
-  $strongarm->value = '2';
+  $strongarm->value = '0';
   $export['superfish_small_2'] = $strongarm;
 
   $strongarm = new stdClass();

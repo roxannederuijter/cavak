@@ -590,6 +590,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any filmrecruitz_button bean'.
+  $permissions['create any filmrecruitz_button bean'] = array(
+    'name' => 'create any filmrecruitz_button bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create any link_image bean'.
   $permissions['create any link_image bean'] = array(
     'name' => 'create any link_image bean',
@@ -670,6 +679,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'delete any document files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete any filmrecruitz_button bean'.
+  $permissions['delete any filmrecruitz_button bean'] = array(
+    'name' => 'delete any filmrecruitz_button bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'delete any image files'.
@@ -864,6 +882,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit any document files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit any filmrecruitz_button bean'.
+  $permissions['edit any filmrecruitz_button bean'] = array(
+    'name' => 'edit any filmrecruitz_button bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'edit any image files'.
@@ -1159,6 +1186,17 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'view any banner bean'.
   $permissions['view any banner bean'] = array(
     'name' => 'view any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view any filmrecruitz_button bean'.
+  $permissions['view any filmrecruitz_button bean'] = array(
+    'name' => 'view any filmrecruitz_button bean',
     'roles' => array(
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
