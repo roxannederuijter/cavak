@@ -67,6 +67,21 @@ function content_ds_settings_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|news|default';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'news';
+  $ds_fieldsetting->view_mode = 'default';
+  $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '0',
+      'label' => 'hidden',
+      'format' => 'default',
+    ),
+  );
+  $export['node|news|default'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'node|news|teaser';
   $ds_fieldsetting->entity_type = 'node';
   $ds_fieldsetting->bundle = 'news';
@@ -76,7 +91,22 @@ function content_ds_settings_ds_field_settings_info() {
       'weight' => '1',
       'label' => 'hidden',
       'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '1',
+        'wrapper' => 'h2',
+        'class' => '',
       ),
+    ),
+    'node_link' => array(
+      'weight' => '3',
+      'label' => 'hidden',
+      'format' => 'default',
+      'formatter_settings' => array(
+        'link text' => 'Lees meer',
+        'wrapper' => '',
+        'class' => '',
+      ),
+    ),
   );
   $export['node|news|teaser'] = $ds_fieldsetting;
 
@@ -152,6 +182,85 @@ function content_ds_settings_ds_layout_settings_info() {
     'layout_link_custom' => '',
   );
   $export['node|agenda|teaser'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|crew_cast|default';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'crew_cast';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_2col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'left' => array(
+        0 => 'field_naam',
+        1 => 'field_ervaring',
+        2 => 'field_over_mij',
+      ),
+      'right' => array(
+        3 => 'field_foto_s',
+      ),
+    ),
+    'fields' => array(
+      'field_naam' => 'left',
+      'field_ervaring' => 'left',
+      'field_over_mij' => 'left',
+      'field_foto_s' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'left' => 'div',
+      'right' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['node|crew_cast|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|crew|default';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'crew';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_3col_equal_width';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'left' => array(
+        0 => 'field_profielfoto',
+      ),
+      'middle' => array(
+        1 => 'field_naam',
+        2 => 'field_over_mij',
+      ),
+      'right' => array(
+        3 => 'field_ervaring',
+      ),
+    ),
+    'fields' => array(
+      'field_profielfoto' => 'left',
+      'field_naam' => 'middle',
+      'field_over_mij' => 'middle',
+      'field_ervaring' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'left' => 'div',
+      'middle' => 'div',
+      'right' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['node|crew|default'] = $ds_layout;
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
