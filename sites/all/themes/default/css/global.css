@@ -713,4 +713,21 @@ a {
 .block-superfish-2 {
   width: 100%; }
 
+.block-views-exp-cast-crew-page {
+  width: 58%;
+  float: left; }
+
+.page-filmrecruitz-cast .block-webform .field-name-title a {
+  background-color: #f78b1f;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  padding: 3px 20px;
+  float: left;
+  margin: 0 10px;
+  float: left;
+  font-size: 16px;
+  margin-top: 7px;
+  width: 3%; }
+
 /*# sourceMappingURL=global.css.map */
