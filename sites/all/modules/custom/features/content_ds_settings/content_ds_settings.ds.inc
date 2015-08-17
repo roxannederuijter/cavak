@@ -193,19 +193,19 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'left' => array(
-        0 => 'field_naam',
-        1 => 'field_ervaring',
-        2 => 'field_over_mij',
+        0 => 'field_foto_s',
       ),
       'right' => array(
-        3 => 'field_foto_s',
+        1 => 'field_naam',
+        2 => 'field_ervaring',
+        3 => 'field_over_mij',
       ),
     ),
     'fields' => array(
-      'field_naam' => 'left',
-      'field_ervaring' => 'left',
-      'field_over_mij' => 'left',
-      'field_foto_s' => 'right',
+      'field_foto_s' => 'left',
+      'field_naam' => 'right',
+      'field_ervaring' => 'right',
+      'field_over_mij' => 'right',
     ),
     'classes' => array(),
     'wrappers' => array(
