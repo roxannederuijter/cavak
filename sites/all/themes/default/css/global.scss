@@ -610,8 +610,13 @@ a {
 
 .context-filmrecruitz {
   input[type="submit"] {
-    float:none;
-    margin-right:10%;
+    float: right;
+    margin-right: 10%;
+    background-color: orange;
+    padding: 9px 11px;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 100;
   }
 }
 
