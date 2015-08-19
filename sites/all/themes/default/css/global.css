@@ -598,7 +598,16 @@ a {
     width: 11%;
     float: left; }
 
-input[type="submit"] {
+.context-filmrecruitz input[type="submit"], .context-crew input[type="submit"], .context-cast input[type="submit"] {
+  float: right;
+  margin-right: 10%;
+  background-color: orange;
+  padding: 9px 11px;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 100; }
+
+.context-contact input[type="submit"] {
   float: right;
   margin-right: 10%;
   background-color: orange;
