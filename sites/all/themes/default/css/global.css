@@ -436,12 +436,15 @@ a {
 
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
-  float: left; }
+  float: right; }
 
 #block-bean-socialmedia {
   margin-top: 20px; }
   #block-bean-socialmedia img {
     padding-right: 1%; }
+  #block-bean-socialmedia .field-name-field-link-image {
+    float: right;
+    width: 100; }
 
 /* Paragraphs */
 .paragraphs-item-quote .field-name-field-quotes {
