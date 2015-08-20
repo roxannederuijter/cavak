@@ -17,7 +17,6 @@ features[field_instance][] = field_collection_item-field_jury-field_functie
 features[field_instance][] = field_collection_item-field_jury-field_naam
 features[field_instance][] = field_collection_item-field_jury-field_tekst
 features[field_instance][] = node-page-field_paragraph_s
-features[field_instance][] = paragraphs_item-jury-field_jury
 features[node][] = page
 features[variable][] = comment_page
 features[variable][] = field_bundle_settings_node__page
