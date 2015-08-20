@@ -444,7 +444,7 @@ a {
     padding-right: 1%; }
   #block-bean-socialmedia .field-name-field-link-image {
     float: right;
-    width: 100; }
+    width: 100%; }
 
 /* Paragraphs */
 .paragraphs-item-quote .field-name-field-quotes {
