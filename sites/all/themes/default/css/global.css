@@ -756,5 +756,7 @@ a {
   width: 33.3%;
   float: left;
   text-align: center; }
+  .field-name-field-jury .field-items .field-item .field-item {
+    width: 100%; }
 
 /*# sourceMappingURL=global.css.map */
