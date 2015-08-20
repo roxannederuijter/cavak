@@ -64,10 +64,10 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
-  $export['bean-logo-0'] = array(
+  $export['bean-logo'] = array(
     'cache' => 1,
     'custom' => 0,
-    'delta' => 'logo-0',
+    'delta' => 'logo',
     'module' => 'bean',
     'node_types' => array(),
     'pages' => '',
@@ -272,32 +272,6 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['menu-menu-filmrecruitz-menu'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'menu-filmrecruitz-menu',
-    'module' => 'menu',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'default' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'default',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['node-recent'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -440,8 +414,8 @@ crew',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -452,7 +426,7 @@ crew',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -990,58 +964,6 @@ crew',
         'status' => 1,
         'theme' => 'default',
         'weight' => -12,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['webform-client-block-60'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'client-block-60',
-    'module' => 'webform',
-    'node_types' => array(),
-    'pages' => 'filmrecruitz/cast',
-    'roles' => array(),
-    'themes' => array(
-      'default' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'default',
-        'weight' => -17,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['webform-client-block-61'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'client-block-61',
-    'module' => 'webform',
-    'node_types' => array(),
-    'pages' => 'filmrecruitz/crew',
-    'roles' => array(),
-    'themes' => array(
-      'default' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'default',
-        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
