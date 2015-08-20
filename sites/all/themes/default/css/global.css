@@ -329,7 +329,8 @@ a {
   margin-bottom: 9px;
   font-size: 18px;
   font-weight: 600;
-  color: #f78b1f; }
+  color: #f78b1f;
+  text-transform: upperac; }
 .front .zone-content-wrapper {
   background-color: #161515;
   padding: 50px 0; }
