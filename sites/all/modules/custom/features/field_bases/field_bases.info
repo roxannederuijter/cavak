@@ -36,6 +36,7 @@ features[field_base][] = field_functie
 features[field_base][] = field_image
 features[field_base][] = field_inhoud
 features[field_base][] = field_inhoud2
+features[field_base][] = field_jury
 features[field_base][] = field_link
 features[field_base][] = field_naam
 features[field_base][] = field_over_mij
