@@ -5,6 +5,7 @@ dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
 dependencies[] = ctools
 dependencies[] = jquery_update
+dependencies[] = menu_expanded
 dependencies[] = strongarm
 dependencies[] = uh_views_responsive
 dependencies[] = views_slideshow
