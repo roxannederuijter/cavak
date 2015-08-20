@@ -751,6 +751,10 @@ a {
     font-size: 16px;
     margin-top: -11px; }
 
-/* Footer superfish */
+/* jury */
+.field-name-field-jury .field-items .field-item {
+  width: 33.3%;
+  float: left;
+  text-align: center; }
 
 /*# sourceMappingURL=global.css.map */
