@@ -330,7 +330,7 @@ a {
   font-size: 18px;
   font-weight: 600;
   color: #f78b1f;
-  text-transform: upperac; }
+  text-transform: uppercase; }
 .front .zone-content-wrapper {
   background-color: #161515;
   padding: 50px 0; }
@@ -341,7 +341,8 @@ a {
       width: 100%; }
     .front .zone-content-wrapper .block-main .node-front h2 {
       font-size: 18px;
-      color: #fff; }
+      color: #fff;
+      text-transform: uppercase; }
     .front .zone-content-wrapper .block-main .node-front .field-name-body {
       font-size: 14px;
       color: #fff; }
