@@ -956,3 +956,37 @@ a {
     }
   }
 }
+
+
+.block-cast-crew-slideshow {
+  .views-row {
+    width:25%;
+    box-sizing: border-box;
+    padding: 0 1%;
+  }
+}
+
+.context-filmrecruitzz {
+  .field-name-title {
+    width:50%;
+    h2 {
+      font-size:60px;
+    }
+  }
+  .field-name-field-inhoud2 {
+    width:50%;
+    .field-name-field-subititel {
+      font-size:35px;
+    }
+  }
+  .view-id-filmrecruitz {
+    margin-top:50px;
+    .views-row {
+      width:33.3%;
+      float:left;
+      img {
+        float:left;
+      }
+    }
+  }
+}
