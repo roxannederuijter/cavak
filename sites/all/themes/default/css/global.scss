@@ -875,6 +875,9 @@ a {
 }
 
 .paragraphs-item-1-kolom-tekst-33-3-breed {
-  width:33.3%;
-  float:left;
+  width: 33.3%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 30px;
+  word-break: break-all;
 }
