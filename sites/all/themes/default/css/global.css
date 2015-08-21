@@ -804,5 +804,7 @@ a {
   float: left; }
   .region-footer-first .block-menu li a {
     color: #fff; }
+  .region-footer-first .block-menu li ul li {
+    float: none; }
 
 /*# sourceMappingURL=global.css.map */
