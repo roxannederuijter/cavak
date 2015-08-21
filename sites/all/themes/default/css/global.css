@@ -813,7 +813,8 @@ a {
     font-size: 16px; }
   .region-footer-first .block-menu li ul li {
     float: none;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     .region-footer-first .block-menu li ul li a {
       font-size: 12px;
       font-weight: 100; }
