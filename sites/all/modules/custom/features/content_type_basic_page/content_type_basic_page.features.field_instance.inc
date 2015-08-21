@@ -72,7 +72,7 @@ function content_type_basic_page_field_default_field_instances() {
     ),
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_functie',
-    'label' => 'Functie',
+    'label' => 'titel onder afbeelding',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -86,6 +86,58 @@ function content_type_basic_page_field_default_field_instances() {
       ),
       'type' => 'text_textfield',
       'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_jury-field_link_filmrecruitz'
+  $field_instances['field_collection_item-field_jury-field_link_filmrecruitz'] = array(
+    'bundle' => 'field_jury',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 4,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_link_filmrecruitz',
+    'label' => 'link',
+    'required' => 0,
+    'settings' => array(
+      'absolute_url' => 1,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'optional',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 5,
     ),
   );
 
@@ -106,7 +158,7 @@ function content_type_basic_page_field_default_field_instances() {
     ),
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_naam',
-    'label' => 'Naam',
+    'label' => 'Titel',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -266,10 +318,11 @@ function content_type_basic_page_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Afbeelding');
   t('Banner');
-  t('Functie');
-  t('Naam');
   t('Paragraph\'s');
+  t('Titel');
+  t('link');
   t('tekst');
+  t('titel onder afbeelding');
 
   return $field_instances;
 }
