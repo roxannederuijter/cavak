@@ -825,7 +825,8 @@ a {
   float: left;
   width: 30%; }
   .block-bean-mail img {
-    float: left; }
+    float: left;
+    width: 23%; }
 
 .block-search {
   width: 70%;
