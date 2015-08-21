@@ -806,10 +806,10 @@ a {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style: none; }
-  .region-footer-first .block-menu li a {
-    color: #fff;
-    font-size: 16px; }
+  list-style: none;
+  min-height: 183 a;
+    min-height-color: #fff;
+    min-height-font-size: 16px; }
   .region-footer-first .block-menu li ul li {
     float: none;
     width: 100%; }
