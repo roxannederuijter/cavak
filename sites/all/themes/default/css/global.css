@@ -818,5 +818,7 @@ a {
     .region-footer-first .block-menu li ul li a {
       font-size: 12px;
       font-weight: 100; }
+.region-footer-first .block-menu li.last {
+  height: auto; }
 
 /*# sourceMappingURL=global.css.map */
