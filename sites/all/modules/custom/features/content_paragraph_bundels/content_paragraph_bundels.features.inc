@@ -44,6 +44,11 @@ function content_paragraph_bundels_paragraphs_info() {
       'bundle' => '2_kolommen_tekst_afbeelding_rech',
       'locked' => '1',
     ),
+    'afbeelding_tekst_link_33_3_' => array(
+      'name' => 'afbeelding-tekst-link-33.3%',
+      'bundle' => 'afbeelding_tekst_link_33_3_',
+      'locked' => '1',
+    ),
     'jury' => array(
       'name' => 'Jury',
       'bundle' => 'jury',

@@ -650,6 +650,46 @@ function content_paragraph_bundels_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance:
+  // 'paragraphs_item-afbeelding_tekst_link_33_3_-field_content'
+  $field_instances['paragraphs_item-afbeelding_tekst_link_33_3_-field_content'] = array(
+    'bundle' => 'afbeelding_tekst_link_33_3_',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'field_collection',
+        'settings' => array(
+          'view_mode' => 'full',
+        ),
+        'type' => 'field_collection_fields',
+        'weight' => 0,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_content',
+    'label' => 'inhoud',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'field_collection',
+      'settings' => array(),
+      'type' => 'field_collection_embed',
+      'weight' => 2,
+    ),
+  );
+
   // Exported field_instance: 'paragraphs_item-jury-field_jury'
   $field_instances['paragraphs_item-jury-field_jury'] = array(
     'bundle' => 'jury',
@@ -1011,6 +1051,7 @@ function content_paragraph_bundels_field_default_field_instances() {
   t('Tekst rechts');
   t('Titel');
   t('Video');
+  t('inhoud');
   t('tekst');
 
   return $field_instances;
