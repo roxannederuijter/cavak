@@ -64,6 +64,8 @@
       float: left; }
 
 .block-cast-crew-slideshow .views-row {
-  width: 25%; }
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0 1%; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

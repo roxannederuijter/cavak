@@ -105,5 +105,7 @@
 .block-cast-crew-slideshow {
   .views-row {
     width:25%;
+    box-sizing: border-box;
+    padding: 0 1%;
   }
 }
