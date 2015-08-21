@@ -904,10 +904,12 @@ a {
     .block-filmrecruitz-block .views-row a:after {
       content: "";
       background: url("img/arrow.jpg");
-      background-size: 24px;
-      height: 24px;
-      width: 24px;
+      background-repeat: no-repeat;
+      background-size: 45px;
+      height: 48px;
+      width: 45px;
       position: absolute;
-      right: 0; }
+      right: 0;
+      top: 0; }
 
 /*# sourceMappingURL=global.css.map */
