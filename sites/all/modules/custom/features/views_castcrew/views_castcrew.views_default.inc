@@ -174,7 +174,7 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['path'] = 'filmrecruitz/crew';
 
   /* Display: Slideshow Blok */
-  $handler = $view->new_display('block', 'Slideshow Blok', 'block_1');
+  $handler = $view->new_display('block', 'Slideshow Blok', 'slideshow');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Cast/Crew';
   $handler->display->display_options['defaults']['pager'] = FALSE;

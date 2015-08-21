@@ -898,10 +898,10 @@ crew',
     'visibility' => 0,
   );
 
-  $export['views-cast_crew-block_1'] = array(
+  $export['views-cast_crew-slideshow'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => 'cast_crew-block_1',
+    'delta' => 'cast_crew-slideshow',
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'filmrecruitzz',
