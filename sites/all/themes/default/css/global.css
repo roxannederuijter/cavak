@@ -836,8 +836,22 @@ a {
 .field-name-field-content .field-item {
   width: 33.3%;
   float: left;
-  color: #fff; }
+  color: #fff;
+  box-sizing: border-box;
+  padding-right: 4%; }
   .field-name-field-content .field-item .field-item {
     width: 100%; }
+  .field-name-field-content .field-item .field-name-field-titel {
+    font-size: 18px; }
+    .field-name-field-content .field-item .field-name-field-titel .field-item {
+      padding-bottom: 18px; }
+  .field-name-field-content .field-item .field-name-field-link-filmrecruitz {
+    float: right; }
+    .field-name-field-content .field-item .field-name-field-link-filmrecruitz a {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 5px 10px;
+      color: #000;
+      font-weight: 700; }
 
 /*# sourceMappingURL=global.css.map */

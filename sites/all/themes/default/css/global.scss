@@ -933,8 +933,26 @@ a {
     width: 33.3%;
     float: left;
     color: #fff;
+    box-sizing: border-box;
+    padding-right: 4%;
     .field-item {
       width:100%;
+    }
+    .field-name-field-titel {
+      font-size:18px;
+      .field-item {
+        padding-bottom:18px;
+      }
+    }
+    .field-name-field-link-filmrecruitz {
+      float:right;
+      a {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #000;
+        font-weight: 700;
+      }
     }
   }
 }
