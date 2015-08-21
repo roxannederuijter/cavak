@@ -801,15 +801,16 @@ a {
   word-break: break-all; }
 
 .region-footer-first .block-menu li {
+  height: 183px;
   float: left;
   width: 25%;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style: none;
-  height: 1 a;
-    height-color: #fff;
-    height-font-size: 16px; }
+  list-style: none; }
+  .region-footer-first .block-menu li a {
+    color: #fff;
+    font-size: 16px; }
   .region-footer-first .block-menu li ul li {
     float: none;
     width: 100%; }
