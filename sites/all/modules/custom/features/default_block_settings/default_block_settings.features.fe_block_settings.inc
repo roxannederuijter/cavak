@@ -311,7 +311,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'user_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -22,
       ),
       'seven' => array(
         'region' => '',
