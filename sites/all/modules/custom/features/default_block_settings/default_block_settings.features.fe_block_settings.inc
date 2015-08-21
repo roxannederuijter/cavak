@@ -872,6 +872,32 @@ crew',
     'visibility' => 0,
   );
 
+  $export['views-banner-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'banner-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['views-filmrecruitz-block'] = array(
     'cache' => -1,
     'custom' => 0,
