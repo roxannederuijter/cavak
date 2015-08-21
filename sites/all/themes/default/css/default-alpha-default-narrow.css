@@ -44,7 +44,7 @@
     margin-right: 2.5%; }
 
 /* Banner */
-.front .field-name-field-quotes {
+.front .field-name-field-quotes, .context-filmrecruitzz .field-name-field-quotes {
   display: inline-block;
   position: absolute;
   width: 300px;
