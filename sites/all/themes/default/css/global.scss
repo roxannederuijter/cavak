@@ -881,3 +881,14 @@ a {
   padding-right: 6%;
   word-break: break-all;
 }
+
+.region-footer-first {
+  .block-menu {
+    li {
+      float:left;
+      a {
+        color:#fff;
+      }
+    }
+  }
+}

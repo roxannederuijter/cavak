@@ -800,4 +800,9 @@ a {
   padding-right: 6%;
   word-break: break-all; }
 
+.region-footer-first .block-menu li {
+  float: left; }
+  .region-footer-first .block-menu li a {
+    color: #fff; }
+
 /*# sourceMappingURL=global.css.map */
