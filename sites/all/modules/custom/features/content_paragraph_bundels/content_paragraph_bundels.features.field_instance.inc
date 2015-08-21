@@ -194,6 +194,47 @@ function content_paragraph_bundels_field_default_field_instances() {
   );
 
   // Exported field_instance:
+  // 'paragraphs_item-1_kolom_tekst_33_3_breed-field_tekst'
+  $field_instances['paragraphs_item-1_kolom_tekst_33_3_breed-field_tekst'] = array(
+    'bundle' => '1_kolom_tekst_33_3_breed',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_tekst',
+    'label' => 'tekst',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance:
   // 'paragraphs_item-2_kolommen_afbeeldingen-field_afbeelding'
   $field_instances['paragraphs_item-2_kolommen_afbeeldingen-field_afbeelding'] = array(
     'bundle' => '2_kolommen_afbeeldingen',
@@ -648,6 +689,129 @@ function content_paragraph_bundels_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance:
+  // 'paragraphs_item-links_titels_rechts_quote-field_quote'
+  $field_instances['paragraphs_item-links_titels_rechts_quote-field_quote'] = array(
+    'bundle' => 'links_titels_rechts_quote',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_quote',
+    'label' => 'Quote',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'paragraphs_item-links_titels_rechts_quote-field_subtitel'
+  $field_instances['paragraphs_item-links_titels_rechts_quote-field_subtitel'] = array(
+    'bundle' => 'links_titels_rechts_quote',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_subtitel',
+    'label' => 'Subtitel',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'paragraphs_item-links_titels_rechts_quote-field_titel'
+  $field_instances['paragraphs_item-links_titels_rechts_quote-field_titel'] = array(
+    'bundle' => 'links_titels_rechts_quote',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_titel',
+    'label' => 'Titel',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
   // Exported field_instance: 'paragraphs_item-quote-field_functie'
   $field_instances['paragraphs_item-quote-field_functie'] = array(
     'bundle' => 'quote',
@@ -841,11 +1005,13 @@ function content_paragraph_bundels_field_default_field_instances() {
   t('Jury');
   t('Naam');
   t('Quote');
+  t('Subtitel');
   t('Tekst');
   t('Tekst links');
   t('Tekst rechts');
   t('Titel');
   t('Video');
+  t('tekst');
 
   return $field_instances;
 }

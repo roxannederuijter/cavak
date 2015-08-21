@@ -48,6 +48,7 @@ features[field_base][] = field_quotes
 features[field_base][] = field_samenvatting
 features[field_base][] = field_soort
 features[field_base][] = field_subititel
+features[field_base][] = field_subtitel
 features[field_base][] = field_tekst
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts

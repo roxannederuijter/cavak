@@ -642,6 +642,42 @@ function content_ds_settings_ds_layout_settings_info() {
   );
   $export['paragraphs_item|2_kolommen_tekst|default'] = $ds_layout;
 
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'paragraphs_item|links_titels_rechts_quote|default';
+  $ds_layout->entity_type = 'paragraphs_item';
+  $ds_layout->bundle = 'links_titels_rechts_quote';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_2col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'left' => array(
+        0 => 'field_titel',
+        1 => 'field_subtitel',
+      ),
+      'right' => array(
+        2 => 'field_quote',
+      ),
+    ),
+    'fields' => array(
+      'field_titel' => 'left',
+      'field_subtitel' => 'left',
+      'field_quote' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'left' => 'div',
+      'right' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['paragraphs_item|links_titels_rechts_quote|default'] = $ds_layout;
+
   return $export;
 }
 

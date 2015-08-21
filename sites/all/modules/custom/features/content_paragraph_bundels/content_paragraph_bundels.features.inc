@@ -19,6 +19,11 @@ function content_paragraph_bundels_paragraphs_info() {
       'bundle' => '1_kolom_tekst',
       'locked' => '1',
     ),
+    '1_kolom_tekst_33_3_breed' => array(
+      'name' => '1 Kolom tekst - 33.3% breed',
+      'bundle' => '1_kolom_tekst_33_3_breed',
+      'locked' => '1',
+    ),
     '2_kolommen_afbeeldingen' => array(
       'name' => '2 kolommen - Afbeeldingen',
       'bundle' => '2_kolommen_afbeeldingen',
@@ -42,6 +47,11 @@ function content_paragraph_bundels_paragraphs_info() {
     'jury' => array(
       'name' => 'Jury',
       'bundle' => 'jury',
+      'locked' => '1',
+    ),
+    'links_titels_rechts_quote' => array(
+      'name' => 'links-Titels_rechts-Quote',
+      'bundle' => 'links_titels_rechts_quote',
       'locked' => '1',
     ),
     'quote' => array(
