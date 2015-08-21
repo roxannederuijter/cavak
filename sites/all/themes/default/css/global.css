@@ -919,5 +919,9 @@ a {
   top: 5%;
   float: left;
   z-index: 997; }
+  .block-filmrecruitz-block .views-row {
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 12px; }
 
 /*# sourceMappingURL=global.css.map */
