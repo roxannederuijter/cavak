@@ -808,8 +808,12 @@ a {
   text-decoration: none;
   list-style: none; }
   .region-footer-first .block-menu li a {
-    color: #fff; }
+    color: #fff;
+    font-size: 18px; }
   .region-footer-first .block-menu li ul li {
     float: none; }
+    .region-footer-first .block-menu li ul li a {
+      font-size: 14px;
+      font-weight: 100; }
 
 /*# sourceMappingURL=global.css.map */

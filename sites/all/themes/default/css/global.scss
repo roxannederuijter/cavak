@@ -893,10 +893,15 @@ a {
       list-style:none;
       a {
         color:#fff;
+        font-size:18px;
       }
       ul {
         li {
           float:none;
+          a {
+            font-size: 14px;
+            font-weight: 100;
+          }
         }
       }
     }
