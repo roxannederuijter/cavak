@@ -858,6 +858,40 @@ a {
   width: 25%;
   box-sizing: border-box;
   padding: 0 1%; }
+.block-cast-crew-slideshow .views-slideshow-controls-text-previous {
+  display: block;
+  position: absolute;
+  top: 14%;
+  left: 0px;
+  z-index: 100;
+  background: url("img/la.jpg") no-repeat center;
+  background-size: 16px;
+  width: 41px;
+  height: 100px;
+  text-indent: -9999px; }
+.block-cast-crew-slideshow .views-slideshow-controls-text-pause {
+  display: none; }
+.block-cast-crew-slideshow .views-slideshow-controls-text-next {
+  display: block;
+  position: absolute;
+  top: 14%;
+  right: 0px;
+  z-index: 100;
+  text-indent: -9999px;
+  background: url("img/ra.jpg") no-repeat center;
+  background-size: 16px;
+  width: 41px;
+  height: 100px; }
+.block-cast-crew-slideshow .views-slideshow-controls-text-previous:hover {
+  background: url("img/la-hover.jpg") no-repeat center;
+  background-size: 16px;
+  width: 41px;
+  height: 100px; }
+.block-cast-crew-slideshow .views-slideshow-controls-text-next:hover {
+  background: url("img/ra-hover.jpg") no-repeat center;
+  background-size: 16px;
+  width: 41px;
+  height: 100px; }
 
 .context-filmrecruitzz .field-name-title {
   width: 50%; }
