@@ -833,4 +833,11 @@ a {
   .block-search #search-block-form {
     width: 87%; }
 
+.field-name-field-content .field-item {
+  width: 33.3%;
+  float: left;
+  color: #fff; }
+  .field-name-field-content .field-item .field-item {
+    width: 100%; }
+
 /*# sourceMappingURL=global.css.map */
