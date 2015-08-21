@@ -802,7 +802,9 @@ a {
 
 .region-footer-first .block-menu li {
   float: left;
-  width: 25%; }
+  width: 25%;
+  margin: 0;
+  padding: 0; }
   .region-footer-first .block-menu li a {
     color: #fff; }
   .region-footer-first .block-menu li ul li {
