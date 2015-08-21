@@ -78,7 +78,6 @@ function views_news_views_default_views() {
   /* Display: Frontpage-Block */
   $handler = $view->new_display('block', 'Frontpage-Block', 'frontpage_block');
   $handler->display->display_options['defaults']['use_more'] = FALSE;
-  $handler->display->display_options['use_more'] = TRUE;
   $handler->display->display_options['defaults']['use_more_always'] = FALSE;
   $handler->display->display_options['defaults']['use_more_always'] = FALSE;
   $handler->display->display_options['use_more_always'] = FALSE;
