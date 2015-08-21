@@ -755,8 +755,20 @@ a {
 .field-name-field-jury .field-items .field-item {
   width: 33.3%;
   float: left;
-  text-align: center; }
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 2px; }
   .field-name-field-jury .field-items .field-item .field-item {
     width: 100%; }
+
+.paragraphs-item-jury .field-name-field-naam {
+  font-size: 26px;
+  font-weight: 700; }
+.paragraphs-item-jury .field-name-field-functie {
+  font-weight: 700;
+  font-size: 18px;
+  color: orange; }
+.paragraphs-item-jury .field-name-field-tekst {
+  padding: 0 15px; }
 
 /*# sourceMappingURL=global.css.map */
