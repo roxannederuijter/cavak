@@ -801,7 +801,8 @@ a {
   word-break: break-all; }
 
 .region-footer-first .block-menu li {
-  float: left; }
+  float: left;
+  width: 25%; }
   .region-footer-first .block-menu li a {
     color: #fff; }
   .region-footer-first .block-menu li ul li {
