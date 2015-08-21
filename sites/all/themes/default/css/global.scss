@@ -1030,3 +1030,18 @@ a {
     }
   }
 }
+
+.block-filmrecruitz-block {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 5%;
+  float: left;
+  z-index: 997;
+  .views-row {
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 12px;
+  }
+}

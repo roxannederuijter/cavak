@@ -911,4 +911,13 @@ a {
     .context-filmrecruitzz .view-id-filmrecruitz .views-row img {
       float: left; }
 
+.block-filmrecruitz-block {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 5%;
+  float: left;
+  z-index: 997; }
+
 /*# sourceMappingURL=global.css.map */
