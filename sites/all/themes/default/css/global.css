@@ -822,6 +822,7 @@ a {
   height: auto; }
 
 .block-bean-mail {
+  padding-top: 20px;
   float: left;
   width: 30%; }
   .block-bean-mail img {
@@ -829,7 +830,9 @@ a {
     width: 23%; }
 
 .block-search {
-  width: 70%;
+  width: 53%;
   float: left; }
+  .block-search #search-block-form {
+    width: 87%; }
 
 /*# sourceMappingURL=global.css.map */

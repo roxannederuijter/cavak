@@ -916,6 +916,7 @@ a {
 }
 
 .block-bean-mail {
+  padding-top:20px;
   float:left;
   width:30%;
   img {
@@ -925,7 +926,9 @@ a {
 }
 
 .block-search {
-  width:70%;
+  width:53%;
   float:left;
-
+  #search-block-form {
+    width:87%;
+  }
 }
