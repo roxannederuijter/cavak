@@ -157,6 +157,42 @@ function content_type_basic_page_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-page-field_banner'
+  $field_instances['node-page-field_banner'] = array(
+    'bundle' => 'page',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_banner',
+    'label' => 'Banner',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'field_collection',
+      'settings' => array(),
+      'type' => 'field_collection_embed',
+      'weight' => 43,
+    ),
+  );
+
   // Exported field_instance: 'node-page-field_paragraph_s'
   $field_instances['node-page-field_paragraph_s'] = array(
     'bundle' => 'page',
@@ -229,6 +265,7 @@ function content_type_basic_page_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
+  t('Banner');
   t('Functie');
   t('Naam');
   t('Paragraph\'s');

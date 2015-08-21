@@ -1,6 +1,7 @@
 name = Content type - Basic page
 core = 7.x
 package = Content
+dependencies[] = content_front
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = field_bases
@@ -16,6 +17,7 @@ features[field_instance][] = field_collection_item-field_jury-field_afbeelding2
 features[field_instance][] = field_collection_item-field_jury-field_functie
 features[field_instance][] = field_collection_item-field_jury-field_naam
 features[field_instance][] = field_collection_item-field_jury-field_tekst
+features[field_instance][] = node-page-field_banner
 features[field_instance][] = node-page-field_paragraph_s
 features[node][] = page
 features[variable][] = comment_page
