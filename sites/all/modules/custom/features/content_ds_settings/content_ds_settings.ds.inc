@@ -292,13 +292,11 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'title',
-        1 => 'field_inhoud2',
+        0 => 'field_content',
       ),
     ),
     'fields' => array(
-      'title' => 'ds_content',
-      'field_inhoud2' => 'ds_content',
+      'field_content' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
