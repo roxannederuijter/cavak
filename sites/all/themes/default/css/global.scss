@@ -1003,6 +1003,7 @@ a {
   float: left;
   z-index: 997;
   .views-row {
+    position:relative;
     margin-bottom: 8px;
     width: 50%;
     padding: 12px;
@@ -1015,6 +1016,8 @@ a {
       background-size:24px;
       height:24px;
       width:24px;
+      position:absolute;
+      right:0;
     }
   }
 }
