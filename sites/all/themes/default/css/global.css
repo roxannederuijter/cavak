@@ -828,6 +828,7 @@ a {
     float: left; }
 
 .block-search {
-  width: 70%; }
+  width: 70%;
+  float: left; }
 
 /*# sourceMappingURL=global.css.map */
