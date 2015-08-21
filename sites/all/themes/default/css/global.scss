@@ -840,9 +840,41 @@ a {
   .field-name-field-functie {
     font-weight: 700;
     font-size: 18px;
-    color: orange;
+    color: $orange;
   }
   .field-name-field-tekst {
     padding:0 15px;
   }
+}
+
+.paragraphs-item-links-titels-rechts-quote {
+  margin-bottom:50px;
+  .field-name-field-titel {
+    color: $orange;
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .field-name-field-subtitel {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+  }
+  .field-name-field-quote {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    .field-item {
+      width: 40%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+}
+
+.paragraphs-item-1-kolom-tekst-33-3-breed {
+  width:33.3%;
+  float:left;
 }
