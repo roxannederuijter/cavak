@@ -821,4 +821,13 @@ a {
 .region-footer-first .block-menu li.last {
   height: auto; }
 
+.block-bean-mail {
+  float: left;
+  width: 30%; }
+  .block-bean-mail img {
+    float: left; }
+
+.block-search {
+  width: 70%; }
+
 /*# sourceMappingURL=global.css.map */
