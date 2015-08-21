@@ -804,7 +804,9 @@ a {
   float: left;
   width: 25%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
   .region-footer-first .block-menu li a {
     color: #fff; }
   .region-footer-first .block-menu li ul li {
