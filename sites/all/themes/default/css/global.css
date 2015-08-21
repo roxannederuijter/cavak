@@ -921,5 +921,8 @@ a {
   .paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item .field-name-field-link-filmrecruitz a {
     background-color: #3989c9;
     color: #fff; }
+  .paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item .field-name-field-link-filmrecruitz {
+    float: left;
+    padding-top: 20px; }
 
 /*# sourceMappingURL=global.css.map */
