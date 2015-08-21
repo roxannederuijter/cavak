@@ -898,6 +898,32 @@ crew',
     'visibility' => 0,
   );
 
+  $export['views-cast_crew-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'cast_crew-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'filmrecruitzz',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-filmrecruitz-block'] = array(
     'cache' => -1,
     'custom' => 0,

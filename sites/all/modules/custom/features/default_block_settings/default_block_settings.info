@@ -46,6 +46,7 @@ features[fe_block_settings][] = views--exp-zinema-page
 features[fe_block_settings][] = views-agenda-block
 features[fe_block_settings][] = views-banner-block
 features[fe_block_settings][] = views-banner-block_1
+features[fe_block_settings][] = views-cast_crew-block_1
 features[fe_block_settings][] = views-filmrecruitz-block
 features[fe_block_settings][] = views-front-block
 features[fe_block_settings][] = views-news-frontpage_block
