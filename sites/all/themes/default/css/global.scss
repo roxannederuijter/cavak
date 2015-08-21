@@ -1011,7 +1011,7 @@ a {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     a:after {
       content: "";
-      background-image:url('img/arrow.jpg')no-repeat;
+      background:url('img/arrow.jpg');
       background-size:24px;
       height:24px;
       width:24px;
