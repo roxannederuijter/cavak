@@ -1024,7 +1024,9 @@ a {
   float: left;
   z-index: 997;
   .views-row {
-
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     margin-bottom: 8px;
     width: 50%;
     padding: 12px;
