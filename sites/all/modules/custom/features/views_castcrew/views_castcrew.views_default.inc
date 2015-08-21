@@ -166,6 +166,24 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'crew_cast' => 'crew_cast',
   );
+  /* Filter criterion: Content: catogorie cast/crew (field_catogorie_cast_crew) */
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['id'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['table'] = 'field_data_field_catogorie_cast_crew';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'catogorie';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+  );
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['vocabulary'] = 'catogorie_cast_crew';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['hierarchy'] = 1;
   $handler->display->display_options['path'] = 'filmrecruitz/cast';
 
   /* Display: Crew-page */
@@ -262,6 +280,7 @@ function views_castcrew_views_default_views() {
     t('next ›'),
     t('last »'),
     t('Cast-page'),
+    t('catogorie'),
     t('Crew-page'),
     t('Slideshow Blok'),
     t('Cast/Crew'),
