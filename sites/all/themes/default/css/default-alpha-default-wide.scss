@@ -1,2 +1,20 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 @import 'variables';
+
+.block-news-frontpage-block {
+  .views-row {
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 15px;
+    .views-field-title {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+  .views-field-view-node a {
+    width: 54px;
+    height: 57px;
+    background-size: 54px;
+  }
+}
