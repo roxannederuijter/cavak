@@ -934,8 +934,8 @@ crew',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'header_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),

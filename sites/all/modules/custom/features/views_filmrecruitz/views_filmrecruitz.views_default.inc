@@ -31,17 +31,18 @@ function views_filmrecruitz_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Content: Afbeelding */
-  $handler->display->display_options['fields']['field_afbeelding4']['id'] = 'field_afbeelding4';
-  $handler->display->display_options['fields']['field_afbeelding4']['table'] = 'field_data_field_afbeelding4';
-  $handler->display->display_options['fields']['field_afbeelding4']['field'] = 'field_afbeelding4';
-  $handler->display->display_options['fields']['field_afbeelding4']['label'] = '';
-  $handler->display->display_options['fields']['field_afbeelding4']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_afbeelding4']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_afbeelding4']['settings'] = array(
-    'image_style' => '',
-    'image_link' => 'content',
+  /* Field: Content: call to action */
+  $handler->display->display_options['fields']['field_call_to_action']['id'] = 'field_call_to_action';
+  $handler->display->display_options['fields']['field_call_to_action']['table'] = 'field_data_field_call_to_action';
+  $handler->display->display_options['fields']['field_call_to_action']['field'] = 'field_call_to_action';
+  $handler->display->display_options['fields']['field_call_to_action']['label'] = '';
+  $handler->display->display_options['fields']['field_call_to_action']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_call_to_action']['type'] = 'field_collection_fields';
+  $handler->display->display_options['fields']['field_call_to_action']['settings'] = array(
+    'view_mode' => 'full',
   );
+  $handler->display->display_options['fields']['field_call_to_action']['group_rows'] = FALSE;
+  $handler->display->display_options['fields']['field_call_to_action']['delta_offset'] = '0';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -59,7 +60,7 @@ function views_filmrecruitz_views_default_views() {
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
-    'webform' => 'webform',
+    'filmrecruitz' => 'filmrecruitz',
   );
 
   /* Display: Block */
