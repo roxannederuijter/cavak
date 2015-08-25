@@ -311,7 +311,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'user_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -22,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -757,7 +757,7 @@ filmrecruitz/zoekopdracht*',
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -11,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -938,10 +938,10 @@ cast',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'user_first',
+        'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
