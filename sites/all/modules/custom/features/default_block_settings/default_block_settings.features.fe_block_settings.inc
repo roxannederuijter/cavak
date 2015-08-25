@@ -360,7 +360,8 @@ function default_block_settings_default_fe_block_settings() {
 filmrecruitz/crew*
 cast
 crew
-filmrecruitz/zoekopdracht*',
+filmrecruitz/zoekopdracht*
+ik-zoek',
     'roles' => array(),
     'themes' => array(
       'default' => array(
