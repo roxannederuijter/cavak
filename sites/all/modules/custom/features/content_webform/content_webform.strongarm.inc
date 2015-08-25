@@ -27,7 +27,7 @@ function content_webform_strongarm() {
         'custom_settings' => FALSE,
       ),
       'teaser' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       'rss' => array(
         'custom_settings' => FALSE,
@@ -68,6 +68,10 @@ function content_webform_strongarm() {
           'default' => array(
             'weight' => '2',
             'visible' => TRUE,
+          ),
+          'teaser' => array(
+            'weight' => '2',
+            'visible' => FALSE,
           ),
         ),
       ),
