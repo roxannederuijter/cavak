@@ -65,6 +65,37 @@ function views_filmrecruitz_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+
+  /* Display: switch */
+  $handler = $view->new_display('block', 'switch', 'switch');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Afbeelding */
+  $handler->display->display_options['fields']['field_afbeelding4']['id'] = 'field_afbeelding4';
+  $handler->display->display_options['fields']['field_afbeelding4']['table'] = 'field_data_field_afbeelding4';
+  $handler->display->display_options['fields']['field_afbeelding4']['field'] = 'field_afbeelding4';
+  $handler->display->display_options['fields']['field_afbeelding4']['label'] = '';
+  $handler->display->display_options['fields']['field_afbeelding4']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_afbeelding4']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_afbeelding4']['settings'] = array(
+    'image_style' => '',
+    'image_link' => 'content',
+  );
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'webform' => 'webform',
+  );
   $translatables['filmrecruitz'] = array(
     t('Master'),
     t('Filmrecruitz'),
@@ -75,6 +106,7 @@ function views_filmrecruitz_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('Block'),
+    t('switch'),
   );
   $export['filmrecruitz'] = $view;
 
