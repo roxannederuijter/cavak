@@ -1046,3 +1046,14 @@ a {
     }
   }
 }
+
+#block-views-filmrecruitz-switch {
+  a {
+    width:50%;
+    float:left;
+  }
+  a.active {
+    width:100%;
+    float:left;
+  }
+}

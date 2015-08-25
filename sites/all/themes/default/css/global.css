@@ -928,4 +928,11 @@ a {
     padding-top: 20px;
     width: 100%; }
 
+#block-views-filmrecruitz-switch a {
+  width: 50%;
+  float: left; }
+#block-views-filmrecruitz-switch a.active {
+  width: 100%;
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
