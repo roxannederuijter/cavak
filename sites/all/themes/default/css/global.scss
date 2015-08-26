@@ -1250,3 +1250,18 @@ a {
     float:left;
   }
 }
+
+.paragraphs-item-2-kolommen-tekst-video {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid $orange;
+  font-size:15px;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  .group-left {
+    width:70%!important;
+  }
+  .group-right {
+    width:30%!important;
+  }
+}

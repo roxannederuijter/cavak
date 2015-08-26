@@ -1068,4 +1068,16 @@ a {
     width: 70%;
     float: left; }
 
+.paragraphs-item-2-kolommen-tekst-video {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #f78b1f;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .paragraphs-item-2-kolommen-tekst-video .group-left {
+    width: 70% !important; }
+  .paragraphs-item-2-kolommen-tekst-video .group-right {
+    width: 30% !important; }
+
 /*# sourceMappingURL=global.css.map */
