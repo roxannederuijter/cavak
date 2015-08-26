@@ -152,6 +152,7 @@ a {
   .block-superfish-2 {
     float:left;
     padding-bottom:10px;
+    width:50%;
     h2.block-title {
       float: left;
       font-size: 18px;
@@ -1133,16 +1134,23 @@ a {
   }
 }
 
-.orange {
-  h2 {
-    color:$orange;
-    text-transform:uppercase;
+.block-block-3 {
+  width:40%;
+  float:left;
+  .orange {
+    h2 {
+      color:$orange;
+      text-transform:uppercase;
+      font-size:50px;
+    }
   }
-}
 
-.blue {
-  h2 {
-    color:$blue;
-    text-transform:uppercase;
+  .blue {
+    h2 {
+      color:$blue;
+      text-transform:uppercase;
+      font-size:50px;
+    }
   }
+
 }
