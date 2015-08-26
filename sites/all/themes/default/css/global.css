@@ -616,7 +616,8 @@ a {
     right: 0; }
   #search-block-form input[type="text"] {
     background-color: #f78b1f;
-    width: 100%; }
+    width: 100%;
+    border: none; }
 
 .branding-data {
   width: 50%;
