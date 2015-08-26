@@ -939,6 +939,9 @@ a {
 .region-user-first .block-block-2 {
   width: 50%;
   float: left; }
+  .region-user-first .block-block-2 a {
+    font-size: 1px;
+    color: transparent; }
   .region-user-first .block-block-2 a.mail:after {
     content: "";
     background-image: url("img/mail.png");

@@ -1063,6 +1063,10 @@ a {
   .block-block-2 {
     width:50%;
     float:left;
+    a {
+      font-size:1px;
+      color:transparent;
+    }
     a.mail:after {
       content:"";
       background-image:url('img/mail.png');
