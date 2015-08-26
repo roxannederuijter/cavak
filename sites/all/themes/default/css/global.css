@@ -1033,10 +1033,12 @@ a {
 
 /* PARAGRAPHS */
 .paragraphs-item-2-kolommen-tekst-afbeelding-link {
+  border-bottom: 1px solid #f78b1f;
   margin-bottom: 20px;
   font-size: 15px; }
 
 .paragraphs-item-3-kolommen-video-s {
+  border-bottom: 1px solid #f78b1f;
   margin-bottom: 20px; }
   .paragraphs-item-3-kolommen-video-s .field-name-field-2titel {
     font-size: 38px;
@@ -1051,6 +1053,7 @@ a {
       height: 300px; }
 
 .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 {
+  border-bottom: 1px solid #f78b1f;
   font-size: 15px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {
     width: 30%;
