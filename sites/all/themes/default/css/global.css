@@ -1041,7 +1041,8 @@ a {
   float: left;
   width: 100%;
   border-bottom: 1px solid #f78b1f;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
   .paragraphs-item-3-kolommen-video-s .field-name-field-2titel {
     font-size: 38px;
     font-weight: 700;
@@ -1058,7 +1059,9 @@ a {
   float: left;
   width: 100%;
   border-bottom: 1px solid #f78b1f;
-  font-size: 15px; }
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {
     width: 30%;
     float: left; }
