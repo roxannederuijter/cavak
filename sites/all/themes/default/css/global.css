@@ -1176,6 +1176,8 @@ a.blue {
   padding-bottom: 20px; }
   .field-name-field-tekst-3-kolommen .field-items .field-item {
     width: 33.3%;
-    float: left; }
+    float: left;
+    box-sizing: border-box;
+    padding-right: 25px; }
 
 /*# sourceMappingURL=global.css.map */
