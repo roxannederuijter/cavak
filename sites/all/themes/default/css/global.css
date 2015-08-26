@@ -1038,6 +1038,8 @@ a {
   font-size: 15px; }
 
 .paragraphs-item-3-kolommen-video-s {
+  float: left;
+  width: 100%;
   border-bottom: 1px solid #f78b1f;
   margin-bottom: 20px; }
   .paragraphs-item-3-kolommen-video-s .field-name-field-2titel {
@@ -1053,6 +1055,8 @@ a {
       height: 300px; }
 
 .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 {
+  float: left;
+  width: 100%;
   border-bottom: 1px solid #f78b1f;
   font-size: 15px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {

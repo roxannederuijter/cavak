@@ -1209,6 +1209,8 @@ a {
 }
 
 .paragraphs-item-3-kolommen-video-s {
+  float: left;
+  width: 100%;
   border-bottom: 1px solid $orange;
   margin-bottom:20px;
   .field-name-field-2titel {
@@ -1233,6 +1235,8 @@ a {
 }
 
 .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 {
+  float: left;
+  width: 100%;
   border-bottom: 1px solid $orange;
   font-size:15px;
   .group-left {
