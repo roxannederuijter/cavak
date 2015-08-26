@@ -1242,12 +1242,27 @@ a {
   margin-bottom:20px;
   padding-bottom:20px;
   .group-left {
-    width:40%;
+    width:30%;
     float:left;
   }
   .group-right {
-    width:60%;
+    width:70%;
     float:left;
+  }
+}
+
+.paragraphs-item-2-kolommen-tekst-video {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid $orange;
+  font-size:15px;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  .group-left {
+    width:60%!important;
+  }
+  .group-right {
+    width:40%!important;
     .field-name-field-video {
       .field-items {
         .field-item {
@@ -1261,20 +1276,5 @@ a {
         }
       }
     }
-  }
-}
-
-.paragraphs-item-2-kolommen-tekst-video {
-  float: left;
-  width: 100%;
-  border-bottom: 1px solid $orange;
-  font-size:15px;
-  margin-bottom:20px;
-  padding-bottom:20px;
-  .group-left {
-    width:70%!important;
-  }
-  .group-right {
-    width:30%!important;
   }
 }
