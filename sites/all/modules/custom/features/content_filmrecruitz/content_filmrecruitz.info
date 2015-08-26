@@ -2,6 +2,7 @@ name = Content - Filmrecruitz
 core = 7.x
 package = Content
 dependencies[] = content_front
+dependencies[] = content_paragraph_bundels
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = field_bases

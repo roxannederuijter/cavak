@@ -426,12 +426,14 @@ function content_ds_settings_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'title',
         1 => 'body',
-        2 => 'webform',
+        2 => 'field_paragraph_s',
+        3 => 'webform',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
       'body' => 'ds_content',
+      'field_paragraph_s' => 'ds_content',
       'webform' => 'ds_content',
     ),
     'classes' => array(),
@@ -543,6 +545,46 @@ function content_ds_settings_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'paragraphs_item|2_kolommen_tekst_30_afbeelding_7|default';
+  $ds_layout->entity_type = 'paragraphs_item';
+  $ds_layout->bundle = '2_kolommen_tekst_30_afbeelding_7';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_2col_stacked_fluid';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'header' => array(
+        0 => 'field_2titel',
+      ),
+      'left' => array(
+        1 => 'field_tekst',
+      ),
+      'right' => array(
+        2 => 'field_afbeelding2',
+      ),
+    ),
+    'fields' => array(
+      'field_2titel' => 'header',
+      'field_tekst' => 'left',
+      'field_afbeelding2' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'header' => 'div',
+      'left' => 'div',
+      'right' => 'div',
+      'footer' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['paragraphs_item|2_kolommen_tekst_30_afbeelding_7|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'paragraphs_item|2_kolommen_tekst_afbeelding_link|default';
   $ds_layout->entity_type = 'paragraphs_item';
   $ds_layout->bundle = '2_kolommen_tekst_afbeelding_link';
@@ -609,6 +651,46 @@ function content_ds_settings_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'paragraphs_item|2_kolommen_tekst_video|default';
+  $ds_layout->entity_type = 'paragraphs_item';
+  $ds_layout->bundle = '2_kolommen_tekst_video';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_2col_stacked';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'header' => array(
+        0 => 'field_titel',
+      ),
+      'left' => array(
+        1 => 'field_tekst',
+      ),
+      'right' => array(
+        2 => 'field_video',
+      ),
+    ),
+    'fields' => array(
+      'field_titel' => 'header',
+      'field_tekst' => 'left',
+      'field_video' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'header' => 'div',
+      'left' => 'div',
+      'right' => 'div',
+      'footer' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['paragraphs_item|2_kolommen_tekst_video|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'paragraphs_item|2_kolommen_tekst|default';
   $ds_layout->entity_type = 'paragraphs_item';
   $ds_layout->bundle = '2_kolommen_tekst';
@@ -639,6 +721,51 @@ function content_ds_settings_ds_layout_settings_info() {
     'layout_link_custom' => '',
   );
   $export['paragraphs_item|2_kolommen_tekst|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'paragraphs_item|3_kolommen_tekst_video_tekst|default';
+  $ds_layout->entity_type = 'paragraphs_item';
+  $ds_layout->bundle = '3_kolommen_tekst_video_tekst';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_3col_stacked_equal_width';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'header' => array(
+        0 => 'field_titel',
+      ),
+      'left' => array(
+        1 => 'field_tekst',
+      ),
+      'middle' => array(
+        2 => 'field_video',
+      ),
+      'right' => array(
+        3 => 'field_tekst_rechts',
+      ),
+    ),
+    'fields' => array(
+      'field_titel' => 'header',
+      'field_tekst' => 'left',
+      'field_video' => 'middle',
+      'field_tekst_rechts' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'header' => 'div',
+      'left' => 'div',
+      'middle' => 'div',
+      'right' => 'div',
+      'footer' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['paragraphs_item|3_kolommen_tekst_video_tekst|default'] = $ds_layout;
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;

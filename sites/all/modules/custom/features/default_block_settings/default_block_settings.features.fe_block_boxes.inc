@@ -11,6 +11,66 @@ function default_block_settings_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'filmrecruitzcast';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'filmrecruitzcast';
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmrecruitz</h2>
+</div>
+
+<div class="blue">
+<h2>Cast</h2>
+</div>
+';
+
+  $export['filmrecruitzcast'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'filmrecruitzcrew';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'filmrecruitzcrew';
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmrecruitz</h2>
+</div>
+
+<div class="blue">
+<h2>Crew</h2>
+</div>
+';
+
+  $export['filmrecruitzcrew'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'filmrecruitzzoekopdracht';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'filmrecruitzzoekopdracht';
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmrecruitz</h2>
+</div>
+
+<div class="blue">
+<h2>Zoekopdracht</h2>
+</div>
+';
+
+  $export['filmrecruitzzoekopdracht'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'flimrecruitzinschrijven';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'flimrecruitzinschrijven';
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmrecruitz</h2>
+</div>
+
+<div class="blue">
+<h2>Inschrijven</h2>
+</div>
+';
+
+  $export['flimrecruitzinschrijven'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'googlemaps';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'googlemaps';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the views - Eenvoudige pagina feature.
+ */
+
+include_once 'views_eenvoudige_pagina.features.inc';

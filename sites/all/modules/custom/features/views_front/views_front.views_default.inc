@@ -31,7 +31,7 @@ function views_front_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Content: Afbeelding */
+  /* Field: Field: Afbeelding */
   $handler->display->display_options['fields']['field_afbeelding2']['id'] = 'field_afbeelding2';
   $handler->display->display_options['fields']['field_afbeelding2']['table'] = 'field_data_field_afbeelding2';
   $handler->display->display_options['fields']['field_afbeelding2']['field'] = 'field_afbeelding2';

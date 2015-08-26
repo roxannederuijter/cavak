@@ -172,7 +172,7 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'catogorie';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'categorie';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
@@ -189,6 +189,39 @@ function views_castcrew_views_default_views() {
   /* Display: Crew-page */
   $handler = $view->new_display('page', 'Crew-page', 'page_1');
   $handler->display->display_options['exposed_block'] = TRUE;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'crew' => 'crew',
+  );
+  /* Filter criterion: Content: catogorie cast/crew (field_catogorie_cast_crew) */
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['id'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['table'] = 'field_data_field_catogorie_cast_crew';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'categorie';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+  );
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['vocabulary'] = 'catogorie_cast_crew';
   $handler->display->display_options['path'] = 'filmrecruitz/crew';
 
   /* Display: Slideshow Blok */
@@ -280,7 +313,7 @@ function views_castcrew_views_default_views() {
     t('next ›'),
     t('last »'),
     t('Cast-page'),
-    t('catogorie'),
+    t('categorie'),
     t('Crew-page'),
     t('Slideshow Blok'),
     t('Cast/Crew'),

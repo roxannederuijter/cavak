@@ -57,7 +57,7 @@ function content_crew_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_ervaring',
-    'label' => 'Ervaring',
+    'label' => 'Vakgebied + Ervaring',
     'required' => 0,
     'settings' => array(
       'display_summary' => 0,
@@ -212,7 +212,7 @@ function content_crew_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '300_x_300_',
         ),
         'type' => 'image',
         'weight' => 0,
@@ -262,11 +262,11 @@ function content_crew_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Ervaring');
   t('Foto\'s');
   t('Naam');
   t('Over mij');
   t('Profielfoto');
+  t('Vakgebied + Ervaring');
   t('catogorie cast/crew');
 
   return $field_instances;

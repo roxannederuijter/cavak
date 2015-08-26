@@ -33,6 +33,11 @@ function views_news_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Header: Global: Unfiltered text */
+  $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['content'] = 'Newz';
   /* No results behavior: Global: Unfiltered text */
   $handler->display->display_options['empty']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['empty']['area_text_custom']['table'] = 'views';
@@ -83,6 +88,7 @@ function views_news_views_default_views() {
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['defaults']['use_more_text'] = FALSE;
   $handler->display->display_options['use_more_text'] = 'Meer niews';
+  $handler->display->display_options['defaults']['header'] = FALSE;
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
@@ -193,6 +199,7 @@ function views_news_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('Newz'),
     t('Frontpage-Block'),
     t('Meer niews'),
     t('Pagina'),

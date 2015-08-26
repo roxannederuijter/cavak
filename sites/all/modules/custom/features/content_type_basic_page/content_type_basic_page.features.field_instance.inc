@@ -220,7 +220,7 @@ function content_type_basic_page_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -242,6 +242,42 @@ function content_type_basic_page_field_default_field_instances() {
       'settings' => array(),
       'type' => 'field_collection_embed',
       'weight' => 43,
+    ),
+  );
+
+  // Exported field_instance: 'node-page-field_call_to_action'
+  $field_instances['node-page-field_call_to_action'] = array(
+    'bundle' => 'page',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_call_to_action',
+    'label' => 'call to action',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'field_collection',
+      'settings' => array(),
+      'type' => 'field_collection_embed',
+      'weight' => 45,
     ),
   );
 
@@ -320,6 +356,7 @@ function content_type_basic_page_field_default_field_instances() {
   t('Banner');
   t('Paragraph\'s');
   t('Titel');
+  t('call to action');
   t('link');
   t('tekst');
   t('titel onder afbeelding');

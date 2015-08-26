@@ -625,6 +625,28 @@ function field_bases_field_default_field_bases() {
     'type' => 'link_field',
   );
 
+  // Exported field_base: 'field_link_image'
+  $field_bases['field_link_image'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_link_image',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'linkimagefield',
+    'settings' => array(
+      'default_image' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'linkimagefield',
+  );
+
   // Exported field_base: 'field_naam'
   $field_bases['field_naam'] = array(
     'active' => 1,
@@ -837,6 +859,25 @@ function field_bases_field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'field_tekst_3_kolommen'
+  $field_bases['field_tekst_3_kolommen'] = array(
+    'active' => 1,
+    'cardinality' => 3,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_tekst_3_kolommen',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'text_long',
+  );
+
   // Exported field_base: 'field_tekst_lang'
   $field_bases['field_tekst_lang'] = array(
     'active' => 1,
@@ -922,6 +963,28 @@ function field_bases_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_video',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'image',
+    'settings' => array(
+      'default_image' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'image',
+  );
+
+  // Exported field_base: 'field_videos'
+  $field_bases['field_videos'] = array(
+    'active' => 1,
+    'cardinality' => 3,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_videos',
     'indexes' => array(
       'fid' => array(
         0 => 'fid',

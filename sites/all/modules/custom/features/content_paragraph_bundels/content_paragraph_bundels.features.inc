@@ -34,6 +34,11 @@ function content_paragraph_bundels_paragraphs_info() {
       'bundle' => '2_kolommen_tekst',
       'locked' => '1',
     ),
+    '2_kolommen_tekst_30_afbeelding_7' => array(
+      'name' => '2 kolommen tekst 30% - afbeelding 70%',
+      'bundle' => '2_kolommen_tekst_30_afbeelding_7',
+      'locked' => '1',
+    ),
     '2_kolommen_tekst_afbeelding_link' => array(
       'name' => '2 kolommen - Tekst + Afbeelding Links',
       'bundle' => '2_kolommen_tekst_afbeelding_link',
@@ -42,6 +47,26 @@ function content_paragraph_bundels_paragraphs_info() {
     '2_kolommen_tekst_afbeelding_rech' => array(
       'name' => '2 kolommen - Tekst + Afbeelding Rechts',
       'bundle' => '2_kolommen_tekst_afbeelding_rech',
+      'locked' => '1',
+    ),
+    '2_kolommen_tekst_video' => array(
+      'name' => '2 kolommen tekst - video',
+      'bundle' => '2_kolommen_tekst_video',
+      'locked' => '1',
+    ),
+    '3_kolommen_tekst' => array(
+      'name' => '3 kolommen - Tekst',
+      'bundle' => '3_kolommen_tekst',
+      'locked' => '1',
+    ),
+    '3_kolommen_tekst_video_tekst' => array(
+      'name' => '3 kolommen - tekst - video - tekst',
+      'bundle' => '3_kolommen_tekst_video_tekst',
+      'locked' => '1',
+    ),
+    '3_kolommen_video_s' => array(
+      'name' => '3 kolommen - videos',
+      'bundle' => '3_kolommen_video_s',
       'locked' => '1',
     ),
     'afbeelding_tekst_link_33_3_' => array(
