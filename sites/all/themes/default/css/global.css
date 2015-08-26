@@ -990,15 +990,15 @@ a {
 .view-id-banner .views-row {
   margin-bottom: -10px; }
 
-.block-block-3 {
+.block-block-3, .block-block-4 {
   width: 40%;
   float: left; }
-  .block-block-3 .orange h2 {
+  .block-block-3 .orange h2, .block-block-4 .orange h2 {
     color: #f78b1f;
     text-transform: uppercase;
     font-size: 50px;
     margin-bottom: 0; }
-  .block-block-3 .blue h2 {
+  .block-block-3 .blue h2, .block-block-4 .blue h2 {
     color: #3989c9;
     text-transform: uppercase;
     font-size: 50px;
