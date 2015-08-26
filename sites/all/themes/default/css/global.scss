@@ -1170,10 +1170,22 @@ a {
     .field-name-field-naam {
       font-size:24px;
       font-weight:700;
+      text-transform:uppercase;
     }
     .field-name-field-over-mij {
       font-size:15px;
       color:$blue;
+    }
+  }
+  .group-right {
+    .field-name-field-ervaring {
+      font-size:15px;
+      color:$blue;
+      .field-label {
+        text-transform:uppercase;
+        font-size:24px;
+        font-weight:700;
+      }
     }
   }
 }

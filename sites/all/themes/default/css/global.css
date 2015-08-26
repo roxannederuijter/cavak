@@ -1013,9 +1013,17 @@ a {
   width: 30% !important; }
   .context-filmrecruitz .group-middle .field-name-field-naam {
     font-size: 24px;
-    font-weight: 700; }
+    font-weight: 700;
+    text-transform: uppercase; }
   .context-filmrecruitz .group-middle .field-name-field-over-mij {
     font-size: 15px;
     color: #3989c9; }
+.context-filmrecruitz .group-right .field-name-field-ervaring {
+  font-size: 15px;
+  color: #3989c9; }
+  .context-filmrecruitz .group-right .field-name-field-ervaring .field-label {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700; }
 
 /*# sourceMappingURL=global.css.map */
