@@ -1242,12 +1242,25 @@ a {
   margin-bottom:20px;
   padding-bottom:20px;
   .group-left {
-    width:30%;
+    width:40%;
     float:left;
   }
   .group-right {
-    width:70%;
+    width:60%;
     float:left;
+    .field-name-field-video {
+      .field-items {
+        .field-item {
+          width:33.3%;
+          float:left;
+          iframe {
+            width:373px;
+            height:300px;
+
+          }
+        }
+      }
+    }
   }
 }
 
