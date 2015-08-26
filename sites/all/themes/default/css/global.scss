@@ -901,7 +901,7 @@ a {
 }
 
 .block-search {
-  width:53%;
+  width:50%;
   float:left;
   #search-block-form {
     width:87%;
@@ -1056,5 +1056,28 @@ a {
   a.active {
     width:100%;
     float:left;
+  }
+}
+
+.region-user-first {
+  .block-block-2 {
+    width:50%;
+    float:left;
+    a.mail:after {
+      content:"";
+      background-image:url('img/mail.png');
+      background-size:20px;
+      height:20px;
+      width:20px;
+      float:left;
+    }
+    a.home:after {
+      content:"";
+      background-image:url('img/home.png');
+      background-size:20px;
+      height:20px;
+      width:20px;
+      float:left;
+    }
   }
 }
