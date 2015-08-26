@@ -1088,3 +1088,35 @@ a {
     }
   }
 }
+
+.context-filmrecruitzz, .context-filmrecruitz {
+  .region-user-first {
+    .block-block-2 {
+      width:50%;
+      float:left;
+      a {
+        font-size:1px;
+        color:transparent;
+      }
+      a.mail:after {
+        content:"";
+        background-image:url('img/mailblue.png');
+        background-size: 25px;
+        height: 25px;
+        width: 25px;
+        float: left;
+        margin-top: 18px;
+        margin-right:4px;
+      }
+      a.home:after {
+        content:"";
+        background-image:url('img/homeblue.png');
+        background-size: 25px;
+        height: 25px;
+        width: 25px;
+        float: left;
+        margin-top: 18px;
+      }
+    }
+  }
+}
