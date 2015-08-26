@@ -511,6 +511,10 @@ a {
   width: 36% !important; }
   .context-nieuws .group-left img {
     float: left; }
+.context-nieuws .view-header {
+  color: #f78b1f;
+  font-size: 32px;
+  font-weight: 700; }
 
 .view-zinema .views-row {
   margin-bottom: 40px;
