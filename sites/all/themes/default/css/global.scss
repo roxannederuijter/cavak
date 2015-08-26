@@ -413,7 +413,30 @@ a {
 }
 
 /* Zinema */
-#block-views-exp-zinema-page, #block-views-exp-news-page-1 {
+#block-views-exp-zinema-page {
+  .views-widget-filter-field_catogorie_tid {
+    width:100%;
+    label[for=edit-field-catogorie-tid] {
+      margin-right:20px;
+      float:left;
+      font-size:16px;
+      font-weight:500;
+    }
+    label[for=edit-field-catogorie-tid]:after {
+      content:":";
+    }
+    .form-item {
+      float:left;
+      margin-right:15px;
+      label {
+        font-size:15px;
+        font-weight:100;
+      }
+    }
+  }
+}
+
+#block-views-exp-news-page-1 {
   .views-widget-filter-field_catogorie_tid {
     width:100%;
     label[for=edit-field-catogorie-tid] {
