@@ -1031,4 +1031,16 @@ a {
 .section-content {
   margin: 50px 0; }
 
+/* PARAGRAPHS */
+.paragraphs-item-2-kolommen-tekst-afbeelding-link {
+  font-size: 15px; }
+
+.paragraphs-item-3-kolommen-video-s .field-name-field-2titel {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px; }
+.paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item {
+  width: 33.3%;
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
