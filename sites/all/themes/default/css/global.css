@@ -588,6 +588,10 @@ a {
     width: 11%;
     float: left; }
 
+.webform-datepicker select {
+  width: 11%;
+  float: left; }
+
 .context-filmrecruitz input[type="submit"], .context-crew input[type="submit"], .context-cast input[type="submit"] {
   float: right;
   margin-right: 10%;

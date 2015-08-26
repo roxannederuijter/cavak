@@ -591,6 +591,13 @@ a {
   }
 }
 
+.webform-datepicker {
+  select {
+    width:11%;
+    float:left;
+  }
+}
+
 .context-filmrecruitz, .context-crew, .context-cast {
   input[type="submit"] {
     float: right;
