@@ -453,8 +453,10 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   color: #f78b1f;
-  font-size: 24px;
+  font-size: 34px;
   text-align: left; }
+  .paragraphs-item-quote .field-name-field-quotes .field-item {
+    width: 50%; }
 .paragraphs-item-quote .field-name-field-naam {
   text-align: right; }
 .paragraphs-item-quote .field-name-field-functie {

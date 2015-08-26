@@ -377,8 +377,11 @@ a {
     font-weight:700;
     text-transform:uppercase;
     color:$orange;
-    font-size:24px;
+    font-size:34px;
     text-align:left;
+    .field-item {
+      width:50%;
+    }
   }
   .field-name-field-naam {
     text-align:right;
