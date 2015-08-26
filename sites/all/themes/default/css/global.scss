@@ -664,14 +664,15 @@ a {
   }
   .views-field-field-profielfoto {
     margin-top: -300px;
+    width:83%;
   }
 
   .field-content.image-main {
     background-color:#3989c9;
     display:inline-block;
-    border-radius:5px;
+    border-radius:3px;
     img {
-      border-radius:5px;
+      border-radius:3px;
     }
   }
 

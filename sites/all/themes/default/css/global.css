@@ -644,13 +644,14 @@ a {
   z-index: 1;
   border-bottom: 1px solid; }
 .view-id-cast_crew .views-field-field-profielfoto {
-  margin-top: -300px; }
+  margin-top: -300px;
+  width: 83%; }
 .view-id-cast_crew .field-content.image-main {
   background-color: #3989c9;
   display: inline-block;
-  border-radius: 5px; }
+  border-radius: 3px; }
   .view-id-cast_crew .field-content.image-main img {
-    border-radius: 5px; }
+    border-radius: 3px; }
 .view-id-cast_crew .views-field-title {
   position: relative;
   display: inline-block;
