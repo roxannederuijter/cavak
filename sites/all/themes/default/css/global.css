@@ -924,6 +924,37 @@ a {
       font-size: 18px;
       text-transform: uppercase; }
 
+.view-id-eenvoudigepagina {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 5%;
+  float: left;
+  z-index: 997; }
+  .view-id-eenvoudigepagina .views-row {
+    position: relative;
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 12px;
+    background-color: rgba(70, 136, 200, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
+    .view-id-eenvoudigepagina .views-row a:after {
+      content: "";
+      background: url("img/arrow.jpg");
+      background-repeat: no-repeat;
+      background-size: 48px;
+      height: 51px;
+      width: 45px;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .view-id-eenvoudigepagina .views-row a {
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase; }
+
 .paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item {
   color: #3989c9; }
   .paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item .field-name-field-link-filmrecruitz a {
