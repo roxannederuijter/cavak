@@ -1392,3 +1392,17 @@ a.blue {
   padding:10px;
   color:#fff;
 }
+
+.field-name-field-tekst-3-kolommen {
+  float: left;
+  width: 100%;
+  font-size:15px;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  .field-items {
+    .field-item {
+      width:33.3%;
+      float:left;
+    }
+  }
+}
