@@ -72,7 +72,7 @@ function view_sponsors_views_default_views() {
   $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['header']['area_text_custom']['content'] = 'Cavak wordt ondersteund door:';
+  $handler->display->display_options['header']['area_text_custom']['content'] = 'Cavak wordt ondersteund door en werkt samen met:';
   /* Field: Field: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -117,7 +117,7 @@ function view_sponsors_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('Cavak wordt ondersteund door:'),
+    t('Cavak wordt ondersteund door en werkt samen met:'),
     t('Block'),
   );
   $export['sponsoren'] = $view;
