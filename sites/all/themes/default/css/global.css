@@ -1009,5 +1009,8 @@ a {
   width: 30% !important; }
   .context-filmrecruitz .group-left .field-name-field-profielfoto img {
     float: left; }
+  .context-filmrecruitz .group-left .field-name-field-naam {
+    font-size: 24px;
+    font-weight: 700; }
 
 /*# sourceMappingURL=global.css.map */
