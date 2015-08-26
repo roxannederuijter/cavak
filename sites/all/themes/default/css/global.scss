@@ -1070,18 +1070,20 @@ a {
     a.mail:after {
       content:"";
       background-image:url('img/mail.png');
-      background-size:20px;
-      height:20px;
-      width:20px;
-      float:left;
+      background-size: 25px;
+      height: 25px;
+      width: 25px;
+      float: left;
+      margin-top: 18px;
     }
     a.home:after {
       content:"";
       background-image:url('img/home.png');
-      background-size:20px;
-      height:20px;
-      width:20px;
-      float:left;
+      background-size: 25px;
+      height: 25px;
+      width: 25px;
+      float: left;
+      margin-top: 18px;
     }
   }
 }
