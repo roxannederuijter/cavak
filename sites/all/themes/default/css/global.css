@@ -647,7 +647,10 @@ a {
   margin-top: -300px; }
 .view-id-cast_crew .field-content.image-main {
   background-color: #3989c9;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 5px; }
+  .view-id-cast_crew .field-content.image-main img {
+    border-radius: 5px; }
 .view-id-cast_crew .views-field-title {
   position: relative;
   display: inline-block;

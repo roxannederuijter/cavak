@@ -668,6 +668,10 @@ a {
   .field-content.image-main {
     background-color:#3989c9;
     display:inline-block;
+    border-radius:5px;
+    img {
+      border-radius:5px;
+    }
   }
 
   .views-field-title{
