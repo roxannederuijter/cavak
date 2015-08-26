@@ -1132,3 +1132,17 @@ a {
     margin-bottom:-10px;
   }
 }
+
+.orange {
+  h2 {
+    color:$orange;
+    text-transform:uppercase;
+  }
+}
+
+.blue {
+  h2 {
+    color:$blue;
+    text-transform:uppercase;
+  }
+}

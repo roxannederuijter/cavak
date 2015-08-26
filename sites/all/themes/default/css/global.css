@@ -991,4 +991,12 @@ a {
 .view-id-banner .views-row {
   margin-bottom: -10px; }
 
+.orange h2 {
+  color: #f78b1f;
+  text-transform: uppercase; }
+
+.blue h2 {
+  color: #3989c9;
+  text-transform: uppercase; }
+
 /*# sourceMappingURL=global.css.map */
