@@ -19,5 +19,14 @@ function default_block_settings_default_fe_block_boxes() {
 
   $export['googlemaps'] = $fe_block_boxes;
 
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'headerlinks';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'headerlinks';
+  $fe_block_boxes->body = '<p><a class="mail" href="mailto:info@cavak.nl">mail</a> <a class="home" href="cavak.nl">home</a></p>
+';
+
+  $export['headerlinks'] = $fe_block_boxes;
+
   return $export;
 }

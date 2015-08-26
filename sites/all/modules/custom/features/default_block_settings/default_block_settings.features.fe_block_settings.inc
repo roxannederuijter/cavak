@@ -116,6 +116,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['block-headerlinks'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'headerlinks',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'user_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -20,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -311,7 +337,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'user_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -20,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
