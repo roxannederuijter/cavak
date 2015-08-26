@@ -475,19 +475,19 @@ a {
   height: auto; }
 
 /* Zinema */
-#block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid {
+#block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid, .block-views-exp-news-page-1 .views-widget-filter-field_catogorie_tid {
   width: 100%; }
-  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid] {
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid], .block-views-exp-news-page-1 .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid] {
     margin-right: 20px;
     float: left;
     font-size: 16px;
     font-weight: 500; }
-  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid]:after {
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid]:after, .block-views-exp-news-page-1 .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid]:after {
     content: ":"; }
-  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item {
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item, .block-views-exp-news-page-1 .views-widget-filter-field_catogorie_tid .form-item {
     float: left;
     margin-right: 15px; }
-    #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item label {
+    #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item label, .block-views-exp-news-page-1 .views-widget-filter-field_catogorie_tid .form-item label {
       font-size: 15px;
       font-weight: 100; }
 
