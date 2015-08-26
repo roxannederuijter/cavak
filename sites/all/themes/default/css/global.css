@@ -1042,5 +1042,8 @@ a {
 .paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item {
   width: 33.3%;
   float: left; }
+  .paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item iframe {
+    width: 300px;
+    height: 3; }
 
 /*# sourceMappingURL=global.css.map */
