@@ -696,7 +696,9 @@ a {
 
 .node-crew-cast .field-name-field-naam {
   font-size: 24px;
-  color: #000; }
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700; }
 .node-crew-cast .field-name-field-ervaring {
   color: #3989c9;
   font-size: 14px; }
