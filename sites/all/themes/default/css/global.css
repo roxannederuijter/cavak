@@ -1049,4 +1049,11 @@ a {
       width: 300px;
       height: 300px; }
 
+.paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {
+  width: 30%;
+  float: left; }
+.paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-right {
+  width: 70%;
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
