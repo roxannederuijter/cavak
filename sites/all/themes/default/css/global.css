@@ -508,7 +508,7 @@ a {
       font-weight: 100; }
 
 .context-nieuws .group-left {
-  width: 36%; }
+  width: 36% !important; }
   .context-nieuws .group-left img {
     float: left; }
 
