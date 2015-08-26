@@ -984,4 +984,7 @@ a {
     float: left;
     margin-top: 18px; }
 
+.view-id-banner .views-row {
+  margin-bottom: -10px; }
+
 /*# sourceMappingURL=global.css.map */
