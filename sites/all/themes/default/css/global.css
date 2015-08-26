@@ -1005,23 +1005,23 @@ a {
     font-size: 50px;
     margin-bottom: 0; }
 
-.context-filmrecruitz .group-left {
+.node-type-crew .group-left {
   width: 30% !important; }
-  .context-filmrecruitz .group-left .field-name-field-profielfoto img {
+  .node-type-crew .group-left .field-name-field-profielfoto img {
     float: left; }
-.context-filmrecruitz .group-middle {
+.node-type-crew .group-middle {
   width: 30% !important; }
-  .context-filmrecruitz .group-middle .field-name-field-naam {
+  .node-type-crew .group-middle .field-name-field-naam {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase; }
-  .context-filmrecruitz .group-middle .field-name-field-over-mij {
+  .node-type-crew .group-middle .field-name-field-over-mij {
     font-size: 15px;
     color: #3989c9; }
-.context-filmrecruitz .group-right .field-name-field-ervaring {
+.node-type-crew .group-right .field-name-field-ervaring {
   font-size: 15px;
   color: #3989c9; }
-  .context-filmrecruitz .group-right .field-name-field-ervaring .field-label {
+  .node-type-crew .group-right .field-name-field-ervaring .field-label {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
