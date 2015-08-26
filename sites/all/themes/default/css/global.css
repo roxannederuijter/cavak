@@ -731,7 +731,7 @@ a {
   .page-filmrecruitz-cast .block-webform .field-name-title a, .page-filmrecruitz-crew .block-webform .field-name-title a {
     background-color: #f78b1f;
     border-radius: 3px;
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 3px 20px;
     float: left;
