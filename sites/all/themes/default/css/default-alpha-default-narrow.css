@@ -56,6 +56,8 @@
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase; }
+.front .field-name-field-quotes::first-line, .context-filmrecruitzz .field-name-field-quotes::first-line {
+  color: #f78b1f; }
 
 .block-news-frontpage-block {
   display: inline-block;

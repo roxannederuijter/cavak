@@ -47,6 +47,9 @@
     line-height:1.1;
     text-transform:uppercase;
   }
+  .field-name-field-quotes::first-line {
+    color:$orange;
+  }
 }
 
 .block-news-frontpage-block {
