@@ -1140,10 +1140,9 @@ h2 {
   margin-bottom: 0;
   margin-top: 0; }
 
-.view-id-filmfestival {
-  background-color: red; }
-  .view-id-filmfestival .views-row {
-    width: 33.3%;
-    float: left; }
+.view-id-filmfestival .views-row {
+  width: 33.3%;
+  float: left;
+  text-align: center; }
 
 /*# sourceMappingURL=global.css.map */
