@@ -194,4 +194,10 @@
   float: right;
   margin-top: 3px; }
 
+.block-search {
+  width: 50%;
+  float: right; }
+  .block-search #search-block-form {
+    width: 87%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

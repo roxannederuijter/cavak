@@ -968,11 +968,7 @@ input[type="submit"] {
 }
 
 .block-search {
-  width:50%;
-  float:right;
-  #search-block-form {
-    width:87%;
-  }
+  display:none;
 }
 
 .field-name-field-content {

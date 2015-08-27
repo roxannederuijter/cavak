@@ -862,10 +862,7 @@ input[type="submit"] {
     width: 23%; }
 
 .block-search {
-  width: 50%;
-  float: right; }
-  .block-search #search-block-form {
-    width: 87%; }
+  display: none; }
 
 .field-name-field-content .field-item {
   width: 33.3%;
