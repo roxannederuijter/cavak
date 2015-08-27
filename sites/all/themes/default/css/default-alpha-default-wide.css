@@ -1,7 +1,7 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 .block-news-frontpage-block .views-row {
   margin-bottom: 8px;
-  width: 57%;
+  width: 62%;
   padding: 12px; }
   .block-news-frontpage-block .views-row .views-field-title a {
     font-size: 18px; }
