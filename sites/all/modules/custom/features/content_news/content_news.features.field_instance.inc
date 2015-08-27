@@ -66,10 +66,10 @@ function content_news_field_default_field_instances() {
         'weight' => 12,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'date',
         'settings' => array(
-          'format_type' => 'long',
+          'format_type' => 'news',
           'fromto' => 'both',
           'multiple_from' => '',
           'multiple_number' => '',

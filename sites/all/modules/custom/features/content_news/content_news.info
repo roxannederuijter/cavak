@@ -21,6 +21,7 @@ features[field_instance][] = node-news-field_image
 features[field_instance][] = node-news-field_paragraphs
 features[field_instance][] = node-news-field_samenvatting
 features[node][] = news
+features[variable][] = date_format_news
 features[variable][] = field_bundle_settings_node__news
 features[variable][] = language_content_type_news
 features[variable][] = menu_options_news
