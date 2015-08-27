@@ -1371,6 +1371,8 @@ h2 {
 }
 
 .view-id-filmfestival {
-  width:33.3%;
-  float:left;
+  .views-row {
+    width:33.3%;
+    float:left;
+  }
 }
