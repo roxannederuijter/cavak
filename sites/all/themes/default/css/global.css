@@ -1187,4 +1187,7 @@ a.blue {
     box-sizing: border-box;
     padding-right: 25px; }
 
+.node-type-news img {
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
