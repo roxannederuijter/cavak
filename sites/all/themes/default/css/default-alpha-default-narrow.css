@@ -77,14 +77,14 @@
 
 .block-news-frontpage-block {
   display: inline-block;
-  width: 70%;
+  width: 48%;
   position: absolute;
   right: 0px;
   top: 11%;
   float: right; }
   .block-news-frontpage-block .views-row {
     margin-bottom: 6px;
-    width: 85%;
+    width: 70%;
     padding: 4px;
     position: relative;
     background-color: black;
