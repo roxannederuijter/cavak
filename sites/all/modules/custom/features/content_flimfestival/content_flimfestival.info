@@ -16,7 +16,6 @@ features[features_api][] = api:2
 features[field_instance][] = node-filmfestival-body
 features[field_instance][] = node-filmfestival-field_afbeelding2
 features[field_instance][] = node-filmfestival-field_categorie_filmfestival
-features[field_instance][] = node-filmfestival-field_link
 features[field_instance][] = node-filmfestival-field_subtitel
 features[node][] = filmfestival
 features[variable][] = field_bundle_settings_node__filmfestival

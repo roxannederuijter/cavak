@@ -62,13 +62,6 @@ function views_filmfestival_views_default_views() {
   $handler->display->display_options['fields']['body']['field'] = 'body';
   $handler->display->display_options['fields']['body']['label'] = '';
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
-  /* Field: Content: link */
-  $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
-  $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
-  $handler->display->display_options['fields']['field_link']['label'] = '';
-  $handler->display->display_options['fields']['field_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_link']['click_sort_column'] = 'url';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -99,12 +92,73 @@ function views_filmfestival_views_default_views() {
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['vocabulary'] = 'categorie_filmfestival';
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['hierarchy'] = 1;
 
-  /* Display: Block filmfestival */
-  $handler = $view->new_display('block', 'Block filmfestival', 'block');
-
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
   $handler->display->display_options['path'] = 'filmfestival';
+
+  /* Display: Pagina online */
+  $handler = $view->new_display('page', 'Pagina online', 'page_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'online';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'filmfestival' => 'filmfestival',
+  );
+  /* Filter criterion: Content: categorie filmfestival (field_categorie_filmfestival) */
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['id'] = 'field_categorie_filmfestival_tid_1';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['table'] = 'field_data_field_categorie_filmfestival';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['field'] = 'field_categorie_filmfestival_tid';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['value'] = array(
+    20 => '20',
+  );
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['type'] = 'select';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['vocabulary'] = 'categorie_filmfestival';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['hierarchy'] = 1;
+  $handler->display->display_options['path'] = 'online';
+
+  /* Display: Pagina evenementen */
+  $handler = $view->new_display('page', 'Pagina evenementen', 'page_3');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Evenementen';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'filmfestival' => 'filmfestival',
+  );
+  /* Filter criterion: Content: categorie filmfestival (field_categorie_filmfestival) */
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['id'] = 'field_categorie_filmfestival_tid_1';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['table'] = 'field_data_field_categorie_filmfestival';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['field'] = 'field_categorie_filmfestival_tid';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['value'] = array(
+    19 => '19',
+  );
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['type'] = 'select';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['vocabulary'] = 'categorie_filmfestival';
+  $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['hierarchy'] = 1;
+  $handler->display->display_options['path'] = 'evenementen';
   $translatables['filmfestival'] = array(
     t('Master'),
     t('filmfestival'),
@@ -114,8 +168,11 @@ function views_filmfestival_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('Block filmfestival'),
     t('Pagina'),
+    t('Pagina online'),
+    t('online'),
+    t('Pagina evenementen'),
+    t('Evenementen'),
   );
   $export['filmfestival'] = $view;
 
