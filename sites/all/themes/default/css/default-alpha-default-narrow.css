@@ -301,4 +301,11 @@
   width: 50%;
   margin-top: 20px; }
 
+#block-views-filmrecruitz-switch a {
+  width: 50%;
+  float: left; }
+#block-views-filmrecruitz-switch a.active {
+  width: 100%;
+  float: left; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

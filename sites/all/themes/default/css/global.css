@@ -937,10 +937,7 @@ input[type="submit"] {
     width: 100%; }
 
 #block-views-filmrecruitz-switch a {
-  width: 50%;
-  float: left; }
-#block-views-filmrecruitz-switch a.active {
-  width: 100%;
+  width: 33.3%;
   float: left; }
 
 .region-user-first .block-block-2 {
