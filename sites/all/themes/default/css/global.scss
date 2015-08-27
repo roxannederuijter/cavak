@@ -56,15 +56,15 @@ a {
         border-right:2px solid $orange;
         margin:8px 0;
       }
-      li.first a {
-        padding:0 20px 0 0;
-      }
       a:hover {
         color:$orange;
       }
       a.active {
         color:$orange;
       }
+    }
+    li.first a {
+      padding:0 20px 0 0;
     }
     li.last {
       a {
