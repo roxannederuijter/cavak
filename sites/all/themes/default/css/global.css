@@ -1016,9 +1016,10 @@ input[type="submit"] {
 .region-user-first .block-block-2 {
   width: 16%;
   float: right;
-  margin-top: 3 a;
-    margin-top-font-size: 1px;
-    margin-top-color: transparent; }
+  margin-top: 3px; }
+  .region-user-first .block-block-2 a {
+    font-size: 1px;
+    color: transparent; }
   .region-user-first .block-block-2 a.mail:after {
     content: "";
     background-image: url("img/mail.png");
