@@ -1193,4 +1193,7 @@ a.blue {
   width: 100%;
   float: left; }
 
+.sticky-wrapper {
+  height: 0 !important; }
+
 /*# sourceMappingURL=global.css.map */
