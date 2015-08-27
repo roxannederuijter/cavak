@@ -1189,5 +1189,8 @@ a.blue {
 
 .node-type-news img {
   float: left; }
+.node-type-news .field-name-title {
+  width: 100%;
+  float: left; }
 
 /*# sourceMappingURL=global.css.map */
