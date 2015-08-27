@@ -200,4 +200,9 @@
   .block-search #search-block-form {
     width: 87%; }
 
+#block-views-sponsoren-block .views-slideshow-controls-text-previous {
+  top: 14%; }
+#block-views-sponsoren-block .views-slideshow-controls-text-next {
+  top: 14%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
