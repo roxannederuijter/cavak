@@ -1389,9 +1389,8 @@ h2 {
       font-weight: 700;
       font-size: 18px;
     }
+    a {
+      color:$orange!important;
+    }
   }
-}
-
-a:link {
-  color:$orange!important;
 }
