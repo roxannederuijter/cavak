@@ -934,35 +934,7 @@ input[type="submit"] {
     font-size: 60px; }
 
 .block-filmrecruitz-block {
-  display: inline-block;
-  width: 50%;
-  position: absolute;
-  right: 0;
-  top: 10%;
-  float: left;
-  z-index: 997; }
-  .block-filmrecruitz-block .views-row {
-    position: relative;
-    margin-bottom: 8px;
-    width: 59%;
-    padding: 12px;
-    background-color: rgba(70, 136, 200, 0.7);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
-    .block-filmrecruitz-block .views-row a:after {
-      content: "";
-      background: url("img/arrow.jpg");
-      background-repeat: no-repeat;
-      background-size: 48px;
-      height: 51px;
-      width: 45px;
-      position: absolute;
-      right: 0;
-      top: 0; }
-    .block-filmrecruitz-block .views-row a {
-      color: #fff;
-      font-size: 18px;
-      text-transform: uppercase; }
+  display: none; }
 
 .block-views-eenvoudigepagina-block {
   display: inline-block;
