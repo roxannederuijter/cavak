@@ -230,8 +230,8 @@ a {
   padding: 0 20px 0 20px;
   border-right: 2px solid #f78b1f;
   margin: 8px 0; }
-.block-superfish-1 ul li a.first {
-  padding: 0 20px 0; }
+.block-superfish-1 ul li li.first a {
+  padding: 0 20px 0 0; }
 .block-superfish-1 ul li a:hover {
   color: #f78b1f; }
 .block-superfish-1 ul li a.active {
