@@ -98,7 +98,7 @@ function content_ds_settings_ds_field_settings_info() {
       ),
     ),
     'node_link' => array(
-      'weight' => '3',
+      'weight' => '4',
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
@@ -392,13 +392,15 @@ function content_ds_settings_ds_layout_settings_info() {
       ),
       'right' => array(
         1 => 'title',
-        2 => 'field_samenvatting',
-        3 => 'node_link',
+        2 => 'field_date',
+        3 => 'field_samenvatting',
+        4 => 'node_link',
       ),
     ),
     'fields' => array(
       'field_image' => 'left',
       'title' => 'right',
+      'field_date' => 'right',
       'field_samenvatting' => 'right',
       'node_link' => 'right',
     ),

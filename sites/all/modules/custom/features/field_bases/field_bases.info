@@ -30,6 +30,7 @@ features[field_base][] = field_catogorie
 features[field_base][] = field_catogorie_cast_crew
 features[field_base][] = field_content
 features[field_base][] = field_crew
+features[field_base][] = field_date
 features[field_base][] = field_datum
 features[field_base][] = field_ervaring
 features[field_base][] = field_file_image_alt_text
