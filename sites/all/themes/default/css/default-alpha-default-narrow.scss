@@ -65,6 +65,7 @@
     font-weight:700;
     line-height:1.1;
     text-transform:uppercase;
+    left:4%;
   }
   .field-name-field-quotes::first-line {
     color:$orange;
@@ -73,7 +74,7 @@
 
 .block-news-frontpage-block {
   display: inline-block;
-  width: 48%;
+  width: 70%;
   position: absolute;
   right: 0px;
   top: 11%;
@@ -235,6 +236,14 @@
 .view-display-id-page_1 {
   .views-row {
     margin-bottom:20px;
+  }
+}
+
+.region-user-first {
+  .block-block-2 {
+    width:28%;
+    float:right;
+    margin-top:3px;
   }
 }
 

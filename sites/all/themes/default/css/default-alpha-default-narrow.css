@@ -70,13 +70,14 @@
   text-shadow: 1px 1px 1px #050505;
   font-weight: 700;
   line-height: 1.1;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  left: 4%; }
 .field-collection-item-field-banner .field-name-field-quotes::first-line {
   color: #f78b1f; }
 
 .block-news-frontpage-block {
   display: inline-block;
-  width: 48%;
+  width: 70%;
   position: absolute;
   right: 0px;
   top: 11%;
@@ -187,5 +188,10 @@
 /* news */
 .view-display-id-page_1 .views-row {
   margin-bottom: 20px; }
+
+.region-user-first .block-block-2 {
+  width: 28%;
+  float: right;
+  margin-top: 3px; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
