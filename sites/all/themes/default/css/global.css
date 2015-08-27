@@ -1156,7 +1156,7 @@ h2 {
     font-weight: 700;
     font-size: 18px; }
 
-a {
+a:link {
   color: #f78b1f !important; }
 
 /*# sourceMappingURL=global.css.map */
