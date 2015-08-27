@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Flimfestival feature.
+ */
+
+include_once 'content_flimfestival.features.inc';
