@@ -1157,6 +1157,6 @@ h2 {
     font-size: 18px; }
 
 a {
-  color: #f78b1f; }
+  color: #f78b1f !important; }
 
 /*# sourceMappingURL=global.css.map */
