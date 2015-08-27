@@ -302,7 +302,7 @@ a {
 .block-superfish-2 {
   float: left;
   padding-bottom: 10px;
-  width: 50%;
+  width: 0%;
   margin-top: 20px; }
   .block-superfish-2 h2.block-title {
     float: left;
@@ -996,7 +996,7 @@ input[type="submit"] {
   margin-bottom: -10px; }
 
 .block-block-3, .block-block-4, .block-block-5, .block-block-6 {
-  width: 50%;
+  width: 100%;
   float: left; }
   .block-block-3 .orange h2, .block-block-4 .orange h2, .block-block-5 .orange h2, .block-block-6 .orange h2 {
     color: #f78b1f;
