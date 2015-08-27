@@ -70,8 +70,7 @@
   text-shadow: 1px 1px 1px #050505;
   font-weight: 700;
   line-height: 1.1;
-  text-transform: uppercase;
-  left: 4%; }
+  text-transform: uppercase; }
 .field-collection-item-field-banner .field-name-field-quotes::first-line {
   color: #f78b1f; }
 
