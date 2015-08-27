@@ -302,7 +302,7 @@ a {
 .block-superfish-2 {
   float: left;
   padding-bottom: 10px;
-  width: 0%;
+  width: 100%;
   margin-top: 20px; }
   .block-superfish-2 h2.block-title {
     float: left;
