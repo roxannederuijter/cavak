@@ -198,9 +198,6 @@ input[type="button"]:hover,
 a {
   color: #f78b1f; }
 
-.zone-content-wrapper {
-  padding: 50px 0; }
-
 #zone-menu-wrapper {
   background-color: #000; }
 
@@ -1130,5 +1127,8 @@ a.blue {
 
 .sticky-wrapper {
   height: 0 !important; }
+
+.zone-preface-wrapper {
+  padding-top: 50px; }
 
 /*# sourceMappingURL=global.css.map */
