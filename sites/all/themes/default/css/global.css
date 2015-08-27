@@ -865,11 +865,11 @@ input[type="submit"] {
   display: none; }
 
 .field-name-field-content .field-item {
-  width: 33.3%;
+  width: 100%;
   float: left;
   color: #fff;
   box-sizing: border-box;
-  padding-right: 4%; }
+  padding-right: 0%; }
   .field-name-field-content .field-item .field-item {
     width: 100%; }
   .field-name-field-content .field-item .field-name-field-titel {

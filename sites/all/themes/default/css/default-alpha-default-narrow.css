@@ -242,4 +242,11 @@
       font-size: 18px;
       text-transform: uppercase; }
 
+.field-name-field-content .field-item {
+  width: 33.3%;
+  float: left;
+  color: #fff;
+  box-sizing: border-box;
+  padding-right: 4%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
