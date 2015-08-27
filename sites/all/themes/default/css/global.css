@@ -1,58 +1,1162 @@
-/*
-Error: Invalid CSS after "    padding": expected ";", was ": 7px;"
-        on line 1380 of global.scss
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body {
+  font-size: 100%;
+  font-family: "Ruda", sans-serif; }
 
-1375:     width: 33.3%;
-1376:     float: left;
-1377:     text-align: center;
-1378:     box-sizing: border-box;
-1379:     height:325
-1380:     padding: 7px;
-1381:     .views-field-title {
-1382:       font-size: 24px;
-1383:       font-weight: 700;
-1384:       padding-bottom: 10px;
-1385:     }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
 
-Backtrace:
-global.scss:1380
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1162:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1098:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1093:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:758:in `block in try_declaration'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1138:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1138:in `rethrow'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:763:in `try_declaration'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:693:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:650:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:647:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:632:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:657:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:650:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:393:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin.rb:82:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/bin/scss:13:in `<top (required)>'
-/usr/bin/scss:23:in `load'
-/usr/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    padding\": expected \";\", was \": 7px;\"\A         on line 1380 of global.scss\A \A 1375:     width: 33.3%;\A 1376:     float: left;\A 1377:     text-align: center;\A 1378:     box-sizing: border-box;\A 1379:     height:325\A 1380:     padding: 7px;\A 1381:     .views-field-title {\A 1382:       font-size: 24px;\A 1383:       font-weight: 700;\A 1384:       padding-bottom: 10px;\A 1385:     }"; }
+.logo-img {
+  margin: 0;
+  max-width: 100%; }
+
+h1 {
+  font-size: 2em;
+  font-weight: 800; }
+
+h2 {
+  font-size: 1.6em;
+  font-weight: 600; }
+
+h2.block-title {
+  font-size: 1.6em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.4em; }
+
+h4 {
+  font-size: 1.2em; }
+
+h5 {
+  font-size: 1em; }
+
+h1, h2, h2.block-title, h3, h4, h5 {
+  font-family: "Ruda", sans-serif; }
+
+h3, h4, h5 {
+  font-weight: 400; }
+
+p, a, a:link {
+  font-family: "Ruda", sans-serif;
+  font-size: 1em;
+  text-decoration: none; }
+
+a, a:link {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+a:hover, a:link:hover {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.fa:before {
+  margin-right: 0.5em;
+  font-family: FontAwesome; }
+
+label {
+  font-weight: normal; }
+
+.form-textarea-wrapper textarea,
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: 1px solid #e0e0e0;
+  padding: 1.5%;
+  outline: none;
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+  max-width: 100%;
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  height: auto;
+  width: 80%; }
+
+.form-textarea-wrapper .grippie {
+  width: 80%; }
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.node-links ul li a {
+  text-shadow: none;
+  padding: 2% 4%;
+  display: inline-block;
+  border: none;
+  background: #dddddd;
+  border-radius: 5px;
+  box-shadow: none; }
+
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.node-links ul li a:hover {
+  background: #cccccc; }
+
+#superfish-1-select {
+  width: 100%;
+  border-radius: 0;
+  padding-left: 40px;
+  background: #fff url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  border: #ccc;
+  background-size: 20px;
+  color: #000; }
+
+.ds-2col > .group-left {
+  float: left;
+  width: 100%; }
+
+.ds-2col > .group-right {
+  float: left;
+  width: 100%; }
+
+.field-name-field-paragraph-s,
+.paragraphs-item-1-kolom-afbeelding,
+.paragraphs-item-1-kolom-tekst,
+.paragraphs-item-2-kolommen-afbeeldingen,
+.paragraphs-item-2-kolommen-tekst,
+.paragraphs-item-2-kolommen-tekst-afbeelding-link,
+.paragraphs-item-2-kolommen-tekst-afbeelding-rech {
+  float: left;
+  width: 100%; }
+  .field-name-field-paragraph-s .ds-2col > .group-left,
+  .field-name-field-paragraph-s .ds-2col > .group-right,
+  .paragraphs-item-1-kolom-afbeelding .ds-2col > .group-left,
+  .paragraphs-item-1-kolom-afbeelding .ds-2col > .group-right,
+  .paragraphs-item-1-kolom-tekst .ds-2col > .group-left,
+  .paragraphs-item-1-kolom-tekst .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-afbeeldingen .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-afbeeldingen .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-tekst .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-right {
+    width: 100%; }
+  .field-name-field-paragraph-s .field-name-field-tekst-lang,
+  .field-name-field-paragraph-s .field-name-field-tekst-rechts,
+  .field-name-field-paragraph-s .field-name-field-afbeelding,
+  .field-name-field-paragraph-s .field-name-field-afbeelding-rechts,
+  .paragraphs-item-1-kolom-afbeelding .field-name-field-tekst-lang,
+  .paragraphs-item-1-kolom-afbeelding .field-name-field-tekst-rechts,
+  .paragraphs-item-1-kolom-afbeelding .field-name-field-afbeelding,
+  .paragraphs-item-1-kolom-afbeelding .field-name-field-afbeelding-rechts,
+  .paragraphs-item-1-kolom-tekst .field-name-field-tekst-lang,
+  .paragraphs-item-1-kolom-tekst .field-name-field-tekst-rechts,
+  .paragraphs-item-1-kolom-tekst .field-name-field-afbeelding,
+  .paragraphs-item-1-kolom-tekst .field-name-field-afbeelding-rechts,
+  .paragraphs-item-2-kolommen-afbeeldingen .field-name-field-tekst-lang,
+  .paragraphs-item-2-kolommen-afbeeldingen .field-name-field-tekst-rechts,
+  .paragraphs-item-2-kolommen-afbeeldingen .field-name-field-afbeelding,
+  .paragraphs-item-2-kolommen-afbeeldingen .field-name-field-afbeelding-rechts,
+  .paragraphs-item-2-kolommen-tekst .field-name-field-tekst-lang,
+  .paragraphs-item-2-kolommen-tekst .field-name-field-tekst-rechts,
+  .paragraphs-item-2-kolommen-tekst .field-name-field-afbeelding,
+  .paragraphs-item-2-kolommen-tekst .field-name-field-afbeelding-rechts,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .field-name-field-tekst-lang,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .field-name-field-tekst-rechts,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .field-name-field-afbeelding,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .field-name-field-afbeelding-rechts,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-tekst-lang,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-tekst-rechts,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
+    margin-bottom: 20px; }
+
+/* Algemeen */
+a {
+  color: #f78b1f; }
+
+#zone-menu-wrapper {
+  background-color: #000; }
+
+#zone-branding-wrapper {
+  padding: 10px 0 20px 0;
+  background-color: #fff; }
+
+#zone-header {
+  width: 100%; }
+  #zone-header #region-header-first {
+    width: 100%;
+    margin: 0 auto; }
+    #zone-header #region-header-first .field-name-field-image img {
+      width: 100%; }
+
+.zone-footer-wrapper {
+  background-color: #161515;
+  padding: 50px 0; }
+
+/* Menu */
+.block-superfish-1 ul li a {
+  font-family: "Ruda", sans-serif;
+  font-size: 0.938em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 15px 0 15px;
+  border-right: 2px solid #f78b1f;
+  margin: 8px 0; }
+.block-superfish-1 ul li a:hover {
+  color: #f78b1f; }
+.block-superfish-1 ul li a.active {
+  color: #f78b1f; }
+.block-superfish-1 ul li.first a {
+  padding: 0 20px 0 0; }
+.block-superfish-1 ul li.last a {
+  border-right: 0; }
+
+#superfish-1-select {
+  background-color: #000;
+  color: #fff; }
+
+/* Slideshow */
+#block-views-sponsoren-block {
+  position: relative;
+  margin: 50px 0; }
+  #block-views-sponsoren-block .views_slideshow_cycle_main {
+    width: 80%;
+    margin: 0 auto;
+    float: none; }
+  #block-views-sponsoren-block .views-row {
+    padding-right: 2%;
+    float: left;
+    margin: 0 auto;
+    width: 23%; }
+  #block-views-sponsoren-block .views-slideshow-controls-text-previous {
+    display: block;
+    position: absolute;
+    top: 32%;
+    left: 0px;
+    z-index: 100;
+    background: url("img/la.jpg") no-repeat center;
+    background-size: 16px;
+    width: 41px;
+    height: 100px;
+    text-indent: -9999px; }
+  #block-views-sponsoren-block .views-slideshow-controls-text-pause {
+    display: none; }
+  #block-views-sponsoren-block .views-slideshow-controls-text-next {
+    display: block;
+    position: absolute;
+    top: 32%;
+    right: 0px;
+    z-index: 100;
+    text-indent: -9999px;
+    background: url("img/ra.jpg") no-repeat center;
+    background-size: 16px;
+    width: 41px;
+    height: 100px; }
+  #block-views-sponsoren-block .views-slideshow-controls-text-previous:hover {
+    background: url("img/la-hover.jpg") no-repeat center;
+    background-size: 16px;
+    width: 41px;
+    height: 100px; }
+  #block-views-sponsoren-block .views-slideshow-controls-text-next:hover {
+    background: url("img/ra-hover.jpg") no-repeat center;
+    background-size: 16px;
+    width: 41px;
+    height: 100px; }
+
+/* Banner */
+.front .field-name-field-quotes {
+  display: none; }
+
+.block-news-frontpage-block {
+  display: none; }
+
+.views-field-field-banner {
+  display: none; }
+
+/* Nieuws */
+.block-superfish-2 {
+  float: left;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 20px; }
+  .block-superfish-2 h2.block-title {
+    float: left;
+    font-size: 18px;
+    padding-bottom: 0; }
+  .block-superfish-2 ul li {
+    margin: 0;
+    margin-left: 0px; }
+    .block-superfish-2 ul li a {
+      font-size: 18px;
+      padding: 0px 11px;
+      font-weight: 700;
+      color: #3989c9;
+      text-transform: uppercase;
+      border-right: 1px solid #3989c9; }
+    .block-superfish-2 ul li a.active {
+      color: #3989c9; }
+  .block-superfish-2 ul li.first a {
+    padding-left: 0; }
+  .block-superfish-2 ul li.last a {
+    border-right: none; }
+
+/* Home */
+.front .view-header {
+  margin-bottom: 9px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f78b1f;
+  text-transform: uppercase; }
+.front .zone-content-wrapper {
+  background-color: #161515;
+  padding: 50px 0; }
+  .front .zone-content-wrapper .block-main {
+    width: 100%;
+    float: left; }
+    .front .zone-content-wrapper .block-main .group-left {
+      width: 100%; }
+    .front .zone-content-wrapper .block-main .node-front h2 {
+      font-size: 18px;
+      color: #fff;
+      text-transform: uppercase; }
+    .front .zone-content-wrapper .block-main .node-front .field-name-body {
+      font-size: 14px;
+      color: #fff; }
+    .front .zone-content-wrapper .block-main .node-front .field-name-field-film iframe {
+      width: 100%;
+      height: auto; }
+  .front .zone-content-wrapper .block-views-agenda-block {
+    width: 100%;
+    float: left;
+    color: #f78b1f; }
+    .front .zone-content-wrapper .block-views-agenda-block a {
+      color: #f78b1f; }
+.front .zone-postscript {
+  width: 100%; }
+.front .region-postscript-first {
+  width: 100%;
+  margin: 0; }
+  .front .region-postscript-first img {
+    width: 100%;
+    margin: 0 auto; }
+.front #region-postscript-first {
+  width: 100%; }
+
+.context-contact .zone-postscript {
+  width: 100%; }
+.context-contact .region-postscript-first {
+  width: 100%;
+  margin: 0; }
+.context-contact #region-postscript-first {
+  width: 100%; }
+
+/* Agenda */
+.front #block-views-agenda-block h2.block-title {
+  text-transform: uppercase;
+  padding-bottom: 18px; }
+.front #block-views-agenda-block .views-field-field-datum, .front #block-views-agenda-block .views-field-title {
+  font-size: 14px; }
+.front #block-views-agenda-block .views-field-field-datum {
+  width: 30%;
+  float: left; }
+.front #block-views-agenda-block .views-field-title {
+  width: 70%;
+  float: left; }
+.front #block-views-agenda-block .views-row-last {
+  padding: 50px 0; }
+
+.context-eventz .view-agenda .views-row {
+  width: 100%;
+  margin-bottom: 50px;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  padding: 2%; }
+  .context-eventz .view-agenda .views-row .field-name-field-datum {
+    width: 100%;
+    float: left;
+    color: #f78b1f;
+    text-align: center; }
+  .context-eventz .view-agenda .views-row .field-name-title {
+    width: 100%;
+    float: left;
+    text-align: center; }
+    .context-eventz .view-agenda .views-row .field-name-title h2 {
+      font-size: 16px; }
+  .context-eventz .view-agenda .views-row .field-name-field-inhoud {
+    text-align: center;
+    height: 150px; }
+  .context-eventz .view-agenda .views-row .field-name-node-link {
+    background-color: #000;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center; }
+    .context-eventz .view-agenda .views-row .field-name-node-link a {
+      color: #fff;
+      font-size: 12px; }
+
+.node-agenda .field-name-field-inhoud {
+  margin-top: 20px; }
+.node-agenda .field-name-field-afbeelding3 {
+  width: 100%;
+  float: left; }
+  .node-agenda .field-name-field-afbeelding3 img {
+    float: left; }
+
+.button input[type="button"] {
+  padding: 6px 9px;
+  background: #000;
+  border-radius: 0px;
+  color: #fff;
+  margin-top: 30px; }
+
+/* Footer */
+#block-bean-logo-0 img, #block-bean-socialmedia img {
+  float: right; }
+
+#block-bean-socialmedia {
+  margin-top: 20px; }
+  #block-bean-socialmedia img {
+    padding-right: 1%; }
+  #block-bean-socialmedia .field-name-field-link-image {
+    float: right;
+    width: 100%; }
+
+/* Paragraphs */
+.paragraphs-item-quote .field-name-field-quotes {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f78b1f;
+  font-size: 34px;
+  text-align: left; }
+  .paragraphs-item-quote .field-name-field-quotes .field-item {
+    width: 50%; }
+.paragraphs-item-quote .field-name-field-naam {
+  text-align: right; }
+.paragraphs-item-quote .field-name-field-functie {
+  text-align: right; }
+
+.entity-paragraphs-item .field-name-field-titel {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 2em;
+  margin-top: 20px; }
+.entity-paragraphs-item .field-name-field-afbeelding img {
+  float: left; }
+.entity-paragraphs-item .field-name-field-video iframe {
+  width: 100%;
+  height: auto; }
+
+/* Zinema */
+#block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid {
+  width: 100%; }
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid] {
+    margin-right: 20px;
+    float: left;
+    font-size: 16px;
+    font-weight: 500; }
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid]:after {
+    content: ":"; }
+  #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item {
+    float: left;
+    margin-right: 15px; }
+    #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item label {
+      font-size: 15px;
+      font-weight: 100; }
+
+#block-views-exp-news-page-1 .views-widget-filter-field_categorie_tid {
+  width: 100%; }
+  #block-views-exp-news-page-1 .views-widget-filter-field_categorie_tid label[for=edit-field-categorie-tid] {
+    margin-right: 20px;
+    float: left;
+    font-size: 16px;
+    font-weight: 500; }
+  #block-views-exp-news-page-1 .views-widget-filter-field_categorie_tid label[for=edit-field-catogorie-tid]:after {
+    content: ":"; }
+  #block-views-exp-news-page-1 .views-widget-filter-field_categorie_tid .form-item {
+    float: left;
+    margin-right: 15px; }
+    #block-views-exp-news-page-1 .views-widget-filter-field_categorie_tid .form-item label {
+      font-size: 15px;
+      font-weight: 100; }
+
+.context-nieuws .group-left {
+  width: 36% !important; }
+  .context-nieuws .group-left img {
+    float: left; }
+.context-nieuws .view-header {
+  color: #f78b1f;
+  font-size: 32px;
+  font-weight: 700; }
+
+.view-zinema .views-row {
+  margin-bottom: 40px;
+  width: 100%;
+  float: left;
+  height: auto; }
+  .view-zinema .views-row iframe.media-youtube-player {
+    width: 100%;
+    height: auto; }
+  .view-zinema .views-row .views-field-title {
+    width: 100%;
+    float: left; }
+    .view-zinema .views-row .views-field-title a {
+      color: #000; }
+    .view-zinema .views-row .views-field-title a:hover {
+      color: #f78b1f;
+      text-decoration: underline; }
+  .view-zinema .views-row .views-field-field-catogorie {
+    width: 100%;
+    float: left;
+    color: #f78b1f; }
+
+.node-zinema iframe.media-youtube-player {
+  width: 100%;
+  height: auto; }
+
+.pager li.pager-next a {
+  width: 70px; }
+
+/* Cavak */
+.view-id-cavak .views-field-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  font-size: 30px; }
+
+.views-field-field-crew img {
+  float: left; }
+
+/* Contact */
+.context-contact .zone-postscript p {
+  margin-bottom: 0; }
+.context-contact .zone-postscript iframe {
+  height: 180px; }
+
+/* Sticky menu */
+.admin-menu .is-sticky .zone-menu-wrapper {
+  top: 28px !important; }
+.admin-menu .zone-menu-wrapper {
+  top: 104px; }
+
+.zone-menu-wrapper {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 997; }
+
+.is-sticky .zone-menu-wrapper {
+  top: 0 !important; }
+
+/* Filmrecruitz */
+.context-filmrecruitz #zone-branding-wrapper {
+  padding: 10px 0 20px 0;
+  background-color: #3989c9; }
+.context-filmrecruitz .zone-footer-wrapper {
+  background-color: #3989c9; }
+
+.context-filmrecruitzz #zone-content-wrapper {
+  background-color: #3989c9; }
+.context-filmrecruitzz #zone-branding-wrapper {
+  padding: 10px 0 20px 0;
+  background-color: #3989c9; }
+.context-filmrecruitzz .zone-footer-wrapper {
+  background-color: #3989c9; }
+.context-filmrecruitzz .field-name-title {
+  width: 100%;
+  text-align: center; }
+  .context-filmrecruitzz .field-name-title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100; }
+
+.bean-filmrecruitz-button {
+  margin-top: 50px; }
+  .bean-filmrecruitz-button .field-items .field-item {
+    float: left;
+    margin-right: 20px; }
+
+/* Webform */
+.webform-component--persoonsgegevens, .webform-component--over-mij {
+  float: left;
+  width: 100%; }
+  .webform-component--persoonsgegevens span.fieldset-legend, .webform-component--over-mij span.fieldset-legend {
+    color: #3989c9; }
+  .webform-component--persoonsgegevens label, .webform-component--over-mij label {
+    font-size: 12px; }
+  .webform-component--persoonsgegevens .webform-datepicker select, .webform-component--over-mij .webform-datepicker select {
+    width: 11%;
+    float: left; }
+
+.webform-datepicker select {
+  width: 11%;
+  float: left; }
+
+.context-filmrecruitz input[type="submit"], .context-crew input[type="submit"], .context-cast input[type="submit"] {
+  float: right;
+  margin-right: 10%;
+  background-color: orange;
+  padding: 9px 11px;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 100; }
+
+input[type="submit"] {
+  float: right;
+  margin-right: 10%;
+  background-color: orange;
+  padding: 9px 11px;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 100; }
+
+.context-contact input[type="submit"] {
+  margin-right: 10%;
+  background-color: orange;
+  padding: 9px 11px;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 100; }
+
+/* Search block */
+#search-block-form {
+  margin-top: 20px; }
+  #search-block-form input[type="submit"] {
+    background: none;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    right: 0; }
+  #search-block-form input[type="text"] {
+    background-color: #f78b1f;
+    width: 100%;
+    border: none;
+    padding-bottom: 10px; }
+
+.branding-data {
+  width: 50%;
+  float: left; }
+
+#search-block-form {
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+  position: relative; }
+
+.view-id-cast_crew .views-row {
+  width: 25%;
+  float: left;
+  position: relative; }
+.view-id-cast_crew .views-field-field-naam {
+  display: none;
+  position: absolute;
+  top: 85px;
+  left: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  z-index: 1;
+  border-bottom: 1px solid; }
+.view-id-cast_crew .views-field-field-profielfoto {
+  margin-top: -300px;
+  width: 83%; }
+.view-id-cast_crew .field-content.image-main {
+  background-color: #3989c9;
+  display: inline-block;
+  border-radius: 3px; }
+  .view-id-cast_crew .field-content.image-main img {
+    border-radius: 3px; }
+.view-id-cast_crew .views-field-title {
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  width: 100%;
+  z-index: 5; }
+  .view-id-cast_crew .views-field-title span {
+    display: none; }
+
+.views-widget-filter-field_catogorie_cast_crew_tid {
+  width: 100%; }
+  .views-widget-filter-field_catogorie_cast_crew_tid label[for=edit-field-catogorie-cast-crew-tid] {
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    float: left; }
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid .form-item {
+    background-color: gray;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float: left;
+    margin: 0 10px;
+    float: left; }
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid .form-item.highlight {
+    float: left;
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float: left;
+    margin: 0 10px; }
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="checkbox"] {
+    display: none; }
+
+.node-crew-cast .field-name-field-naam {
+  font-size: 24px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700; }
+.node-crew-cast .field-name-field-ervaring {
+  color: #3989c9;
+  font-size: 14px; }
+  .node-crew-cast .field-name-field-ervaring .field-label {
+    font-size: 16px;
+    font-weight: 100; }
+.node-crew-cast .field-name-field-over-mij {
+  color: #3989c9;
+  font-size: 14px; }
+  .node-crew-cast .field-name-field-over-mij .field-label {
+    font-size: 16px;
+    font-weight: 100; }
+.node-crew-cast .field-name-field-foto-s img {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 31px;
+  padding-bottom: 31px; }
+
+.context-filmrecruitzz .block-superfish-2 {
+  display: none; }
+
+.block-views-exp-cast-crew-page, .block-views-exp-cast-crew-page-1 {
+  width: 61%;
+  float: left; }
+
+.page-filmrecruitz-cast .block-webform, .page-filmrecruitz-crew .block-webform {
+  width: 15%;
+  float: left;
+  margin-bottom: 27px;
+  margin-top: 19px; }
+  .page-filmrecruitz-cast .block-webform .field-name-title a, .page-filmrecruitz-crew .block-webform .field-name-title a {
+    background-color: #f78b1f;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    padding: 3px 20px;
+    float: left;
+    margin: 0 10px;
+    float: left;
+    font-size: 16px;
+    margin-top: -11px; }
+
+/* jury */
+.field-name-field-jury .field-items .field-item {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 2px; }
+  .field-name-field-jury .field-items .field-item .field-item {
+    width: 100%; }
+
+.paragraphs-item-jury .field-name-field-naam {
+  font-size: 26px;
+  font-weight: 700; }
+.paragraphs-item-jury .field-name-field-functie {
+  font-weight: 700;
+  font-size: 18px;
+  color: #f78b1f; }
+.paragraphs-item-jury .field-name-field-tekst {
+  padding: 0 15px; }
+
+.paragraphs-item-links-titels-rechts-quote {
+  margin-bottom: 50px; }
+  .paragraphs-item-links-titels-rechts-quote .field-name-field-titel {
+    color: #f78b1f;
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .paragraphs-item-links-titels-rechts-quote .field-name-field-subtitel {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px; }
+  .paragraphs-item-links-titels-rechts-quote .field-name-field-quote {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center; }
+    .paragraphs-item-links-titels-rechts-quote .field-name-field-quote .field-item {
+      width: 40%;
+      margin: 0 auto;
+      margin-top: 20px; }
+
+.paragraphs-item-1-kolom-tekst-33-3-breed {
+  width: 33.3%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 6%;
+  word-break: break-all; }
+
+.region-footer-first .block-menu li {
+  height: 183px;
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+  .region-footer-first .block-menu li a {
+    color: #fff;
+    font-size: 16px; }
+  .region-footer-first .block-menu li ul li {
+    float: none;
+    width: 100%;
+    height: auto; }
+    .region-footer-first .block-menu li ul li a {
+      font-size: 12px;
+      font-weight: 100; }
+.region-footer-first .block-menu li.last {
+  height: auto; }
+
+.block-bean-mail {
+  padding-top: 20px;
+  float: left;
+  width: 30%; }
+  .block-bean-mail img {
+    float: left;
+    width: 23%; }
+
+.block-search {
+  display: none; }
+
+.field-name-field-content .field-item {
+  width: 100%;
+  float: left;
+  color: #fff;
+  box-sizing: border-box;
+  padding-right: 0%; }
+  .field-name-field-content .field-item .field-item {
+    width: 100%; }
+  .field-name-field-content .field-item .field-name-field-titel {
+    font-size: 18px; }
+    .field-name-field-content .field-item .field-name-field-titel .field-item {
+      padding-bottom: 18px; }
+  .field-name-field-content .field-item .field-name-field-link-filmrecruitz {
+    float: right;
+    width: 100%;
+    text-align: right; }
+    .field-name-field-content .field-item .field-name-field-link-filmrecruitz a {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 5px 10px;
+      color: #000;
+      font-weight: 700; }
+
+.block-cast-crew-slideshow {
+  display: none; }
+
+.context-filmrecruitzz .field-name-title {
+  width: 50%; }
+  .context-filmrecruitzz .field-name-title h2 {
+    font-size: 60px; }
+
+.block-filmrecruitz-block {
+  display: none; }
+
+.block-views-eenvoudigepagina-block {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 5%;
+  float: left;
+  z-index: 997; }
+  .block-views-eenvoudigepagina-block .views-row {
+    position: relative;
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
+    .block-views-eenvoudigepagina-block .views-row a:after {
+      content: "";
+      background: url("img/arrow.jpg");
+      background-repeat: no-repeat;
+      background-size: 48px;
+      height: 51px;
+      width: 45px;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .block-views-eenvoudigepagina-block .views-row a {
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase; }
+
+.paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item {
+  color: #3989c9; }
+  .paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item .field-name-field-link-filmrecruitz a {
+    background-color: #3989c9;
+    color: #fff; }
+  .paragraphs-item-afbeelding-tekst-link-33-3- .field-name-field-content .field-item .field-name-field-link-filmrecruitz {
+    float: left;
+    padding-top: 20px;
+    width: 100%; }
+
+#block-views-filmrecruitz-switch a {
+  width: 33.3%;
+  float: left; }
+
+.region-user-first .block-block-2 {
+  width: 18%;
+  float: right;
+  margin-top: 3px; }
+  .region-user-first .block-block-2 a {
+    font-size: 1px;
+    color: transparent; }
+  .region-user-first .block-block-2 a.mail:after {
+    content: "";
+    background-image: url("img/mail.png");
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 18px;
+    margin-right: 4px; }
+  .region-user-first .block-block-2 a.home:after {
+    content: "";
+    background-image: url("img/home.png");
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 18px; }
+
+.context-filmrecruitzz .region-user-first .block-block-2, .context-filmrecruitz .region-user-first .block-block-2 {
+  width: 16%;
+  float: right; }
+  .context-filmrecruitzz .region-user-first .block-block-2 a, .context-filmrecruitz .region-user-first .block-block-2 a {
+    font-size: 1px;
+    color: transparent; }
+  .context-filmrecruitzz .region-user-first .block-block-2 a.mail:after, .context-filmrecruitz .region-user-first .block-block-2 a.mail:after {
+    content: "";
+    background-image: url("img/mailblue.png");
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 18px;
+    margin-right: 4px; }
+  .context-filmrecruitzz .region-user-first .block-block-2 a.home:after, .context-filmrecruitz .region-user-first .block-block-2 a.home:after {
+    content: "";
+    background-image: url("img/homeblue.png");
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 18px; }
+
+.view-id-banner .views-row {
+  margin-bottom: -10px; }
+
+.block-block-3, .block-block-4, .block-block-5, .block-block-6 {
+  width: 100%;
+  float: left; }
+  .block-block-3 .orange h2, .block-block-4 .orange h2, .block-block-5 .orange h2, .block-block-6 .orange h2 {
+    color: #f78b1f;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 0; }
+  .block-block-3 .blue h2, .block-block-4 .blue h2, .block-block-5 .blue h2, .block-block-6 .blue h2 {
+    color: #3989c9;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 0; }
+
+.node-type-crew .group-left {
+  width: 30% !important; }
+  .node-type-crew .group-left .field-name-field-profielfoto img {
+    float: left; }
+.node-type-crew .group-middle {
+  width: 30% !important; }
+  .node-type-crew .group-middle .field-name-field-naam {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .node-type-crew .group-middle .field-name-field-over-mij {
+    font-size: 15px;
+    color: #3989c9; }
+.node-type-crew .group-right .field-name-field-ervaring {
+  font-size: 15px;
+  color: #3989c9; }
+  .node-type-crew .group-right .field-name-field-ervaring .field-label {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000; }
+
+/* PARAGRAPHS */
+.paragraphs-item-2-kolommen-tekst-afbeelding-link {
+  margin-bottom: 20px;
+  font-size: 15px; }
+
+.paragraphs-item-3-kolommen-video-s {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .paragraphs-item-3-kolommen-video-s .field-name-field-2titel {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item {
+    width: 33.3%;
+    float: left; }
+    .paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item iframe {
+      width: 373px;
+      height: 300px; }
+
+.paragraphs-item-2-kolommen-tekst-30-afbeelding-7 {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 12px; }
+  .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-right {
+    width: 66%;
+    float: left; }
+
+.paragraphs-item-2-kolommen-tekst-video {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .paragraphs-item-2-kolommen-tekst-video .group-left {
+    width: 60% !important; }
+  .paragraphs-item-2-kolommen-tekst-video .group-right {
+    width: 33% !important; }
+    .paragraphs-item-2-kolommen-tekst-video .group-right .field-name-field-video .field-items .field-item {
+      width: 33.3%;
+      float: left; }
+      .paragraphs-item-2-kolommen-tekst-video .group-right .field-name-field-video .field-items .field-item iframe {
+        width: 373px;
+        height: 300px; }
+
+.paragraphs-item-3-kolommen-tekst-video-tekst {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .paragraphs-item-3-kolommen-tekst-video-tekst .field-name-field-video .field-items .field-item {
+    width: 33.3%;
+    float: left; }
+    .paragraphs-item-3-kolommen-tekst-video-tekst .field-name-field-video .field-items .field-item iframe {
+      width: 300px;
+      height: 200px; }
+
+a.blue {
+  background-color: #3989c9;
+  padding: 10px;
+  color: #fff; }
+
+.entity-paragraphs-item .field-name-field-2titel {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 2em;
+  margin-top: 20px; }
+
+.field-name-field-tekst-3-kolommen {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+  .field-name-field-tekst-3-kolommen .field-items .field-item {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 25px; }
+
+.node-type-news img {
+  float: left; }
+.node-type-news .field-name-title {
+  width: 100%;
+  float: left; }
+
+.sticky-wrapper {
+  height: 0 !important; }
+
+.zone-preface-wrapper {
+  padding-top: 50px; }
+
+.zone-content-wrapper {
+  padding: 50px 0; }
+
+h2 {
+  color: #f78b1f;
+  font-size: 46px;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.view-id-filmfestival .views-row {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  height: 325px;
+  padding: 7px; }
+  .view-id-filmfestival .views-row .views-field-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px; }
+  .view-id-filmfestival .views-row .views-field-field-subtitel {
+    color: #f78b1f;
+    font-weight: 700;
+    font-size: 18px; }
+
+a {
+  color: #f78b1f; }
+
+/*# sourceMappingURL=global.css.map */
