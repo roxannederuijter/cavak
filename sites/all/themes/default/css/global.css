@@ -1056,10 +1056,12 @@ input[type="submit"] {
   margin-bottom: 20px;
   padding-bottom: 20px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {
-    width: 30%;
-    float: left; }
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 12px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-right {
-    width: 70%;
+    width: 66%;
     float: left; }
 
 .paragraphs-item-2-kolommen-tekst-video {
