@@ -1377,5 +1377,15 @@ h2 {
     text-align: center;
     box-sizing: border-box;
     padding: 7px;
+    .views-field-title {
+      font-size: 24px;
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+    .views-field-field-subtitel {
+      color: $orange;
+      font-weight: 700;
+      font-size: 18px;
+    }
   }
 }

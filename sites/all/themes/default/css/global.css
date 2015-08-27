@@ -1146,5 +1146,13 @@ h2 {
   text-align: center;
   box-sizing: border-box;
   padding: 7px; }
+  .view-id-filmfestival .views-row .views-field-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px; }
+  .view-id-filmfestival .views-row .views-field-field-subtitel {
+    color: #f78b1f;
+    font-weight: 700;
+    font-size: 18px; }
 
 /*# sourceMappingURL=global.css.map */
