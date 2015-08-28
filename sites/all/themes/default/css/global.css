@@ -777,7 +777,9 @@ input[type="submit"] {
     color: #fff;
     text-align: center;
     padding: 3px;
-    float: left; }
+    float: left;
+    margin: 0 10px;
+    margin-bottom: 10px; }
   .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid {
     float: left;
     background-color: gray;
@@ -787,7 +789,8 @@ input[type="submit"] {
     padding: 3px 20px;
     float: left;
     margin: 0 10px;
-    float: left; }
+    float: left;
+    margin-bottom: 10px; }
     .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid input[type="radio"] {
       display: none; }
   .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid.active {
