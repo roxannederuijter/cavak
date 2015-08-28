@@ -423,8 +423,10 @@
 .paragraphs-item-3-kolommen-tekst-video-tekst .group-left {
   width: 33%; }
 .paragraphs-item-3-kolommen-tekst-video-tekst .group-middle {
-  width: 34%; }
+  width: 34%;
+  margin-top: 0px; }
 .paragraphs-item-3-kolommen-tekst-video-tekst .group-right {
-  width: 33%; }
+  width: 33%;
+  margin-top: 0px; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
