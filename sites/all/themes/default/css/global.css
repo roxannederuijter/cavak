@@ -507,9 +507,36 @@ a {
       font-weight: 100; }
 
 .context-nieuws .group-left {
-  width: 36% !important; }
+  width: 26% !important; }
   .context-nieuws .group-left img {
     float: left; }
+.context-nieuws .group-right {
+  width: 74% !important; }
+  .context-nieuws .group-right .field-name-field-title {
+    width: 35%;
+    float: left; }
+    .context-nieuws .group-right .field-name-field-title a {
+      color: #000;
+      width: 50%;
+      font-size: 30px; }
+  .context-nieuws .group-right .field-name-field-date {
+    width: 65%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center; }
+  .context-nieuws .group-right .field-name-field-samenvatting {
+    width: 100%;
+    float: left; }
+  .context-nieuws .group-right .field-name-node-link {
+    width: 100%;
+    float: left; }
+    .context-nieuws .group-right .field-name-node-link a {
+      color: #fff;
+      width: 10%;
+      background-color: #000;
+      float: right;
+      text-align: center; }
 .context-nieuws .view-header {
   color: #f78b1f;
   font-size: 46px;
