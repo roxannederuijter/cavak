@@ -705,22 +705,14 @@ input[type="submit"] {
   position: relative; }
 
 .view-id-cast_crew .views-row {
-  width: 25%;
+  width: 100%;
   float: left;
   position: relative; }
 .view-id-cast_crew .views-field-field-naam {
-  display: none;
-  position: absolute;
-  top: 85px;
-  left: 20px;
-  text-align: center;
-  color: #fff;
-  font-size: 24px;
-  z-index: 1;
-  border-bottom: 1px solid; }
+  display: none; }
 .view-id-cast_crew .views-field-field-profielfoto {
   margin-top: -300px;
-  width: 83%; }
+  width: 100%; }
 .view-id-cast_crew .field-content.image-main {
   background-color: #3989c9;
   display: inline-block;
