@@ -1145,12 +1145,12 @@ input[type="submit"] {
   margin-bottom: 20px;
   padding-bottom: 20px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-left {
-    width: 33%;
+    width: 100%;
     float: left;
     box-sizing: border-box;
     padding-right: 12px; }
   .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-right {
-    width: 66%;
+    width: 6%;
     float: left; }
 
 .paragraphs-item-2-kolommen-tekst-video {
