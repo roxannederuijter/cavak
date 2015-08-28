@@ -827,6 +827,44 @@ input[type="submit"] {
   }
 }
 
+.views-widget-filter-field_categorie_crew_tid {
+  width:100%;
+  label[for=edit-field-catogorie-cast-crew-tid] {
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    float:left;
+  }
+  .form-item-field-catogorie-cast-crew-tid {
+    .form-item {
+      background-color: gray;
+      border-radius: 3px;
+      color: #fff;
+      text-align: center;
+      padding: 3px 20px;
+      float: left;
+      margin: 0 10px;
+      float:left;
+    }
+    .form-item.highlight {
+      float:left;
+      background-color: #000;
+      border-radius: 3px;
+      color: #fff;
+      text-align: center;
+      padding: 3px 20px;
+      float:left;
+      margin:0 10px;
+    }
+    input[type="checkbox"] {
+      display:none;
+
+    }
+  }
+}
+
 .node-crew-cast {
   .field-name-field-naam {
      font-size:24px;
