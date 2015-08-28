@@ -1094,7 +1094,7 @@ input[type="submit"] {
 .node-type-crew .group-left {
   width: 100% !important; }
   .node-type-crew .group-left .field-name-field-profielfoto {
-    width: 90%; }
+    width: 100%; }
     .node-type-crew .group-left .field-name-field-profielfoto img {
       float: left; }
 .node-type-crew .group-middle {
