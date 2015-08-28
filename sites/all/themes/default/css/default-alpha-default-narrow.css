@@ -298,6 +298,7 @@
   float: left; }
 
 .block-views-eenvoudigepagina-block {
+  display: inline;
   top: 8%; }
   .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz {
     width: 85%; }

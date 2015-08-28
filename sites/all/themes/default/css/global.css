@@ -981,7 +981,7 @@ input[type="submit"] {
   display: none; }
 
 .block-views-eenvoudigepagina-block {
-  display: inline-block;
+  display: none;
   width: 50%;
   position: absolute;
   right: 0;
