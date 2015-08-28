@@ -750,7 +750,7 @@ input[type="submit"] {
     text-align: center;
     padding: 3px;
     float: left;
-    margin: 0 10px;
+    margin: 0 5px;
     margin-bottom: 10px; }
   .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid {
     float: left;
@@ -758,9 +758,9 @@ input[type="submit"] {
     border-radius: 3px;
     color: #fff;
     text-align: center;
-    padding: 3px 20px;
+    padding: 3px 5px;
     float: left;
-    margin: 0 10px;
+    margin: 0 5px;
     float: left;
     margin-bottom: 10px; }
     .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="radio"] {
@@ -771,9 +771,9 @@ input[type="submit"] {
     border-radius: 3px;
     color: #fff;
     text-align: center;
-    padding: 3px 20px;
+    padding: 3px 5px;
     float: left;
-    margin: 0 10px; }
+    margin: 0 5px; }
 
 .views-widget-filter-field_categorie_crew_tid {
   width: 100%;

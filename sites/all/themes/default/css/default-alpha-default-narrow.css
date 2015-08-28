@@ -339,4 +339,11 @@
   width: 16%;
   float: right; }
 
+.views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid {
+  padding: 3px 20px;
+  margin: 0 10px; }
+.views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid.active {
+  padding: 3px 20px;
+  margin: 0 10px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
