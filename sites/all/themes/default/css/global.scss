@@ -1331,11 +1331,11 @@ input[type="submit"] {
   .field-name-field-videos {
     .field-items {
       .field-item {
-        width:33.3%;
+        width:100%;
         float:left;
         iframe {
-          width:373px;
-          height:300px;
+          width:100%;
+          height:auto;
 
         }
       }

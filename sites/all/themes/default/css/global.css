@@ -1132,11 +1132,11 @@ input[type="submit"] {
     font-weight: 700;
     margin-bottom: 10px; }
   .paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item {
-    width: 33.3%;
+    width: 100%;
     float: left; }
     .paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item iframe {
-      width: 373px;
-      height: 300px; }
+      width: 100%;
+      height: auto; }
 
 .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 {
   float: left;
