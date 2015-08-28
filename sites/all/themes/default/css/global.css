@@ -508,6 +508,8 @@ a {
 
 .context-nieuws .group-left {
   width: 26% !important; }
+  .context-nieuws .group-left .field-name-field-image {
+    width: 76%; }
   .context-nieuws .group-left img {
     float: left; }
 .context-nieuws .group-right {
@@ -515,6 +517,8 @@ a {
   .context-nieuws .group-right .field-name-title {
     width: 35%;
     float: left; }
+    .context-nieuws .group-right .field-name-title h2 {
+      font-size: 25px; }
     .context-nieuws .group-right .field-name-title a {
       color: #000;
       width: 50%;

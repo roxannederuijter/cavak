@@ -461,6 +461,9 @@ a {
 
 .context-nieuws {
   .group-left {
+    .field-name-field-image {
+      width:76%;
+    }
     width:26%!important;
     img {
       float:left;
@@ -471,6 +474,9 @@ a {
     .field-name-title {
       width:35%;
       float:left;
+      h2 {
+        font-size: 25px;
+      }
       a {
         color:#000;
         width:50%;
