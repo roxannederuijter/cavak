@@ -753,6 +753,14 @@ input[type="submit"] {
   }
   .views-field-field-naam {
     display: none;
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    text-align:center;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1;
+    border-bottom: 1px solid;
   }
   .views-field-field-profielfoto {
     margin-top: -300px;
