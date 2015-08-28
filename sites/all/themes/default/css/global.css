@@ -765,7 +765,10 @@ input[type="submit"] {
     display: none; }
 
 .views-widget-filter-field_categorie_crew_tid {
-  width: 100%; }
+  width: 100%;
+  font-family: "Ruda", sans-serif;
+  font-weight: 100;
+  font-size: 14px; }
   .views-widget-filter-field_categorie_crew_tid label[for=edit-field-categorie-crew-tid] {
     background-color: #000;
     border-radius: 3px;
