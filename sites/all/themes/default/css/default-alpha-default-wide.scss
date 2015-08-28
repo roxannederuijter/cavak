@@ -111,3 +111,18 @@
     }
   }
 }
+
+.context-nieuws {
+  .group-right {
+    .field-name-title {
+      h2 {
+        font-size: 25px;
+      }
+    }
+    .field-name-node-link {
+      a {
+        width:10%;
+      }
+    }
+  }
+}
