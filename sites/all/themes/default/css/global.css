@@ -1092,13 +1092,13 @@ input[type="submit"] {
     margin-bottom: 0; }
 
 .node-type-crew .group-left {
-  width: 30% !important; }
+  width: 100% !important; }
   .node-type-crew .group-left .field-name-field-profielfoto {
     width: 90%; }
     .node-type-crew .group-left .field-name-field-profielfoto img {
       float: left; }
 .node-type-crew .group-middle {
-  width: 30% !important; }
+  width: 100% !important; }
   .node-type-crew .group-middle .field-name-field-naam {
     font-size: 24px;
     font-weight: 700;
@@ -1106,14 +1106,16 @@ input[type="submit"] {
   .node-type-crew .group-middle .field-name-field-over-mij {
     font-size: 15px;
     color: #3989c9; }
-.node-type-crew .group-right .field-name-field-ervaring {
-  font-size: 15px;
-  color: #3989c9; }
-  .node-type-crew .group-right .field-name-field-ervaring .field-label {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700;
-    color: #000; }
+.node-type-crew .group-right {
+  width: 100%; }
+  .node-type-crew .group-right .field-name-field-ervaring {
+    font-size: 15px;
+    color: #3989c9; }
+    .node-type-crew .group-right .field-name-field-ervaring .field-label {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 700;
+      color: #000; }
 
 /* PARAGRAPHS */
 .paragraphs-item-2-kolommen-tekst-afbeelding-link {

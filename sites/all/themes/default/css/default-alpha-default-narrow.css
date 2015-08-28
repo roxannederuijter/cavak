@@ -381,4 +381,13 @@
   padding: 3px 20px;
   margin: 0 10px; }
 
+.node-type-crew .group-left {
+  width: 30% !important; }
+  .node-type-crew .group-left .field-name-field-profielfoto {
+    width: 90%; }
+.node-type-crew .group-middle {
+  width: 30% !important; }
+.node-type-crew .group-right {
+  width: 33% !important; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

@@ -1268,7 +1268,7 @@ input[type="submit"] {
 
 .node-type-crew {
   .group-left {
-    width:30%!important;
+    width:100%!important;
     .field-name-field-profielfoto {
       width:90%;
       img {
@@ -1277,7 +1277,7 @@ input[type="submit"] {
     }
   }
   .group-middle {
-    width:30%!important;
+    width:100%!important;
     .field-name-field-naam {
       font-size:24px;
       font-weight:700;
@@ -1289,6 +1289,7 @@ input[type="submit"] {
     }
   }
   .group-right {
+    width:100%;
     .field-name-field-ervaring {
       font-size:15px;
       color:$blue;
