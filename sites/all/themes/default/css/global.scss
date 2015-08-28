@@ -828,6 +828,9 @@ input[type="submit"] {
 }
 
 .views-widget-filter-field_categorie_crew_tid {
+  .views-exposed-form label {
+    font-weight: 100!important;
+  }
   width:100%;
   font-family:$font;
   font-weight:100;
