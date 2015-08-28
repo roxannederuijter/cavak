@@ -741,7 +741,7 @@ input[type="submit"] {
   font-size: 14px; }
   .views-widget-filter-field_catogorie_cast_crew_tid .views-exposed-form label {
     font-weight: 100 !important; }
-  .views-widget-filter-field_catogorie_cast_crew_tid label[for=edit-field-categorie-crew-tid] {
+  .views-widget-filter-field_catogorie_cast_crew_tid label[for=edit-field-catogorie-cast-crew-tid] {
     background-color: #000;
     border-radius: 3px;
     color: #fff;
@@ -750,7 +750,7 @@ input[type="submit"] {
     float: left;
     margin: 0 10px;
     margin-bottom: 10px; }
-  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-categorie-crew-tid {
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid {
     float: left;
     background-color: gray;
     border-radius: 3px;
@@ -761,9 +761,9 @@ input[type="submit"] {
     margin: 0 10px;
     float: left;
     margin-bottom: 10px; }
-    .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-categorie-crew-tid input[type="radio"] {
+    .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="radio"] {
       display: none; }
-  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-categorie-crew-tid.active {
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid.active {
     float: left;
     background-color: #000;
     border-radius: 3px;
