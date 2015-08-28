@@ -650,7 +650,7 @@ input[type="submit"] {
   #search-block-form input[type="submit"] {
     background: none;
     position: absolute;
-    top: -1pxr;
+    top: -1px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
