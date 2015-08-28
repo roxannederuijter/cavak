@@ -1,21 +1,18 @@
 /*
-Error: Invalid CSS after "  margin-top": expected ";", was ":10px;"
-        on line 1580 of global.scss
+Error: Invalid CSS after "    margin-top": expected ";", was ":10px;"
+        on line 1584 of global.scss
 
-1575:   .group-left {
-1576:     width:100%
-1577:   }
-1578:   .group-middle {
-1579:     width:100%
+1579:     width:100%;
 1580:   margin-top:10px;
 1581:   }
 1582:   .group-right {
 1583:     width:100%
 1584:     margin-top:10px;
 1585:   }
+1586: }
 
 Backtrace:
-global.scss:1580
+global.scss:1584
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1162:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1098:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1093:in `tok!'
@@ -55,4 +52,4 @@ global.scss:1580
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"  margin-top\": expected \";\", was \":10px;\"\A         on line 1580 of global.scss\A \A 1575:   .group-left {\A 1576:     width:100%\A 1577:   }\A 1578:   .group-middle {\A 1579:     width:100%\A 1580:   margin-top:10px;\A 1581:   }\A 1582:   .group-right {\A 1583:     width:100%\A 1584:     margin-top:10px;\A 1585:   }"; }
+  content: "Error: Invalid CSS after \"    margin-top\": expected \";\", was \":10px;\"\A         on line 1584 of global.scss\A \A 1579:     width:100%;\A 1580:   margin-top:10px;\A 1581:   }\A 1582:   .group-right {\A 1583:     width:100%\A 1584:     margin-top:10px;\A 1585:   }\A 1586: }"; }
