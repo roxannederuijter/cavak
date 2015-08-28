@@ -839,28 +839,27 @@ input[type="submit"] {
   }
   .form-item-field-categorie-crew-tid {
     float:left;
-      background-color: gray;
-      border-radius: 3px;
-      color: #fff;
-      text-align: center;
-      padding: 3px 20px;
-      float: left;
-      margin: 0 10px;
-      float:left;
+    background-color: gray;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float: left;
+    margin: 0 10px;
+    float:left;
     input[type="checkbox"] {
       display:none;
-
     }
-    .form-item-field-categorie-crew-tid .active {
-      float:left;
-      background-color: #000;
-      border-radius: 3px;
-      color: #fff;
-      text-align: center;
-      padding: 3px 20px;
-      float:left;
-      margin:0 10px;
-    }
+  }
+  .form-item-field-categorie-crew-tid .active {
+    float:left;
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float:left;
+    margin:0 10px;
   }
 }
 
