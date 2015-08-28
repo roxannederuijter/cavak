@@ -512,8 +512,9 @@ a {
     float: left; }
 .context-nieuws .view-header {
   color: #f78b1f;
-  font-size: 32px;
-  font-weight: 700; }
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: uppercase; }
 
 .view-zinema .views-row {
   margin-bottom: 40px;
@@ -1138,7 +1139,8 @@ h2 {
   color: #f78b1f;
   font-size: 46px;
   margin-bottom: 0;
-  margin-top: 0; }
+  margin-top: 0;
+  text-transform: uppercase; }
 
 .view-id-filmfestival .views-row {
   width: 33.3%;
