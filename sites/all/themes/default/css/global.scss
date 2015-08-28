@@ -839,7 +839,6 @@ input[type="submit"] {
   }
   .form-item-field-categorie-crew-tid {
     float:left;
-    .form-item {
       background-color: gray;
       border-radius: 3px;
       color: #fff;
@@ -848,8 +847,11 @@ input[type="submit"] {
       float: left;
       margin: 0 10px;
       float:left;
+    input[type="checkbox"] {
+      display:none;
+
     }
-    .form-item.highlight {
+    .form-item-field-categorie-crew-tid.active {
       float:left;
       background-color: #000;
       border-radius: 3px;
@@ -858,10 +860,6 @@ input[type="submit"] {
       padding: 3px 20px;
       float:left;
       margin:0 10px;
-    }
-    input[type="checkbox"] {
-      display:none;
-
     }
   }
 }

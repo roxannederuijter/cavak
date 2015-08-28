@@ -774,17 +774,18 @@ input[type="submit"] {
     padding: 3px;
     float: left; }
   .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid {
+    float: left;
+    background-color: gray;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float: left;
+    margin: 0 10px;
     float: left; }
-    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid .form-item {
-      background-color: gray;
-      border-radius: 3px;
-      color: #fff;
-      text-align: center;
-      padding: 3px 20px;
-      float: left;
-      margin: 0 10px;
-      float: left; }
-    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid .form-item.highlight {
+    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid input[type="checkbox"] {
+      display: none; }
+    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid .form-item-field-categorie-crew-tid.active {
       float: left;
       background-color: #000;
       border-radius: 3px;
@@ -793,8 +794,6 @@ input[type="submit"] {
       padding: 3px 20px;
       float: left;
       margin: 0 10px; }
-    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid input[type="checkbox"] {
-      display: none; }
 
 .node-crew-cast .field-name-field-naam {
   font-size: 24px;
