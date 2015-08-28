@@ -790,40 +790,47 @@ input[type="submit"] {
 }
 
 .views-widget-filter-field_catogorie_cast_crew_tid {
+  .views-exposed-form label {
+    font-weight: 100!important;
+  }
   width:100%;
-  label[for=edit-field-catogorie-cast-crew-tid] {
+  font-family:$font;
+  font-weight:100;
+  font-size:14px;
+  label[for=edit-field-categorie-crew-tid] {
     background-color: #000;
     border-radius: 3px;
     color: #fff;
     text-align: center;
     padding: 3px;
     float:left;
+    margin:0 10px;
+    margin-bottom:10px;
   }
-  .form-item-field-catogorie-cast-crew-tid {
-    .form-item {
-      background-color: gray;
-      border-radius: 3px;
-      color: #fff;
-      text-align: center;
-      padding: 3px 20px;
-      float: left;
-      margin: 0 10px;
-      float:left;
-    }
-    .form-item.highlight {
-      float:left;
-      background-color: #000;
-      border-radius: 3px;
-      color: #fff;
-      text-align: center;
-      padding: 3px 20px;
-      float:left;
-      margin:0 10px;
-    }
-    input[type="checkbox"] {
+  .form-item-field-categorie-crew-tid {
+    float:left;
+    background-color: gray;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float: left;
+    margin: 0 10px;
+    float:left;
+    margin-bottom:10px;
+    input[type="radio"] {
       display:none;
-
     }
+  }
+  .form-item-field-categorie-crew-tid.active {
+    float:left;
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 20px;
+    float:left;
+    margin:0 10px;
   }
 }
 

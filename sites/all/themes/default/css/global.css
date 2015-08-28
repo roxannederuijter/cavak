@@ -735,15 +735,23 @@ input[type="submit"] {
     display: none; }
 
 .views-widget-filter-field_catogorie_cast_crew_tid {
-  width: 100%; }
-  .views-widget-filter-field_catogorie_cast_crew_tid label[for=edit-field-catogorie-cast-crew-tid] {
+  width: 100%;
+  font-family: "Ruda", sans-serif;
+  font-weight: 100;
+  font-size: 14px; }
+  .views-widget-filter-field_catogorie_cast_crew_tid .views-exposed-form label {
+    font-weight: 100 !important; }
+  .views-widget-filter-field_catogorie_cast_crew_tid label[for=edit-field-categorie-crew-tid] {
     background-color: #000;
     border-radius: 3px;
     color: #fff;
     text-align: center;
     padding: 3px;
-    float: left; }
-  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid .form-item {
+    float: left;
+    margin: 0 10px;
+    margin-bottom: 10px; }
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-categorie-crew-tid {
+    float: left;
     background-color: gray;
     border-radius: 3px;
     color: #fff;
@@ -751,8 +759,11 @@ input[type="submit"] {
     padding: 3px 20px;
     float: left;
     margin: 0 10px;
-    float: left; }
-  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid .form-item.highlight {
+    float: left;
+    margin-bottom: 10px; }
+    .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-categorie-crew-tid input[type="radio"] {
+      display: none; }
+  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-categorie-crew-tid.active {
     float: left;
     background-color: #000;
     border-radius: 3px;
@@ -761,8 +772,6 @@ input[type="submit"] {
     padding: 3px 20px;
     float: left;
     margin: 0 10px; }
-  .views-widget-filter-field_catogorie_cast_crew_tid .form-item-field-catogorie-cast-crew-tid input[type="checkbox"] {
-    display: none; }
 
 .views-widget-filter-field_categorie_crew_tid {
   width: 100%;
