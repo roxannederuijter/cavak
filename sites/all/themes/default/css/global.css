@@ -904,7 +904,7 @@ input[type="submit"] {
   top: 5%;
   float: left;
   z-index: 997; }
-  .block-views-eenvoudigepagina-block .views-row {
+  .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz {
     position: relative;
     margin-bottom: 8px;
     width: 50%;
@@ -912,7 +912,7 @@ input[type="submit"] {
     background-color: rgba(0, 0, 0, 0.7);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
-    .block-views-eenvoudigepagina-block .views-row a:after {
+    .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz a:after {
       content: "";
       background: url("img/arrow.jpg");
       background-repeat: no-repeat;
@@ -922,7 +922,7 @@ input[type="submit"] {
       position: absolute;
       right: 0;
       top: 0; }
-    .block-views-eenvoudigepagina-block .views-row a {
+    .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz a {
       color: #fff;
       font-size: 18px;
       text-transform: uppercase; }
