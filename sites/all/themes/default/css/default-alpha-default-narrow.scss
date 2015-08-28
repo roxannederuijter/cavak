@@ -575,3 +575,18 @@
  width:33%!important;
   }
 }
+
+.field-name-field-jury {
+  .field-items {
+    .field-item {
+      width:33.3%;
+      float:left;
+      text-align:center;
+      box-sizing:border-box;
+      padding:0 10px;
+      .field-item {
+        width:100%;
+      }
+    }
+  }
+}

@@ -390,4 +390,13 @@
 .node-type-crew .group-right {
   width: 33% !important; }
 
+.field-name-field-jury .field-items .field-item {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px; }
+  .field-name-field-jury .field-items .field-item .field-item {
+    width: 100%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
