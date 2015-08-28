@@ -1401,7 +1401,7 @@ ul#superfish-1 li.sf-item-2, ul#superfish-1 li.sf-item-3{
     position:absolute;
     top:100%;
     left:0;
-    background:$blue;
+    background:#000;
     padding:0;
     width:100%!important;
     border-radius:0;
@@ -1423,6 +1423,7 @@ ul#superfish-1 li.sf-item-2, ul#superfish-1 li.sf-item-3{
         color: #fff;
         text-transform: none;
         font-weight:300;
+        border-right:none;
       }
       a:hover{
         background:none;
@@ -1444,4 +1445,8 @@ ul#superfish-1 li.sf-item-2, ul#superfish-1 li.sf-item-3{
       }
     }
   }
+}
+
+.sf-sub-indicator {
+  display:none;
 }
