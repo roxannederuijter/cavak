@@ -783,7 +783,7 @@ input[type="submit"] {
     float: left;
     margin: 0 10px;
     float: left; }
-    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid input[type="checkbox"] {
+    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid input[type="radio"] {
       display: none; }
   .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid.active {
     float: left;
