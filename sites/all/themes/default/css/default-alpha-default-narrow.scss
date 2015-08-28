@@ -444,7 +444,11 @@
 }
 
 .paragraphs-item-2-kolommen-tekst-video {
+  .group-left {
+    width:60%!important;
+  }
   .group-right {
+    width:33%!important;
     .field-name-field-video {
       .field-items {
         .field-item {
