@@ -594,7 +594,7 @@ a {
 .admin-menu .is-sticky .zone-menu-wrapper {
   top: 28px !important; }
 .admin-menu .zone-menu-wrapper {
-  top: 104px; }
+  top: 111px; }
 
 .zone-menu-wrapper {
   background-color: #fff;
@@ -607,7 +607,7 @@ a {
 
 /* Filmrecruitz */
 .context-filmrecruitz #zone-branding-wrapper {
-  padding: 10px 0 20px 0;
+  padding: 20px 0 20px 0;
   background-color: #3989c9; }
 .context-filmrecruitz .zone-footer-wrapper {
   background-color: #3989c9; }
