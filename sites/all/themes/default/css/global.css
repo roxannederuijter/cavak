@@ -1166,7 +1166,9 @@ ul#superfish-1 li ul {
   background: #000;
   padding: 0;
   width: 100% !important;
-  border-radius: 0; }
+  border-radius: 0;
+  z-index: 999;
+  padding-right: 30px !important; }
   ul#superfish-1 li ul li {
     float: none;
     width: 200px;
