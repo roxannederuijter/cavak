@@ -159,3 +159,20 @@
   }
 }
 
+.context-nieuws {
+  .group-right {
+    .field-name-title {
+      h2 {
+        a {
+          font-size: 23px;
+        }
+      }
+    }
+    .field-name-node-link {
+      a {
+        width:14%;
+      }
+    }
+  }
+}
+
