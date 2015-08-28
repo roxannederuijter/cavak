@@ -210,11 +210,17 @@
 })(jQuery);
 
 $(document).ready(function() {
+    //
+    //var foo = $('input.form-radio');
+    //
+    //if ( foo.is(':checked') ) {
+    //    foo.parent().addClass('active');
+    //}
 
-    var foo = $('input.form-radio');
-
-    if ( foo.is(':checked') ) {
-        foo.parent().addClass('active');
-    }
+    $('input.form-radio').each(function(){
+        if($(this).prop('checked')){
+            $(this).parent().addClass("active");
+        }
+    });
 
 });
