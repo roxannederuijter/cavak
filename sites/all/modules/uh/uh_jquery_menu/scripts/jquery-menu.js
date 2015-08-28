@@ -211,7 +211,7 @@
 
 $(document).ready(function() {
 
-    var foo = $('input.check');
+    var foo = $('input.form-radio');
 
     if ( foo.is(':checked') ) {
         foo.parent().addClass('active');
