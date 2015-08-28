@@ -1214,9 +1214,6 @@ a.blue {
 .sticky-wrapper {
   height: 0 !important; }
 
-.zone-preface-wrapper {
-  padding-top: 50px; }
-
 .zone-content-wrapper {
   padding: 50px 0; }
 
@@ -1295,7 +1292,7 @@ ul#superfish-1 li ul {
   display: none; }
 
 .front .zone-preface-wrapper {
-  padding-bottom: 50px; }
+  padding-bottom: 20px; }
 
 #views-exposed-form-cast-crew-page .form-type-radio {
   float: left; }
