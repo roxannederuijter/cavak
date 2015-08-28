@@ -785,7 +785,7 @@ input[type="submit"] {
     float: left; }
     .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid input[type="checkbox"] {
       display: none; }
-    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid .form-item-field-categorie-crew-tid.active {
+    .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid .form-item-field-categorie-crew-tid .active {
       float: left;
       background-color: #000;
       border-radius: 3px;
