@@ -44,7 +44,7 @@
     margin-right: 2.5%; }
 
 /* Banner */
-.front .field-name-field-quotes, .context-filmrecruitzz .field-name-field-quotes {
+.field-name-field-quotes {
   display: inline-block;
   position: absolute;
   width: 300px;
@@ -56,7 +56,8 @@
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase; }
-.front .field-name-field-quotes::first-line, .context-filmrecruitzz .field-name-field-quotes::first-line {
+
+.field-name-field-quotes::first-line {
   color: #f78b1f; }
 
 .field-collection-item-field-banner .field-name-field-quotes {
