@@ -60,21 +60,6 @@
 .field-name-field-quotes::first-line {
   color: #f78b1f; }
 
-.field-collection-item-field-banner .field-name-field-quotes {
-  display: inline-block;
-  position: absolute;
-  width: 300px;
-  font-size: 40px;
-  color: #fff;
-  top: 9%;
-  padding-left: 11%;
-  text-shadow: 1px 1px 1px #050505;
-  font-weight: 700;
-  line-height: 1.1;
-  text-transform: uppercase; }
-.field-collection-item-field-banner .field-name-field-quotes::first-line {
-  color: #f78b1f; }
-
 .block-news-frontpage-block {
   display: inline-block;
   width: 48%;
