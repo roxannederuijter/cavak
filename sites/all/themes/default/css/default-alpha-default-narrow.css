@@ -321,4 +321,8 @@
 .zone-preface-wrapper {
   padding-top: 50px; }
 
+#block-bean-logo-0 img, #block-bean-socialmedia img {
+  float: right;
+  padding-top: 10px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

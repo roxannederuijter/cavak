@@ -437,7 +437,8 @@ a {
 
 /* Footer */
 #block-bean-logo-0 img, #block-bean-socialmedia img {
-  float: right; }
+  float: left;
+  padding-top: 32px; }
 
 #block-bean-socialmedia {
   margin-top: 20px; }
