@@ -208,3 +208,13 @@
         });
     });
 })(jQuery);
+
+$(document).ready(function() {
+
+    var foo = $('input.check');
+
+    if ( foo.is(':checked') ) {
+        foo.parent().addClass('active');
+    }
+
+});
