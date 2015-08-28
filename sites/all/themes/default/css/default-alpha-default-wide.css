@@ -39,4 +39,9 @@
 .block-views-exp-cast-crew-page, .block-views-exp-cast-crew-page-1 {
   width: 66%; }
 
+.block-views-eenvoudigepagina-block {
+  top: 10%; }
+  .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz {
+    width: 59%; }
+
 /*# sourceMappingURL=default-alpha-default-wide.css.map */
