@@ -850,7 +850,7 @@ input[type="submit"] {
   float: left; }
 
 .page-filmrecruitz-cast .block-webform, .page-filmrecruitz-crew .block-webform {
-  width: 15%;
+  width: 100%;
   float: left;
   margin-bottom: 27px;
   margin-top: 19px; }
