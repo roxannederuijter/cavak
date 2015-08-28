@@ -1394,3 +1394,54 @@ h2 {
     }
   }
 }
+
+ul#superfish-1 li.sf-item-2, ul#superfish-1 li.sf-item-3{
+  ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:$blue;
+    padding:0;
+    width:100%!important;
+    border-radius:0;
+    li {
+      float:none;
+      width:200px;
+      background:none;
+      margin: 0;
+      padding: 0;
+      color: #000;
+      text-transform: uppercase;
+      padding:0 0 0 5px;
+      a {
+        background:none;
+        margin: 0;
+        margin-top:17px;
+        padding: 0;
+        padding-left:10px!important;
+        color: #fff;
+        text-transform: none;
+        font-weight:300;
+      }
+      a:hover{
+        background:none;
+        margin: 0;
+        margin-top:17px;
+        padding: 0;
+        color: #fff;
+        text-transform: none;
+        font-weight:300;
+      }
+      a.active {
+        background:none;
+        margin: 0;
+        margin-top:17px;
+        padding: 0;
+        color: #fff;
+        text-transform: none;
+        font-weight:300;
+      }
+    }
+  }
+}
