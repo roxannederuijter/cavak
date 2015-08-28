@@ -164,8 +164,8 @@ a {
         margin:0;
         margin-left:0px;
         a {
-          font-size: 18px;
-          padding: 0px 11px;
+          font-size: 15px;
+          padding: 0px 8px;
           font-weight: 700;
           color: $blue;
           text-transform: uppercase;
@@ -1252,7 +1252,7 @@ input[type="submit"] {
     h2 {
       color:$orange;
       text-transform:uppercase;
-      font-size:50px;
+      font-size:44px;
       margin-bottom:0;
     }
   }
@@ -1261,7 +1261,7 @@ input[type="submit"] {
     h2 {
       color:$blue;
       text-transform:uppercase;
-      font-size:50px;
+      font-size:44px;
       margin-bottom:0;
     }
   }
@@ -1563,4 +1563,8 @@ ul#superfish-1 li {
 
 .zone-header {
   padding-top:24px;
+}
+
+.zone-preface {
+  padding-top:30px;
 }
