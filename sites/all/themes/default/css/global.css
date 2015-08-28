@@ -512,10 +512,10 @@ a {
     float: left; }
 .context-nieuws .group-right {
   width: 74% !important; }
-  .context-nieuws .group-right .field-name-field-title {
+  .context-nieuws .group-right .field-name-title {
     width: 35%;
     float: left; }
-    .context-nieuws .group-right .field-name-field-title a {
+    .context-nieuws .group-right .field-name-title a {
       color: #000;
       width: 50%;
       font-size: 30px; }
