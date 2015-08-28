@@ -55,8 +55,8 @@
 .view-id-filmfestival .views-row .views-field-title {
   font-size: 24px; }
 
-.context-nieuws .group-right .field-name-title h2 {
-  font-size: 25px; }
+.context-nieuws .group-right .field-name-title h2 a {
+  font-size: 30px; }
 .context-nieuws .group-right .field-name-node-link a {
   width: 10%; }
 

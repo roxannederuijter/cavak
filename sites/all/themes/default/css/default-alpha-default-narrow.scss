@@ -393,7 +393,9 @@
   .group-right {
     .field-name-title {
       h2 {
-        font-size: 23px;
+        a {
+          font-size: 23px;
+        }
       }
     }
     .field-name-node-link {
