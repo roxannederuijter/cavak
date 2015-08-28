@@ -840,12 +840,13 @@ input[type="submit"] {
 .context-filmrecruitzz .block-superfish-2 {
   display: none; }
 
-.block-views-exp-cast-crew-page, .block-views-exp-cast-crew-page-1 {
-  width: 66%;
+.block-views-exp-cast-crew-page {
+  width: 80%;
   float: left; }
 
 .block-views-exp-cast-crew-page-1 {
-  width: 85%; }
+  width: 85%;
+  float: left; }
 
 .page-filmrecruitz-cast .block-webform, .page-filmrecruitz-crew .block-webform {
   width: 15%;
