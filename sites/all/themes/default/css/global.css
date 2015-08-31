@@ -1229,10 +1229,7 @@ h2 {
 .view-id-filmfestival .views-row {
   width: 100%;
   float: left;
-  text-align: center;
-  box-sizing: border-box;
-  height: 325px;
-  padding: 7px; }
+  text-align: center; }
   .view-id-filmfestival .views-row .views-field-title {
     font-size: 24px;
     font-weight: 700;

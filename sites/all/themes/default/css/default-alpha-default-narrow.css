@@ -304,7 +304,10 @@
     width: 85%; }
 
 .view-id-filmfestival .views-row {
-  width: 33.3%; }
+  width: 33.3%;
+  box-sizing: border-box;
+  height: 325px;
+  padding: 7px; }
   .view-id-filmfestival .views-row .views-field-title {
     font-size: 16px; }
 
