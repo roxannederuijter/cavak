@@ -431,6 +431,57 @@
   }
 }
 
+.context-nieuws {
+  .group-left {
+    .field-name-field-image {
+      width:76%;
+    }
+    width:26%!important;
+  }
+  .group-right {
+    width:74%!important;
+    .field-name-title {
+      width:35%;
+      float:left;
+      h2 {
+        font-size: 25px;
+      }
+      a {
+        color:#000;
+        width:50%;
+        font-size:30px;
+      }
+    }
+    .field-name-field-date {
+      width:65%;
+      float:left;
+      text-transform:uppercase;
+      font-weight:700;
+    }
+    .field-name-field-samenvatting {
+      width:100%;
+      float:left;
+    }
+    .field-name-node-link {
+      width:100%;
+      float:left;
+      a {
+        color:#fff;
+        width:10%;
+        background-color:#000;
+        float:right;
+        text-align:center;
+      }
+    }
+  }
+  .view-header {
+    color:$orange;
+    font-size:46px;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+}
+
 
 .paragraphs-item-3-kolommen-video-s {
   .field-name-field-videos {
