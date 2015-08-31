@@ -303,8 +303,10 @@
   .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz {
     width: 85%; }
 
-.view-id-filmfestival .views-row .views-field-title {
-  font-size: 16px; }
+.view-id-filmfestival .views-row {
+  width: 33.3%; }
+  .view-id-filmfestival .views-row .views-field-title {
+    font-size: 16px; }
 
 .context-nieuws .group-right .field-name-title h2 a {
   font-size: 18px; }
