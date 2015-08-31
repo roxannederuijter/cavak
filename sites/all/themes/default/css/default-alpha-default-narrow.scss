@@ -415,23 +415,6 @@
 }
 
 .context-nieuws {
-  .group-right {
-    .field-name-title {
-      h2 {
-        a {
-          font-size: 18px;
-        }
-      }
-    }
-    .field-name-node-link {
-      a {
-        width:17%;
-      }
-    }
-  }
-}
-
-.context-nieuws {
   .group-left {
     .field-name-field-image {
       width:76%;
@@ -444,7 +427,7 @@
       width:35%;
       float:left;
       h2 {
-        font-size: 25px;
+        font-size: 18px;
       }
       a {
         color:#000;
@@ -467,7 +450,7 @@
       float:left;
       a {
         color:#fff;
-        width:10%;
+        width:17%;
         background-color:#000;
         float:right;
         text-align:center;
