@@ -541,7 +541,8 @@ a {
       width: 100%;
       background-color: #000;
       float: right;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 10px; }
 .context-nieuws .view-header {
   color: #f78b1f;
   font-size: 46px;
