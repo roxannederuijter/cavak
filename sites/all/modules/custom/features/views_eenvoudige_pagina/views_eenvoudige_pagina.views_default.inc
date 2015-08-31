@@ -38,8 +38,7 @@ function views_eenvoudige_pagina_views_default_views() {
   $handler->display->display_options['fields']['field_call_to_action']['field'] = 'field_call_to_action';
   $handler->display->display_options['fields']['field_call_to_action']['label'] = '';
   $handler->display->display_options['fields']['field_call_to_action']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_call_to_action']['hide_empty'] = TRUE;
-  $handler->display->display_options['fields']['field_call_to_action']['empty_zero'] = TRUE;
+  $handler->display->display_options['fields']['field_call_to_action']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['field_call_to_action']['type'] = 'field_collection_fields';
   $handler->display->display_options['fields']['field_call_to_action']['settings'] = array(
     'view_mode' => 'full',

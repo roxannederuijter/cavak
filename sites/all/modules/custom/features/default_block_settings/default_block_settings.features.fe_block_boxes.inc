@@ -11,6 +11,26 @@ function default_block_settings_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'events';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'events';
+  $fe_block_boxes->body = '<h2>Evenementen</h2>
+';
+
+  $export['events'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'filmfestival';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'filmfestival';
+  $fe_block_boxes->body = '<h2>FILMFESTIVALZ</h2>
+
+<p>Heb je een korte film gemaakt en wil je deze ook aan zoveel mogelijk mensen laten zien? zie hieronder de kalender van de belangrijkste korte filmfestivals in Europa. Let op: De festivals staan op volgorde van deadline van insturen van je film.</p>
+';
+
+  $export['filmfestival'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'filmrecruitzcast';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'filmrecruitzcast';
@@ -87,6 +107,33 @@ function default_block_settings_default_fe_block_boxes() {
 ';
 
   $export['headerlinks'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'online';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'online';
+  $fe_block_boxes->body = '<h2>Online</h2>
+';
+
+  $export['online'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'tips';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'tips';
+  $fe_block_boxes->body = '<h2>Tips en ervaringen</h2>
+';
+
+  $export['tips'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'zinema';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'zinema';
+  $fe_block_boxes->body = '<h2>zinema</h2>
+';
+
+  $export['zinema'] = $fe_block_boxes;
 
   return $export;
 }

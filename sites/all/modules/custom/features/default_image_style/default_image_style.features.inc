@@ -59,14 +59,13 @@ function default_image_style_image_default_styles() {
   $styles['slideshow_205-104'] = array(
     'label' => 'slideshow 205x104',
     'effects' => array(
-      4 => array(
-        'name' => 'image_scale',
+      3 => array(
+        'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '',
-          'height' => 104,
-          'upscale' => 0,
+          'width' => 217,
+          'height' => 110,
         ),
-        'weight' => 2,
+        'weight' => 1,
       ),
     ),
   );

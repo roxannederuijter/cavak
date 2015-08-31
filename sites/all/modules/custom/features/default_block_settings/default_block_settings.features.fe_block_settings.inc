@@ -64,6 +64,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['bean-mail'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'mail',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => -21,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['bean-socialmedia'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -88,6 +114,58 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 0,
+  );
+
+  $export['block-events'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'events',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'evenementen',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-filmfestival'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'filmfestival',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'filmfestival',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   $export['block-filmrecruitzcast'] = array(
@@ -235,7 +313,7 @@ ik-zoek',
         'region' => 'user_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -20,
+        'weight' => -25,
       ),
       'seven' => array(
         'region' => '',
@@ -246,6 +324,84 @@ ik-zoek',
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['block-online'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'online',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'online',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-tips'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'tips',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'zervices/tips',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-zinema'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'zinema',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'zinema',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   $export['devel-execute_php'] = array(
@@ -404,6 +560,35 @@ ik-zoek',
     'visibility' => 0,
   );
 
+  $export['menu-menu-zervices-menu'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'menu-zervices-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => 'zervices/tips-en-ervaringen
+filmfestival
+evenementen
+online',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => -26,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['node-recent'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -469,7 +654,7 @@ ik-zoek',
         'region' => 'user_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -21,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -545,12 +730,15 @@ ik-zoek',
     'delta' => 3,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'filmfestival
+online
+evenementen
+zervices/tips',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'preface_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -562,7 +750,7 @@ ik-zoek',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['superfish-4'] = array(
@@ -630,7 +818,7 @@ ik-zoek',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => 'content',
@@ -864,7 +1052,7 @@ ik-zoek',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -20,
+        'weight' => -25,
       ),
       'seven' => array(
         'region' => '',
@@ -890,7 +1078,7 @@ ik-zoek',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -19,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -916,7 +1104,7 @@ ik-zoek',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -19,
+        'weight' => -23,
       ),
       'seven' => array(
         'region' => '',
@@ -942,7 +1130,7 @@ ik-zoek',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -968,7 +1156,7 @@ ik-zoek',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -1230,7 +1418,7 @@ schrijf-crew',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -22,
       ),
       'seven' => array(
         'region' => '',
@@ -1256,7 +1444,7 @@ schrijf-crew',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',

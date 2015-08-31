@@ -32,6 +32,10 @@ function views_filmfestival_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Header: Global: Unfiltered text */
+  $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -39,6 +43,8 @@ function views_filmfestival_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   /* Field: Field: Afbeelding */
   $handler->display->display_options['fields']['field_afbeelding2']['id'] = 'field_afbeelding2';
   $handler->display->display_options['fields']['field_afbeelding2']['table'] = 'field_data_field_afbeelding2';
@@ -50,7 +56,7 @@ function views_filmfestival_views_default_views() {
     'image_style' => '',
     'image_link' => '',
   );
-  /* Field: Field: Subtitel */
+  /* Field: Content: Subtitel */
   $handler->display->display_options['fields']['field_subtitel']['id'] = 'field_subtitel';
   $handler->display->display_options['fields']['field_subtitel']['table'] = 'field_data_field_subtitel';
   $handler->display->display_options['fields']['field_subtitel']['field'] = 'field_subtitel';
@@ -94,12 +100,14 @@ function views_filmfestival_views_default_views() {
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['path'] = 'filmfestival';
 
   /* Display: Pagina online */
   $handler = $view->new_display('page', 'Pagina online', 'page_2');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'online';
+  $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -132,6 +140,7 @@ function views_filmfestival_views_default_views() {
   $handler = $view->new_display('page', 'Pagina evenementen', 'page_3');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Evenementen';
+  $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */

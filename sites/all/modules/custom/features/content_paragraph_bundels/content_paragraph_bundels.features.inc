@@ -79,16 +79,6 @@ function content_paragraph_bundels_paragraphs_info() {
       'bundle' => 'jury',
       'locked' => '1',
     ),
-    'links_titels_rechts_quote' => array(
-      'name' => 'links-Titels_rechts-Quote',
-      'bundle' => 'links_titels_rechts_quote',
-      'locked' => '1',
-    ),
-    'quote' => array(
-      'name' => 'Quote',
-      'bundle' => 'quote',
-      'locked' => '1',
-    ),
     'video' => array(
       'name' => 'Video',
       'bundle' => 'video',

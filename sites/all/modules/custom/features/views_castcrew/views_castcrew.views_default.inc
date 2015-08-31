@@ -40,28 +40,10 @@ function views_castcrew_views_default_views() {
       'allow_secondary' => 0,
       'secondary_label' => 'Uitgebreide opties',
     ),
-    'field_ik_ben__tid' => array(
-      'bef_format' => 'bef_hidden',
-      'more_options' => array(
-        'bef_select_all_none' => FALSE,
-        'bef_collapsible' => 0,
-        'is_secondary' => 0,
-        'any_label' => '',
-        'bef_filter_description' => '',
-        'tokens' => array(
-          'available' => array(
-            0 => 'global_types',
-          ),
-        ),
-        'rewrite' => array(
-          'filter_rewrite_values' => '',
-        ),
-      ),
-    ),
-    'field_catogorie_cast_crew_tid' => array(
+    'field_categorie_crew_tid' => array(
       'bef_format' => 'bef',
       'more_options' => array(
-        'bef_select_all_none' => 0,
+        'bef_select_all_none' => FALSE,
         'bef_collapsible' => 0,
         'is_secondary' => 0,
         'any_label' => '',
@@ -149,6 +131,42 @@ function views_castcrew_views_default_views() {
 
   /* Display: Cast-page */
   $handler = $view->new_display('page', 'Cast-page', 'page');
+  $handler->display->display_options['defaults']['exposed_form'] = FALSE;
+  $handler->display->display_options['exposed_form']['type'] = 'better_exposed_filters';
+  $handler->display->display_options['exposed_form']['options']['submit_button'] = 'Toepassen';
+  $handler->display->display_options['exposed_form']['options']['reset_button_label'] = 'Opnieuw instellen';
+  $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Sorteren op';
+  $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Oplopend';
+  $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Aflopend';
+  $handler->display->display_options['exposed_form']['options']['autosubmit'] = TRUE;
+  $handler->display->display_options['exposed_form']['options']['bef'] = array(
+    'general' => array(
+      'allow_secondary' => 0,
+      'secondary_label' => 'Uitgebreide opties',
+    ),
+    'field_catogorie_cast_crew_tid' => array(
+      'bef_format' => 'bef',
+      'more_options' => array(
+        'bef_select_all_none' => 0,
+        'bef_select_all_none_nested' => 0,
+        'bef_collapsible' => 0,
+        'is_secondary' => 0,
+        'any_label' => '',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+          ),
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+        ),
+      ),
+    ),
+  );
+  $handler->display->display_options['exposed_form']['options']['input_required'] = 0;
+  $handler->display->display_options['exposed_form']['options']['text_input_required'] = 'Selecteer een van de filters en klik op \'Toepassen\' om het resultaat te zien';
+  $handler->display->display_options['exposed_form']['options']['text_input_required_format'] = 'filtered_html';
   $handler->display->display_options['exposed_block'] = TRUE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -175,7 +193,6 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'categorie';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['remember_roles'] = array(
     2 => '2',
     1 => 0,
@@ -205,23 +222,22 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'crew' => 'crew',
   );
-  /* Filter criterion: Content: catogorie cast/crew (field_catogorie_cast_crew) */
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['id'] = 'field_catogorie_cast_crew_tid';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['table'] = 'field_data_field_catogorie_cast_crew';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'categorie';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['multiple'] = TRUE;
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['remember_roles'] = array(
+  /* Filter criterion: Content: categorie crew (field_categorie_crew) */
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['id'] = 'field_categorie_crew_tid';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['table'] = 'field_data_field_categorie_crew';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['field'] = 'field_categorie_crew_tid';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['operator_id'] = 'field_categorie_crew_tid_op';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['label'] = 'categorie';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['operator'] = 'field_categorie_crew_tid_op';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['identifier'] = 'field_categorie_crew_tid';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['remember_roles'] = array(
     2 => '2',
     1 => 0,
     3 => 0,
   );
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['type'] = 'select';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['vocabulary'] = 'catogorie_cast_crew';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['vocabulary'] = 'caterogie_crew';
   $handler->display->display_options['path'] = 'filmrecruitz/crew';
 
   /* Display: Slideshow Blok */

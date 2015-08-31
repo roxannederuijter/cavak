@@ -10,8 +10,8 @@
 function content_crew_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-crew-field_catogorie_cast_crew'
-  $field_instances['node-crew-field_catogorie_cast_crew'] = array(
+  // Exported field_instance: 'node-crew-field_categorie_crew'
+  $field_instances['node-crew-field_categorie_crew'] = array(
     'bundle' => 'crew',
     'default_value' => NULL,
     'deleted' => 0,
@@ -19,14 +19,15 @@ function content_crew_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
+        'module' => 'taxonomy',
         'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 5,
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 6,
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_catogorie_cast_crew',
-    'label' => 'catogorie cast/crew',
+    'field_name' => 'field_categorie_crew',
+    'label' => 'categorie crew',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -36,7 +37,7 @@ function content_crew_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 52,
+      'weight' => 53,
     ),
   );
 
@@ -267,7 +268,7 @@ function content_crew_field_default_field_instances() {
   t('Over mij');
   t('Profielfoto');
   t('Vakgebied + Ervaring');
-  t('catogorie cast/crew');
+  t('categorie crew');
 
   return $field_instances;
 }
