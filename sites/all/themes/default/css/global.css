@@ -444,7 +444,9 @@ a {
   margin-top: 20px; }
   #block-bean-socialmedia img {
     padding-right: 1%;
-    margin-top: 5px; }
+    margin-top: 5px;
+    width: 33px;
+    height: 33px; }
   #block-bean-socialmedia .field-name-field-link-image {
     float: right;
     width: 100%; }
