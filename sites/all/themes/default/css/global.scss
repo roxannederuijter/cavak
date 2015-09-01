@@ -1608,6 +1608,9 @@ ul#superfish-1 li {
   .field-items {
     .field-item {
       border-bottom:1px solid $orange;
+      .field-item {
+        border-bottom:none;
+      }
     }
   }
 }

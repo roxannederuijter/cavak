@@ -1330,5 +1330,7 @@ ul#superfish-1 li ul {
 
 .field-name-field-paragraph-field-collection .field-items .field-item {
   border-bottom: 1px solid #f78b1f; }
+  .field-name-field-paragraph-field-collection .field-items .field-item .field-item {
+    border-bottom: none; }
 
 /*# sourceMappingURL=global.css.map */
