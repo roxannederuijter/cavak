@@ -218,19 +218,21 @@ a {
   padding: 50px 0; }
 
 /* Menu */
-.block-superfish-1 ul li a {
-  font-family: "Ruda", sans-serif;
-  font-size: 0.938em;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 0 15px 0 15px;
-  border-right: 2px solid #f78b1f;
-  margin: 8px 0; }
-.block-superfish-1 ul li a:hover {
-  color: #f78b1f; }
-.block-superfish-1 ul li a.active {
-  color: #f78b1f; }
+.block-superfish-1 ul li {
+  margin: 0; }
+  .block-superfish-1 ul li a {
+    font-family: "Ruda", sans-serif;
+    font-size: 0.938em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 15px 0 15px;
+    border-right: 2px solid #f78b1f;
+    margin: 8px 0; }
+  .block-superfish-1 ul li a:hover {
+    color: #f78b1f; }
+  .block-superfish-1 ul li a.active {
+    color: #f78b1f; }
 .block-superfish-1 ul li.first a {
   padding: 0 20px 0 0; }
 .block-superfish-1 ul li.last a {
