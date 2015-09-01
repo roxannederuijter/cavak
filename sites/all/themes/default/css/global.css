@@ -1317,4 +1317,7 @@ ul#superfish-1 li ul {
   padding-bottom: 0;
   padding-top: 0; }
 
+.pager li.pager-next {
+  right: 60px; }
+
 /*# sourceMappingURL=global.css.map */
