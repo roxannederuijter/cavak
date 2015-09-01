@@ -53,6 +53,7 @@
 
 
 .block-news-frontpage-block {
+  cursor: pointer;
   display: inline-block;
   width: 48%;
   position: absolute;
@@ -265,6 +266,7 @@
   float: left;
   z-index: 100;
   .views-row {
+    cursor: pointer;
     position:relative;
     margin-bottom: 8px;
     width: 85%;

@@ -61,6 +61,7 @@
   color: #f78b1f; }
 
 .block-news-frontpage-block {
+  cursor: pointer;
   display: inline-block;
   width: 48%;
   position: absolute;
@@ -202,6 +203,7 @@
   float: left;
   z-index: 100; }
   .block-filmrecruitz-block .views-row {
+    cursor: pointer;
     position: relative;
     margin-bottom: 8px;
     width: 85%;
