@@ -581,10 +581,11 @@ a {
 
 /* Cavak */
 .view-id-cavak .views-field-title {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-  font-size: 30px; }
+  color: #f78b1f;
+  font-size: 46px;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase; }
 
 .views-field-field-crew img {
   float: left; }
