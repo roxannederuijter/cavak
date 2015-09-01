@@ -484,7 +484,8 @@ a {
     margin-right: 20px;
     float: left;
     font-size: 16px;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #565754; }
   #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid label[for=edit-field-catogorie-tid]:after {
     content: ":"; }
   #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item {
@@ -492,7 +493,8 @@ a {
     margin-right: 15px; }
     #block-views-exp-zinema-page .views-widget-filter-field_catogorie_tid .form-item label {
       font-size: 15px;
-      font-weight: 100; }
+      font-weight: 100;
+      color: #565754; }
 
 #block-views-exp-news-page-1 .views-widget-filter-field_categorie_tid {
   width: 100%; }
