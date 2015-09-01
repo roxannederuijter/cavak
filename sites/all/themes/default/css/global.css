@@ -1196,6 +1196,11 @@ a.blue {
   padding: 10px;
   color: #fff; }
 
+a.orange {
+  background-color: #f78b1f;
+  padding: 10px;
+  color: #fff; }
+
 .entity-paragraphs-item .field-name-field-2titel {
   font-weight: 700;
   text-transform: uppercase;
