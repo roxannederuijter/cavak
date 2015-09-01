@@ -416,13 +416,13 @@
   float: left; }
 
 .views-widget-filter-field_categorie_crew_tid label[for=edit-field-categorie-crew-tid] {
-  margin: 0 10px; }
+  margin: 0 0px; }
 .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid {
-  padding: 3px 20px;
-  margin: 0 10px; }
+  padding: 3px 10px;
+  margin: 0 5px; }
 .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid.active {
-  padding: 3px 20px;
-  margin: 0 10px; }
+  padding: 3px 10px;
+  margin: 0 5px; }
 
 .node-type-crew .group-left {
   width: 30% !important; }

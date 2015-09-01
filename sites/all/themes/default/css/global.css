@@ -861,12 +861,12 @@ input[type="submit"] {
     border-radius: 3px;
     color: #000;
     text-align: center;
-    padding: 3px 20px;
+    padding: 3px 4px;
     float: left;
-    margin: 0 10px;
+    margin: 0 0px;
     float: left;
     font-size: 14px;
-    margin-top: -11px;
+    margin-top: -12px;
     letter-spacing: initial; }
 
 /* jury */
