@@ -539,12 +539,12 @@
 
 .views-widget-filter-field_catogorie_cast_crew_tid {
   .form-item-field-catogorie-cast-crew-tid {
-    padding: 3px 20px;
-    margin: 0 10px;
+    padding: 3px 10px;
+    margin: 0 5px;
   }
   .form-item-field-catogorie-cast-crew-tid.active {
-    padding: 3px 20px;
-    margin:0 10px;
+    padding: 3px 10px;
+    margin:0 5px;
   }
 }
 
@@ -556,6 +556,12 @@
   .block-webform {
     width: 15%;
   }
+}
+
+.page-filmrecruitz-cast {
+ .block-webform {
+   width:29%;
+ }
 }
 
 .view-id-cast_crew {
