@@ -1320,4 +1320,7 @@ ul#superfish-1 li ul {
 .pager li.pager-next {
   right: 60px; }
 
+.pager li.pager-last a {
+  width: 60px; }
+
 /*# sourceMappingURL=global.css.map */
