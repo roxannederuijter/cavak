@@ -452,6 +452,9 @@ a {
     width: 100%; }
 
 /* Paragraphs */
+.paragraphs-item-1-kolom-afbeelding {
+  margin-bottom: 20px; }
+
 .paragraphs-item-quote .field-name-field-quotes {
   font-weight: 700;
   text-transform: uppercase;
