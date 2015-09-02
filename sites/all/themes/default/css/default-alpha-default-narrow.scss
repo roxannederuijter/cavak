@@ -675,3 +675,35 @@
   }
 }
 
+.region-footer-first {
+  .block-menu {
+    display:inline;
+    li {
+      float:left;
+      width:50%;
+      margin:0;
+      padding:0;
+      text-decoration:none;
+      list-style:none;
+      a {
+        color:#fff;
+        font-size:16px;
+      }
+      ul {
+        li {
+          float:none;
+          width:100%;
+          height:auto;
+          a {
+            font-size: 12px;
+            font-weight: 100;
+          }
+        }
+      }
+    }
+    li.last {
+      height:auto;
+    }
+  }
+}
+

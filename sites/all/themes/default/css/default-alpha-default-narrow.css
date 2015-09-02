@@ -470,4 +470,26 @@
   width: 33%;
   margin-top: 0px; }
 
+.region-footer-first .block-menu {
+  display: inline; }
+  .region-footer-first .block-menu li {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; }
+    .region-footer-first .block-menu li a {
+      color: #fff;
+      font-size: 16px; }
+    .region-footer-first .block-menu li ul li {
+      float: none;
+      width: 100%;
+      height: auto; }
+      .region-footer-first .block-menu li ul li a {
+        font-size: 12px;
+        font-weight: 100; }
+  .region-footer-first .block-menu li.last {
+    height: auto; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
