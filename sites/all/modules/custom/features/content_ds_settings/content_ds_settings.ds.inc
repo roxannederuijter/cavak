@@ -37,6 +37,21 @@ function content_ds_settings_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|filmfestival|default';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'filmfestival';
+  $ds_fieldsetting->view_mode = 'default';
+  $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '0',
+      'label' => 'hidden',
+      'format' => 'default',
+    ),
+  );
+  $export['node|filmfestival|default'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'node|filmrecruitz|default';
   $ds_fieldsetting->entity_type = 'node';
   $ds_fieldsetting->bundle = 'filmrecruitz';
@@ -296,6 +311,42 @@ function content_ds_settings_ds_layout_settings_info() {
     'layout_disable_css' => 0,
   );
   $export['node|crew|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|filmfestival|default';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'filmfestival';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'title',
+        1 => 'field_afbeelding2',
+        2 => 'field_subtitel',
+        3 => 'body',
+        4 => 'field_link',
+      ),
+    ),
+    'fields' => array(
+      'title' => 'ds_content',
+      'field_afbeelding2' => 'ds_content',
+      'field_subtitel' => 'ds_content',
+      'body' => 'ds_content',
+      'field_link' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['node|filmfestival|default'] = $ds_layout;
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
@@ -807,6 +858,50 @@ function content_ds_settings_ds_layout_settings_info() {
     'layout_disable_css' => 0,
   );
   $export['paragraphs_item|3_kolommen_tekst_video_tekst|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'paragraphs_item|event|default';
+  $ds_layout->entity_type = 'paragraphs_item';
+  $ds_layout->bundle = 'event';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_2col_stacked';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'header' => array(
+        0 => 'field_titel',
+      ),
+      'left' => array(
+        1 => 'field_tekst',
+      ),
+      'right' => array(
+        2 => 'field_cta',
+      ),
+      'footer' => array(
+        3 => 'field_afbeeldingen',
+      ),
+    ),
+    'fields' => array(
+      'field_titel' => 'header',
+      'field_tekst' => 'left',
+      'field_cta' => 'right',
+      'field_afbeeldingen' => 'footer',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'header' => 'div',
+      'left' => 'div',
+      'right' => 'div',
+      'footer' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['paragraphs_item|event|default'] = $ds_layout;
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;

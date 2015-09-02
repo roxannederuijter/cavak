@@ -74,9 +74,19 @@ function content_paragraph_bundels_paragraphs_info() {
       'bundle' => 'afbeelding_tekst_link_33_3_',
       'locked' => '1',
     ),
+    'event' => array(
+      'name' => 'event',
+      'bundle' => 'event',
+      'locked' => '1',
+    ),
     'jury' => array(
       'name' => 'Jury',
       'bundle' => 'jury',
+      'locked' => '1',
+    ),
+    'links_titels_rechts_quote' => array(
+      'name' => 'links-Titels_rechts-Quote',
+      'bundle' => 'links_titels_rechts_quote',
       'locked' => '1',
     ),
     'video' => array(
