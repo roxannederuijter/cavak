@@ -24,6 +24,7 @@ features[fe_block_boxes][] = tips
 features[fe_block_boxes][] = zinema
 features[fe_block_settings][] = bean-banner
 features[fe_block_settings][] = bean-buttons
+features[fe_block_settings][] = bean-filmrecruitz-footer
 features[fe_block_settings][] = bean-mail
 features[fe_block_settings][] = bean-socialmedia
 features[fe_block_settings][] = block-events

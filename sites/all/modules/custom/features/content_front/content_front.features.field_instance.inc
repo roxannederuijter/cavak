@@ -122,50 +122,6 @@ function content_front_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-front-body'
-  $field_instances['node-front-body'] = array(
-    'bundle' => 'front',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'hidden',
-        'module' => 'text',
-        'settings' => array(
-          'trim_length' => 600,
-        ),
-        'type' => 'text_summary_or_trimmed',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'body',
-    'label' => 'Body',
-    'required' => FALSE,
-    'settings' => array(
-      'display_summary' => TRUE,
-      'text_processing' => 1,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'module' => 'text',
-      'settings' => array(
-        'rows' => 20,
-        'summary_rows' => 5,
-      ),
-      'type' => 'text_textarea_with_summary',
-      'weight' => 41,
-    ),
-  );
-
   // Exported field_instance: 'node-front-field_afbeelding2'
   $field_instances['node-front-field_afbeelding2'] = array(
     'bundle' => 'front',
@@ -174,13 +130,9 @@ function content_front_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'image',
-        'settings' => array(
-          'image_link' => '',
-          'image_style' => '',
-        ),
-        'type' => 'image',
-        'weight' => 4,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -212,7 +164,7 @@ function content_front_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 43,
+      'weight' => 7,
     ),
   );
 
@@ -225,16 +177,9 @@ function content_front_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'field_collection',
-        'settings' => array(
-          'add' => 'Toevoegen',
-          'delete' => 'Verwijderen',
-          'description' => TRUE,
-          'edit' => 'Bewerken',
-          'view_mode' => 'full',
-        ),
-        'type' => 'field_collection_view',
-        'weight' => 5,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 12,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -255,24 +200,25 @@ function content_front_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 44,
+      'weight' => 8,
     ),
   );
 
-  // Exported field_instance: 'node-front-field_film'
-  $field_instances['node-front-field_film'] = array(
+  // Exported field_instance: 'node-front-field_contents'
+  $field_instances['node-front-field_contents'] = array(
     'bundle' => 'front',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'file_entity',
+        'module' => 'paragraphs',
         'settings' => array(
-          'file_view_mode' => 'default',
+          'view_mode' => 'full',
         ),
-        'type' => 'file_rendered',
-        'weight' => 2,
+        'type' => 'paragraphs_view',
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -282,45 +228,56 @@ function content_front_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_film',
-    'label' => 'Film',
+    'field_name' => 'field_contents',
+    'label' => 'inhoud',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
-      'default_image' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'png gif jpg jpeg',
-      'max_filesize' => '',
-      'max_resolution' => '',
-      'min_resolution' => '',
-      'title_field' => 0,
+      'add_mode' => 'select',
+      'allowed_bundles' => array(
+        '1_kolom_afbeelding' => -1,
+        '1_kolom_tekst' => -1,
+        '1_kolom_tekst_33_3_breed' => -1,
+        '2_kolommen_afbeeldingen' => -1,
+        '2_kolommen_tekst' => -1,
+        '2_kolommen_tekst_30_afbeelding_7' => -1,
+        '2_kolommen_tekst_afbeelding_link' => -1,
+        '2_kolommen_tekst_afbeelding_rech' => -1,
+        '2_kolommen_tekst_video' => -1,
+        '3_kolommen_tekst' => -1,
+        '3_kolommen_tekst_video_tekst' => '3_kolommen_tekst_video_tekst',
+        '3_kolommen_video_s' => -1,
+        'afbeelding_tekst_link_33_3_' => -1,
+        'jury' => -1,
+        'video' => -1,
+      ),
+      'bundle_weights' => array(
+        '1_kolom_afbeelding' => 2,
+        '1_kolom_tekst' => 3,
+        '1_kolom_tekst_33_3_breed' => 4,
+        '2_kolommen_afbeeldingen' => 5,
+        '2_kolommen_tekst' => 6,
+        '2_kolommen_tekst_30_afbeelding_7' => 7,
+        '2_kolommen_tekst_afbeelding_link' => 8,
+        '2_kolommen_tekst_afbeelding_rech' => 9,
+        '2_kolommen_tekst_video' => 10,
+        '3_kolommen_tekst' => -10,
+        '3_kolommen_tekst_video_tekst' => -10,
+        '3_kolommen_video_s' => -10,
+        'afbeelding_tekst_link_33_3_' => -10,
+        'jury' => -10,
+        'video' => -10,
+      ),
+      'default_edit_mode' => 'open',
+      'title' => 'Paragraph',
+      'title_multiple' => 'Paragraphs',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'active' => 1,
-      'module' => 'media',
-      'settings' => array(
-        'allowed_schemes' => array(
-          'public' => 'public',
-          'vimeo' => 'vimeo',
-          'youtube' => 'youtube',
-        ),
-        'allowed_types' => array(
-          'audio' => 0,
-          'document' => 0,
-          'image' => 0,
-          'video' => 0,
-        ),
-        'browser_plugins' => array(
-          'media_default--media_browser_1' => 0,
-          'media_default--media_browser_my_files' => 0,
-          'media_internet' => 0,
-          'upload' => 0,
-          'youtube' => 0,
-        ),
-      ),
-      'type' => 'media_generic',
-      'weight' => 42,
+      'active' => 0,
+      'module' => 'paragraphs',
+      'settings' => array(),
+      'type' => 'paragraphs_embed',
+      'weight' => 4,
     ),
   );
 
@@ -328,11 +285,10 @@ function content_front_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Afbeelding');
   t('Banner');
-  t('Body');
-  t('Film');
   t('Quote');
   t('Titel');
   t('afbeelding');
+  t('inhoud');
 
   return $field_instances;
 }

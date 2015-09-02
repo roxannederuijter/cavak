@@ -64,6 +64,36 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['bean-filmrecruitz-footer'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'filmrecruitz-footer',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => 'filmrecruitz*
+filmrecruitzz*
+schrijf-crew
+schrijf-cast
+ik-zoek',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'footer_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['bean-mail'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -96,7 +126,11 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'socialmedia',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'filmrecruitzz*
+filmrecruitz*
+schrijf-crew
+schrijf-cast
+ik-zoek',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -122,14 +156,14 @@ function default_block_settings_default_fe_block_settings() {
     'machine_name' => 'events',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'evenementen',
+    'pages' => 'zervices/evenementen',
     'roles' => array(),
     'themes' => array(
       'default' => array(
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -27,
       ),
       'seven' => array(
         'region' => '',
@@ -148,14 +182,14 @@ function default_block_settings_default_fe_block_settings() {
     'machine_name' => 'filmfestival',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'filmfestival',
+    'pages' => 'zervices/filmfestival',
     'roles' => array(),
     'themes' => array(
       'default' => array(
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -25,
       ),
       'seven' => array(
         'region' => '',
@@ -181,7 +215,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -24,
+        'weight' => -22,
       ),
       'seven' => array(
         'region' => '',
@@ -207,7 +241,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -23,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
@@ -233,7 +267,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -22,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -261,7 +295,7 @@ ik-zoek',
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -25,
+        'weight' => -23,
       ),
       'seven' => array(
         'region' => '',
@@ -332,14 +366,14 @@ ik-zoek',
     'machine_name' => 'online',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'online',
+    'pages' => 'zervices/online',
     'roles' => array(),
     'themes' => array(
       'default' => array(
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -26,
       ),
       'seven' => array(
         'region' => '',
@@ -365,7 +399,7 @@ ik-zoek',
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -28,
       ),
       'seven' => array(
         'region' => '',
@@ -391,7 +425,7 @@ ik-zoek',
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -711,7 +745,7 @@ ik-zoek',
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -21,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -730,9 +764,9 @@ ik-zoek',
     'delta' => 3,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => 'filmfestival
-online
-evenementen
+    'pages' => 'zervices/filmfestival
+zervices/online
+zervices/evenementen
 zervices/tips',
     'roles' => array(),
     'themes' => array(
@@ -740,7 +774,7 @@ zervices/tips',
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -775,7 +809,7 @@ zervices/tips',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1127,10 +1161,10 @@ zervices/tips',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'content',
+        'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -20,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -1153,8 +1187,8 @@ zervices/tips',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => -18,
       ),
@@ -1392,7 +1426,7 @@ schrijf-crew',
         'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -12,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',

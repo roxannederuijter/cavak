@@ -101,7 +101,7 @@ function views_filmfestival_views_default_views() {
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
   $handler->display->display_options['defaults']['header'] = FALSE;
-  $handler->display->display_options['path'] = 'filmfestival';
+  $handler->display->display_options['path'] = 'zervices/filmfestival';
 
   /* Display: Pagina online */
   $handler = $view->new_display('page', 'Pagina online', 'page_2');
@@ -134,7 +134,7 @@ function views_filmfestival_views_default_views() {
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['type'] = 'select';
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['vocabulary'] = 'categorie_filmfestival';
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['hierarchy'] = 1;
-  $handler->display->display_options['path'] = 'online';
+  $handler->display->display_options['path'] = 'zervices/online';
 
   /* Display: Pagina evenementen */
   $handler = $view->new_display('page', 'Pagina evenementen', 'page_3');
@@ -167,7 +167,7 @@ function views_filmfestival_views_default_views() {
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['type'] = 'select';
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['vocabulary'] = 'categorie_filmfestival';
   $handler->display->display_options['filters']['field_categorie_filmfestival_tid_1']['hierarchy'] = 1;
-  $handler->display->display_options['path'] = 'evenementen';
+  $handler->display->display_options['path'] = 'zervices/evenementen';
   $translatables['filmfestival'] = array(
     t('Master'),
     t('filmfestival'),

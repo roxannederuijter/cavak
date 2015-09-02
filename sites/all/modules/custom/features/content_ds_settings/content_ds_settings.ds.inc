@@ -331,33 +331,25 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->entity_type = 'node';
   $ds_layout->bundle = 'front';
   $ds_layout->view_mode = 'default';
-  $ds_layout->layout = 'ds_2col';
+  $ds_layout->layout = 'ds_1col';
   $ds_layout->settings = array(
     'regions' => array(
-      'left' => array(
-        0 => 'title',
-        1 => 'body',
-      ),
-      'right' => array(
-        2 => 'field_film',
+      'ds_content' => array(
+        0 => 'field_contents',
       ),
     ),
     'fields' => array(
-      'title' => 'left',
-      'body' => 'left',
-      'field_film' => 'right',
+      'field_contents' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
-      'left' => 'div',
-      'right' => 'div',
+      'ds_content' => 'div',
     ),
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
-    'layout_disable_css' => 0,
   );
   $export['node|front|default'] = $ds_layout;
 
@@ -443,12 +435,12 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'title',
+        0 => 'field_paragraph_field_collection',
         1 => 'field_paragraph_s',
       ),
     ),
     'fields' => array(
-      'title' => 'ds_content',
+      'field_paragraph_field_collection' => 'ds_content',
       'field_paragraph_s' => 'ds_content',
     ),
     'classes' => array(),

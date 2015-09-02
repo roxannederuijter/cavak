@@ -12,9 +12,15 @@ function default_block_settings_default_fe_block_boxes() {
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'events';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'events';
-  $fe_block_boxes->body = '<h2>Evenementen</h2>
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmfestival</h2>
+</div>
+
+<div class="blue">
+<h2>Evenementen</h2>
+</div>
 ';
 
   $export['events'] = $fe_block_boxes;
@@ -110,18 +116,30 @@ function default_block_settings_default_fe_block_boxes() {
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'online';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'online';
-  $fe_block_boxes->body = '<h2>Online</h2>
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmfestival</h2>
+</div>
+
+<div class="blue">
+<h2>online</h2>
+</div>
 ';
 
   $export['online'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'tips';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'tips';
-  $fe_block_boxes->body = '<h2>Tips en ervaringen</h2>
+  $fe_block_boxes->body = '<div class="orange">
+<h2>Filmfestival</h2>
+</div>
+
+<div class="blue">
+<h2>Tips en ervaringen</h2>
+</div>
 ';
 
   $export['tips'] = $fe_block_boxes;

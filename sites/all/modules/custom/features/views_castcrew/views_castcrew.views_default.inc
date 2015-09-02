@@ -190,13 +190,14 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['field'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator_id'] = 'field_catogorie_cast_crew_tid_op';
-  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'categorie';
+  $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['label'] = 'categorie: ';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['operator'] = 'field_catogorie_cast_crew_tid_op';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['identifier'] = 'field_catogorie_cast_crew_tid';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['expose']['remember_roles'] = array(
     2 => '2',
     1 => 0,
     3 => 0,
+    4 => 0,
   );
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_catogorie_cast_crew_tid']['vocabulary'] = 'catogorie_cast_crew';
@@ -228,13 +229,14 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['filters']['field_categorie_crew_tid']['field'] = 'field_categorie_crew_tid';
   $handler->display->display_options['filters']['field_categorie_crew_tid']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['operator_id'] = 'field_categorie_crew_tid_op';
-  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['label'] = 'categorie';
+  $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['label'] = 'categorie: ';
   $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['operator'] = 'field_categorie_crew_tid_op';
   $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['identifier'] = 'field_categorie_crew_tid';
   $handler->display->display_options['filters']['field_categorie_crew_tid']['expose']['remember_roles'] = array(
     2 => '2',
     1 => 0,
     3 => 0,
+    4 => 0,
   );
   $handler->display->display_options['filters']['field_categorie_crew_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_categorie_crew_tid']['vocabulary'] = 'caterogie_crew';
@@ -329,7 +331,7 @@ function views_castcrew_views_default_views() {
     t('next ›'),
     t('last »'),
     t('Cast-page'),
-    t('categorie'),
+    t('categorie: '),
     t('Crew-page'),
     t('Slideshow Blok'),
     t('Cast/Crew'),
