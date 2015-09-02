@@ -334,30 +334,6 @@ a {
   font-weight: 600;
   color: #f78b1f;
   text-transform: uppercase; }
-.front .zone-content-wrapper {
-  background-color: #161515;
-  padding: 50px 0; }
-  .front .zone-content-wrapper .block-main {
-    width: 100%;
-    float: left; }
-    .front .zone-content-wrapper .block-main .group-left {
-      width: 100%; }
-    .front .zone-content-wrapper .block-main .node-front h2 {
-      font-size: 18px;
-      color: #fff;
-      text-transform: uppercase; }
-    .front .zone-content-wrapper .block-main .node-front .field-name-body {
-      font-size: 14px;
-      color: #fff; }
-    .front .zone-content-wrapper .block-main .node-front .field-name-field-film iframe {
-      width: 100%;
-      height: auto; }
-  .front .zone-content-wrapper .block-views-agenda-block {
-    width: 100%;
-    float: left;
-    color: #f78b1f; }
-    .front .zone-content-wrapper .block-views-agenda-block a {
-      color: #f78b1f; }
 .front .zone-postscript {
   width: 100%; }
 .front .region-postscript-first {

@@ -199,42 +199,6 @@ a {
     color: $orange;
     text-transform:uppercase;
   }
-  .zone-content-wrapper {
-    background-color: #161515;
-    padding:50px 0;
-    .block-main {
-      width: 100%;
-      float:left;
-      .group-left {
-        width: 100%;
-      }
-      .node-front {
-        h2 {
-          font-size: 18px;
-          color: #fff;
-          text-transform:uppercase;
-        }
-        .field-name-body {
-          font-size: 14px;
-          color: #fff;
-        }
-        .field-name-field-film {
-          iframe {
-            width: 100%;
-            height:auto;
-          }
-        }
-      }
-    }
-    .block-views-agenda-block {
-      width:100%;
-      float:left;
-      color:$orange;
-      a {
-        color:$orange;
-      }
-    }
-  }
   .zone-postscript {
     width:100%;
   }
