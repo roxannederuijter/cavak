@@ -19,11 +19,11 @@ function content_agenda_ctools_plugin_api($module = NULL, $api = NULL) {
 function content_agenda_node_info() {
   $items = array(
     'agenda' => array(
-      'name' => t('Agenda'),
+      'name' => t('Event'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Titel'),
       'help' => '',
     ),
   );
