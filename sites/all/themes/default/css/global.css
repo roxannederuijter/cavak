@@ -438,16 +438,16 @@ a {
   margin-top: 30px; }
 
 /* Footer */
-#block-bean-logo-0 img, #block-bean-socialmedia img {
+#block-bean-logo-0 img, #block-bean-socialmedia img, #block-bean-filmrecruitz-footer img {
   float: left;
   padding-top: 32px; }
 
-#block-bean-socialmedia {
+#block-bean-socialmedia, #block-bean-filmrecruitz-footer {
   margin-top: 20px; }
-  #block-bean-socialmedia img {
+  #block-bean-socialmedia img, #block-bean-filmrecruitz-footer img {
     padding-right: 1%;
     margin-top: 5px; }
-  #block-bean-socialmedia .field-name-field-link-image {
+  #block-bean-socialmedia .field-name-field-link-image, #block-bean-filmrecruitz-footer .field-name-field-link-image {
     float: right;
     width: 100%; }
 
