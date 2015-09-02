@@ -216,6 +216,12 @@ a {
   #zone-content-wrapper {
     background-color:#161515;
     color:#fff;
+    .group-right {
+      color:$orange;
+      a {
+        color:$orange;
+      }
+    }
   }
 }
 

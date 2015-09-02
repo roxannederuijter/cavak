@@ -347,6 +347,10 @@ a {
 .front #zone-content-wrapper {
   background-color: #161515;
   color: #fff; }
+  .front #zone-content-wrapper .group-right {
+    color: #f78b1f; }
+    .front #zone-content-wrapper .group-right a {
+      color: #f78b1f; }
 
 .context-contact .zone-postscript {
   width: 100%; }
