@@ -1310,5 +1310,14 @@ ul#superfish-1 li ul {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase; }
+.field-collection-item-field-event .field-collection-item-field-afbeeldingen {
+  width: 17.3%;
+  float: left; }
+  .field-collection-item-field-event .field-collection-item-field-afbeeldingen .field-name-field-titel {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700; }
+  .field-collection-item-field-event .field-collection-item-field-afbeeldingen .field-name-field-afbeeldingevent {
+    float: left; }
 
 /*# sourceMappingURL=global.css.map */

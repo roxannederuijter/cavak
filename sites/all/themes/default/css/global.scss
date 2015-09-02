@@ -1581,4 +1581,16 @@ ul#superfish-1 li {
       }
     }
   }
+  .field-collection-item-field-afbeeldingen {
+    width:17.3%;
+    float:left;
+    .field-name-field-titel {
+      font-size: 15px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .field-name-field-afbeeldingevent {
+      float:left;
+    }
+  }
 }
