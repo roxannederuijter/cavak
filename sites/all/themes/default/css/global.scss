@@ -1569,6 +1569,8 @@ ul#superfish-1 li {
 }
 
 .field-collection-item-field-event {
+  border-bottom: 1px solid $orange;
+  padding-bottom: 50px;
   .group-right {
     .field-name-field-cta {
       background-color: $orange;
@@ -1591,5 +1593,8 @@ ul#superfish-1 li {
       width: 60%;
       margin: 0 auto;
     }
+  }
+  .group-footer {
+    padding-top: 43px;
   }
 }
