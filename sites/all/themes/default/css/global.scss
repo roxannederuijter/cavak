@@ -1567,3 +1567,18 @@ ul#superfish-1 li {
     }
   }
 }
+
+.field-collection-item-field-event {
+  .group-right {
+    .field-name-field-cta {
+      background-color: $orange;
+      padding: 10px 20px;
+      a {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
