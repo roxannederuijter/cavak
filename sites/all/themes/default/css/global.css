@@ -344,7 +344,7 @@ a {
     margin: 0 auto; }
 .front #region-postscript-first {
   width: 100%; }
-.front #zone-content {
+.front #zone-content-wrapper {
   background-color: #161515; }
 
 .context-contact .zone-postscript {
