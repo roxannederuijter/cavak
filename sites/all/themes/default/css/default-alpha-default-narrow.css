@@ -169,7 +169,10 @@
 
 #search-block-form {
   width: 60%;
-  float: none; }
+  float: none;
+  margin-left: 10%;
+  float: left;
+  position: relative; }
 
 /* news */
 .view-display-id-page_1 .views-row {
