@@ -345,7 +345,8 @@ a {
 .front #region-postscript-first {
   width: 100%; }
 .front #zone-content-wrapper {
-  background-color: #161515; }
+  background-color: #161515;
+  color: #fff; }
 
 .context-contact .zone-postscript {
   width: 100%; }
