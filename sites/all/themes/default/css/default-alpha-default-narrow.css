@@ -289,7 +289,7 @@
 .block-superfish-2, .block-superfish-3 {
   float: left;
   padding-bottom: 10px;
-  width: 50%;
+  width: 100%;
   margin-top: 20px; }
   .block-superfish-2 ul li a, .block-superfish-3 ul li a {
     font-size: 18px;

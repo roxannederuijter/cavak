@@ -101,4 +101,13 @@
 .block-cast-crew-slideshow .views-slideshow-controls-text-next {
   right: -31px; }
 
+.block-superfish-2, .block-superfish-3 {
+  float: left;
+  padding-bottom: 10px;
+  width: 50%;
+  margin-top: 20px; }
+  .block-superfish-2 ul li a, .block-superfish-3 ul li a {
+    font-size: 18px;
+    padding: 0px 11px; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
