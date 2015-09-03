@@ -87,9 +87,13 @@
   width: 59%; }
 
 .page-filmrecruitz-cast .block-webform, .page-filmrecruitz-crew .block-webform {
-  width: 15%; }
+  width: 100%; }
 
 .page-filmrecruitz-cast .block-webform {
   width: 29%; }
+
+.block-views-exp-cast-crew-page-1 {
+  width: 85%;
+  float: left; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

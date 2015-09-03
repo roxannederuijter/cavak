@@ -174,7 +174,7 @@
 
 .page-filmrecruitz-cast, .page-filmrecruitz-crew {
   .block-webform {
-    width: 15%;
+    width: 100%;
   }
 }
 
@@ -182,5 +182,10 @@
   .block-webform {
     width:29%;
   }
+}
+
+.block-views-exp-cast-crew-page-1 {
+  width:85%;
+  float:left;
 }
 
