@@ -1358,11 +1358,9 @@ input[type="submit"] {
   .field-name-field-video {
     .field-items {
       .field-item {
-        width:33.3%;
-        float:left;
         iframe {
-          width:300px;
-          height:200px;
+          width:100%;
+          height:auto;
 
         }
       }
