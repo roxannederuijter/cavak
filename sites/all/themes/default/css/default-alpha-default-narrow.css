@@ -471,4 +471,32 @@
 #block-views-banner-block-1 {
   margin-top: 31px; }
 
+.field-collection-item-field-event {
+  border-bottom: 1px solid #f78b1f;
+  padding-bottom: 50px; }
+  .field-collection-item-field-event .group-right {
+    width: 50%; }
+    .field-collection-item-field-event .group-right .field-name-field-cta {
+      background-color: #f78b1f;
+      padding: 10px 20px; }
+      .field-collection-item-field-event .group-right .field-name-field-cta a {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase; }
+  .field-collection-item-field-event .group-left {
+    width: 50%;
+    float: left; }
+  .field-collection-item-field-event .field-collection-item-field-afbeeldingen {
+    width: 25%;
+    float: left; }
+    .field-collection-item-field-event .field-collection-item-field-afbeeldingen .field-name-field-titel {
+      font-size: 15px;
+      text-align: center;
+      font-weight: 700;
+      width: 60%;
+      margin: 0 auto; }
+  .field-collection-item-field-event .group-footer {
+    padding-top: 43px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

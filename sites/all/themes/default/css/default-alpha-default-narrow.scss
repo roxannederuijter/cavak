@@ -664,3 +664,38 @@
   margin-top:31px;
 }
 
+.field-collection-item-field-event {
+  border-bottom: 1px solid $orange;
+  padding-bottom: 50px;
+  .group-right {
+    width:50%;
+    .field-name-field-cta {
+      background-color: $orange;
+      padding: 10px 20px;
+      a {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .group-left {
+    width:50%;
+    float:left;
+  }
+  .field-collection-item-field-afbeeldingen {
+    width:25%;
+    float:left;
+    .field-name-field-titel {
+      font-size: 15px;
+      text-align: center;
+      font-weight: 700;
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+  .group-footer {
+    padding-top: 43px;
+  }
+}

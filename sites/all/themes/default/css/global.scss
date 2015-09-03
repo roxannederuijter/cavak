@@ -1571,6 +1571,7 @@ ul#superfish-1 li {
   border-bottom: 1px solid $orange;
   padding-bottom: 50px;
   .group-right {
+    width:100%;
     .field-name-field-cta {
       background-color: $orange;
       padding: 10px 20px;
@@ -1582,8 +1583,11 @@ ul#superfish-1 li {
       }
     }
   }
+  .group-left {
+    width:100%;
+  }
   .field-collection-item-field-afbeeldingen {
-    width:25%;
+    width:100%;
     float:left;
     .field-name-field-titel {
       font-size: 15px;
