@@ -260,7 +260,7 @@
     display: block;
     position: absolute;
     top: 31%;
-    right: -22px;
+    right: 2px;
     z-index: 100;
     text-indent: -9999px;
     background: url("img/ra.jpg") no-repeat center;
