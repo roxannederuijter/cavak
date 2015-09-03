@@ -1155,7 +1155,7 @@ input[type="submit"] {
   padding-bottom: 20px; }
   .paragraphs-item-3-kolommen-tekst-video-tekst .field-name-field-video .field-items .field-item iframe {
     width: 100%;
-    height: au; }
+    height: auto; }
 
 a.blue {
   background-color: #3989c9;
@@ -1321,5 +1321,8 @@ ul#superfish-1 li ul {
       margin: 0 auto; }
   .field-collection-item-field-event .group-footer {
     padding-top: 43px; }
+
+.zone-preface-wrapper {
+  margin-top: 44px; }
 
 /*# sourceMappingURL=global.css.map */
