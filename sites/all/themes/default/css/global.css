@@ -456,8 +456,7 @@ a {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 2em;
-  margin-top: 20px;
-  word-break: break-all; }
+  margin-top: 20px; }
 .entity-paragraphs-item .field-name-field-afbeelding img {
   float: left; }
 .entity-paragraphs-item .field-name-field-video iframe {
