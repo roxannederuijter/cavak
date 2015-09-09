@@ -412,7 +412,8 @@
   margin: 0 0px; }
 .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid {
   padding: 3px 10px;
-  margin: 0 5px; }
+  margin: 0 5px;
+  margin-bottom: 10px; }
 .views-widget-filter-field_categorie_crew_tid .form-item-field-categorie-crew-tid.active {
   padding: 3px 10px;
   margin: 0 5px; }
