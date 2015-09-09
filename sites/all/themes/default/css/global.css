@@ -353,7 +353,7 @@ a {
       color: #f78b1f; }
 
 .context-contact #search-block-form input[type="submit"] {
-  top: 0; }
+  top: -2px; }
 .context-contact .zone-postscript {
   width: 100%; }
 .context-contact .region-postscript-first {
