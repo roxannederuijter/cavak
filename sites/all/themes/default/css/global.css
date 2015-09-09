@@ -1171,7 +1171,9 @@ input[type="submit"] {
 a.blue {
   background-color: #3989c9;
   padding: 10px;
-  color: #fff; }
+  color: #fff;
+  display: inline-block;
+  width: 87%; }
 
 a.orange {
   background-color: #f78b1f;
