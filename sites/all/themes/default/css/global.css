@@ -697,7 +697,7 @@ input[type="submit"] {
 
 #search-block-form {
   width: 40%;
-  float: left;
+  float: right;
   position: relative; }
 
 .view-id-cast_crew .views-row {
@@ -923,7 +923,7 @@ input[type="submit"] {
     width: 23%; }
 
 .block-search {
-  display: block;
+  display: inline-block;
   width: 100%; }
 
 .field-name-field-content .field-item {
@@ -1010,6 +1010,8 @@ input[type="submit"] {
   width: 21%;
   float: right;
   margin-top: 3px; }
+  .region-user-first .block-block-2 p {
+    margin: 0; }
   .region-user-first .block-block-2 a {
     font-size: 1px;
     color: transparent; }
