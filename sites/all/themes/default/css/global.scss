@@ -1631,3 +1631,11 @@ ul#superfish-1 li {
     padding-bottom:0;
   }
 }
+
+ul.primary li {
+  display: none!important;
+}
+
+ul.primary li.active {
+  display: inline!important;
+}

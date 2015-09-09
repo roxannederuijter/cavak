@@ -1347,4 +1347,10 @@ ul#superfish-1 li ul {
   margin-bottom: 0;
   padding-bottom: 0; }
 
+ul.primary li {
+  display: none !important; }
+
+ul.primary li.active {
+  display: inline !important; }
+
 /*# sourceMappingURL=global.css.map */
