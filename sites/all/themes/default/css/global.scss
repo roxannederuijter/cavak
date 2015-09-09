@@ -226,6 +226,9 @@ a {
 }
 
 .context-contact {
+  #search-block-form input[type="submit"] {
+    top:0;
+  }
   .zone-postscript {
     width:100%;
   }

@@ -352,6 +352,8 @@ a {
     .front #zone-content-wrapper .group-right a {
       color: #f78b1f; }
 
+.context-contact #search-block-form input[type="submit"] {
+  top: 0; }
 .context-contact .zone-postscript {
   width: 100%; }
 .context-contact .region-postscript-first {
