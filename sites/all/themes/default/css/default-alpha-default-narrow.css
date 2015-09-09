@@ -116,8 +116,8 @@
   float: left;
   height: 255px; }
   .view-zinema .views-row iframe.media-youtube-player {
-    width: 305.5px;
-    height: 200px; }
+    width: 100%;
+    height: 230px; }
   .view-zinema .views-row .views-field-title {
     width: 50%;
     float: left; }
@@ -507,5 +507,17 @@
 .paragraphs-item-2-kolommen-tekst-afbeelding-link .group-left {
   box-sizing: border-box;
   padding-right: 20px; }
+
+.view-zinema .views-row-1, .views-row-4, .views-row-7 {
+  box-sizing: border-box;
+  padding-right: 10px; }
+
+.view-zinema .views-row-2, .views-row-5, .views-row-8 {
+  box-sizing: border-box;
+  padding: 0px 10px; }
+
+.view-zinema .views-row-3, .views-row-6, .views-row-9 {
+  box-sizing: border-box;
+  padding-left: 10px; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
