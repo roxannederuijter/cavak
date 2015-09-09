@@ -938,6 +938,9 @@ input[type="submit"] {
     font-size: 18px; }
     .field-name-field-content .field-item .field-name-field-titel .field-item {
       padding-bottom: 18px; }
+  .field-name-field-content .field-item .field-name-field-afbeelding2 {
+    display: inline-block;
+    padding-bottom: 10px; }
   .field-name-field-content .field-item .field-name-field-link-filmrecruitz {
     float: right;
     width: 100%;
