@@ -881,6 +881,8 @@ input[type="submit"] {
   color: #f78b1f; }
 .paragraphs-item-jury .field-name-field-tekst {
   padding: 0 15px; }
+.paragraphs-item-jury .field-name-field-afbeelding2 {
+  display: inline-block; }
 
 .paragraphs-item-links-titels-rechts-quote {
   margin-bottom: 50px; }
