@@ -439,6 +439,8 @@
   width: 33%; }
 .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-right {
   width: 65.5%; }
+  .paragraphs-item-2-kolommen-tekst-30-afbeelding-7 .group-right img {
+    float: right; }
 
 .field-name-field-tekst-3-kolommen .field-items .field-item {
   width: 33.3%; }
