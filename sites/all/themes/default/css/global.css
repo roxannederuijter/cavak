@@ -1176,7 +1176,9 @@ a.blue {
 a.orange {
   background-color: #f78b1f;
   padding: 10px;
-  color: #fff; }
+  color: #fff;
+  display: inline-block;
+  width: 87%; }
 
 .entity-paragraphs-item .field-name-field-2titel {
   font-weight: 700;
