@@ -610,7 +610,10 @@
     width:33%;
   }
   .group-right {
-    width:66%;
+    width:67%;
+    img {
+      float:right;
+    }
   }
 }
 
