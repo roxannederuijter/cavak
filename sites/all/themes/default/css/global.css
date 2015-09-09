@@ -805,6 +805,8 @@ input[type="submit"] {
     float: left;
     margin: 0 5px; }
 
+.node-crew-cast .group-right {
+  color: #3989c9; }
 .node-crew-cast .field-name-field-naam {
   font-size: 24px;
   color: #000;
