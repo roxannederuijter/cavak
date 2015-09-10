@@ -1651,10 +1651,13 @@ ul#superfish-1 li {
   }
 }
 
-ul.primary li {
-  display: none!important;
+.context-search {
+  ul.primary li {
+    display: none!important;
+  }
+
+  ul.primary li.active {
+    display: inline!important;
+  }
 }
 
-ul.primary li.active {
-  display: inline!important;
-}
