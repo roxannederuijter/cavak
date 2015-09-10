@@ -629,7 +629,7 @@ a {
 .context-filmrecruitzz #zone-content-wrapper {
   background-color: #3989c9; }
 .context-filmrecruitzz #zone-branding-wrapper {
-  padding: 20px 0 3px 0;
+  padding: 20px 0 px 0;
   background-color: #3989c9; }
 .context-filmrecruitzz .zone-footer-wrapper {
   background-color: #3989c9; }
@@ -1362,5 +1362,10 @@ ul#superfish-1 li ul {
 .front .paragraphs-item-3-kolommen-tekst-video-tekst {
   margin-bottom: 0;
   padding-bottom: 0; }
+
+.context-search ul.primary li {
+  display: none !important; }
+.context-search ul.primary li.active {
+  display: inline !important; }
 
 /*# sourceMappingURL=global.css.map */
