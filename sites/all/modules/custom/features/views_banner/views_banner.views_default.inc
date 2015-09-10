@@ -85,6 +85,18 @@ function views_banner_views_default_views() {
 
   /* Display: banner eenvoudige pagina */
   $handler = $view->new_display('block', 'banner eenvoudige pagina', 'block_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Banner */
+  $handler->display->display_options['fields']['field_banner']['id'] = 'field_banner';
+  $handler->display->display_options['fields']['field_banner']['table'] = 'field_data_field_banner';
+  $handler->display->display_options['fields']['field_banner']['field'] = 'field_banner';
+  $handler->display->display_options['fields']['field_banner']['label'] = '';
+  $handler->display->display_options['fields']['field_banner']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_banner']['hide_alter_empty'] = FALSE;
+  $handler->display->display_options['fields']['field_banner']['type'] = 'field_collection_fields';
+  $handler->display->display_options['fields']['field_banner']['settings'] = array(
+    'view_mode' => 'full',
+  );
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -100,6 +112,7 @@ function views_banner_views_default_views() {
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'page' => 'page',
+    'agenda' => 'agenda',
     'filmrecruitz' => 'filmrecruitz',
   );
   $translatables['banner'] = array(

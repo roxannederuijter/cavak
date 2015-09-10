@@ -40,6 +40,21 @@ function default_image_style_image_default_styles() {
     ),
   );
 
+  // Exported image style: 350_x_235.
+  $styles['350_x_235'] = array(
+    'label' => '350 x 235',
+    'effects' => array(
+      4 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 350,
+          'height' => 235,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: banner_2560_x_660.
   $styles['banner_2560_x_660'] = array(
     'label' => 'Banner 2560 x 660',

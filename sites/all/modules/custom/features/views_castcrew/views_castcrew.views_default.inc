@@ -167,6 +167,9 @@ function views_castcrew_views_default_views() {
   $handler->display->display_options['exposed_form']['options']['input_required'] = 0;
   $handler->display->display_options['exposed_form']['options']['text_input_required'] = 'Selecteer een van de filters en klik op \'Toepassen\' om het resultaat te zien';
   $handler->display->display_options['exposed_form']['options']['text_input_required_format'] = 'filtered_html';
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['exposed_block'] = TRUE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -206,6 +209,9 @@ function views_castcrew_views_default_views() {
 
   /* Display: Crew-page */
   $handler = $view->new_display('page', 'Crew-page', 'page_1');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['exposed_block'] = TRUE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;

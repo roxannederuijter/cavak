@@ -14,6 +14,7 @@ function default_permissions_user_default_permissions() {
   $permissions['access administration menu'] = array(
     'name' => 'access administration menu',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'admin_menu',
@@ -23,6 +24,7 @@ function default_permissions_user_default_permissions() {
   $permissions['access administration pages'] = array(
     'name' => 'access administration pages',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'system',
@@ -41,6 +43,7 @@ function default_permissions_user_default_permissions() {
   $permissions['access all webform results'] = array(
     'name' => 'access all webform results',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -97,6 +100,7 @@ function default_permissions_user_default_permissions() {
   $permissions['access media browser'] = array(
     'name' => 'access media browser',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'media',
@@ -106,6 +110,7 @@ function default_permissions_user_default_permissions() {
   $permissions['access own webform results'] = array(
     'name' => 'access own webform results',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -115,6 +120,7 @@ function default_permissions_user_default_permissions() {
   $permissions['access own webform submissions'] = array(
     'name' => 'access own webform submissions',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -612,6 +618,7 @@ function default_permissions_user_default_permissions() {
   $permissions['create files'] = array(
     'name' => 'create files',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'file_entity',
@@ -653,6 +660,7 @@ function default_permissions_user_default_permissions() {
   $permissions['delete all webform submissions'] = array(
     'name' => 'delete all webform submissions',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -773,6 +781,7 @@ function default_permissions_user_default_permissions() {
   $permissions['delete own webform submissions'] = array(
     'name' => 'delete own webform submissions',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -856,6 +865,7 @@ function default_permissions_user_default_permissions() {
   $permissions['edit all webform submissions'] = array(
     'name' => 'edit all webform submissions',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -994,6 +1004,7 @@ function default_permissions_user_default_permissions() {
   $permissions['edit own webform submissions'] = array(
     'name' => 'edit own webform submissions',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -1187,6 +1198,7 @@ function default_permissions_user_default_permissions() {
   $permissions['view any banner bean'] = array(
     'name' => 'view any banner bean',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1198,6 +1210,7 @@ function default_permissions_user_default_permissions() {
   $permissions['view any filmrecruitz_button bean'] = array(
     'name' => 'view any filmrecruitz_button bean',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1209,6 +1222,7 @@ function default_permissions_user_default_permissions() {
   $permissions['view any link_image bean'] = array(
     'name' => 'view any link_image bean',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
@@ -1259,6 +1273,7 @@ function default_permissions_user_default_permissions() {
   $permissions['view own private files'] = array(
     'name' => 'view own private files',
     'roles' => array(
+      'Filmrecruitz' => 'Filmrecruitz',
       'administrator' => 'administrator',
     ),
     'module' => 'file_entity',

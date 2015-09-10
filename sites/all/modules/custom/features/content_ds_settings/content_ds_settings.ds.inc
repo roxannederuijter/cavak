@@ -248,14 +248,30 @@ function content_ds_settings_ds_layout_settings_info() {
       'right' => array(
         1 => 'field_naam',
         2 => 'field_ervaring',
-        3 => 'field_over_mij',
+        3 => 'field_geboorte_datum',
+        4 => 'field_geslacht',
+        5 => 'field_adres',
+        6 => 'field_lengte',
+        7 => 'field_confectiemaat',
+        8 => 'field_maat_spijkerbroek',
+        9 => 'field_schoenmaat',
+        10 => 'field_haarkleur',
+        11 => 'field_kleur_ogen',
       ),
     ),
     'fields' => array(
       'field_foto_s' => 'left',
       'field_naam' => 'right',
       'field_ervaring' => 'right',
-      'field_over_mij' => 'right',
+      'field_geboorte_datum' => 'right',
+      'field_geslacht' => 'right',
+      'field_adres' => 'right',
+      'field_lengte' => 'right',
+      'field_confectiemaat' => 'right',
+      'field_maat_spijkerbroek' => 'right',
+      'field_schoenmaat' => 'right',
+      'field_haarkleur' => 'right',
+      'field_kleur_ogen' => 'right',
     ),
     'classes' => array(),
     'wrappers' => array(
@@ -285,16 +301,22 @@ function content_ds_settings_ds_layout_settings_info() {
       ),
       'middle' => array(
         1 => 'field_naam',
-        2 => 'field_over_mij',
+        2 => 'field_geboorte_datum',
+        3 => 'field_adres',
+        4 => 'field_postcode',
+        5 => 'field_woonplaats',
       ),
       'right' => array(
-        3 => 'field_ervaring',
+        6 => 'field_ervaring',
       ),
     ),
     'fields' => array(
       'field_profielfoto' => 'left',
       'field_naam' => 'middle',
-      'field_over_mij' => 'middle',
+      'field_geboorte_datum' => 'middle',
+      'field_adres' => 'middle',
+      'field_postcode' => 'middle',
+      'field_woonplaats' => 'middle',
       'field_ervaring' => 'right',
     ),
     'classes' => array(),
@@ -714,30 +736,37 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->entity_type = 'paragraphs_item';
   $ds_layout->bundle = '2_kolommen_tekst_afbeelding_rech';
   $ds_layout->view_mode = 'default';
-  $ds_layout->layout = 'ds_2col';
+  $ds_layout->layout = 'ds_2col_stacked';
   $ds_layout->settings = array(
     'regions' => array(
+      'header' => array(
+        0 => 'field_titel',
+      ),
       'left' => array(
-        0 => 'field_tekst_lang',
+        1 => 'field_tekst_lang',
       ),
       'right' => array(
-        1 => 'field_afbeelding_rechts',
+        2 => 'field_afbeelding_rechts',
       ),
     ),
     'fields' => array(
+      'field_titel' => 'header',
       'field_tekst_lang' => 'left',
       'field_afbeelding_rechts' => 'right',
     ),
     'classes' => array(),
     'wrappers' => array(
+      'header' => 'div',
       'left' => 'div',
       'right' => 'div',
+      'footer' => 'div',
     ),
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
+    'layout_disable_css' => 0,
   );
   $export['paragraphs_item|2_kolommen_tekst_afbeelding_rech|default'] = $ds_layout;
 

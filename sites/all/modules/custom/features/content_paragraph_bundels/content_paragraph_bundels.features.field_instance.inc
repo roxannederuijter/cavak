@@ -11,62 +11,60 @@ function content_paragraph_bundels_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'field_collection_item-field_afbeeldingen-field_afbeeldingevent'
-  $field_instances['field_collection_item-field_afbeeldingen-field_afbeeldingevent'] = array(
+  // 'field_collection_item-field_afbeeldingen-field_afbeeldinglink'
+  $field_instances['field_collection_item-field_afbeeldingen-field_afbeeldinglink'] = array(
     'bundle' => 'field_afbeeldingen',
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'linkimagefield',
         'settings' => array(
           'image_link' => '',
           'image_style' => '',
         ),
-        'type' => 'image',
+        'type' => 'linkimagefield',
         'weight' => 1,
       ),
     ),
     'entity_type' => 'field_collection_item',
-    'field_name' => 'field_afbeeldingevent',
-    'label' => 'afbeelding',
+    'field_name' => 'field_afbeeldinglink',
+    'label' => 'afbeeldinglink',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
+      'class_field' => 0,
+      'custom_target' => 0,
       'default_image' => 0,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
+      'longdesc_field' => 0,
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
+      'rel_field' => 0,
+      'target' => '_self',
       'title_field' => 0,
+      'url' => '',
+      'url_settings' => array(
+        'class_field' => 0,
+        'custom_target' => 0,
+        'rel_field' => 0,
+        'target' => '_self',
+        'url' => '',
+      ),
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'media',
+      'module' => 'linkimagefield',
       'settings' => array(
-        'allowed_schemes' => array(
-          'public' => 'public',
-          'vimeo' => 0,
-          'youtube' => 0,
-        ),
-        'allowed_types' => array(
-          'audio' => 0,
-          'document' => 0,
-          'image' => 'image',
-          'video' => 0,
-        ),
-        'browser_plugins' => array(
-          'media_default--media_browser_1' => 0,
-          'media_default--media_browser_my_files' => 0,
-          'media_internet' => 0,
-          'upload' => 0,
-        ),
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
       ),
-      'type' => 'media_generic',
-      'weight' => 3,
+      'type' => 'linkimagefield_widget',
+      'weight' => 4,
     ),
   );
 
@@ -276,36 +274,6 @@ function content_paragraph_bundels_field_default_field_instances() {
       ),
       'type' => 'text_textfield',
       'weight' => -3,
-    ),
-  );
-
-  // Exported field_instance: 'node-crew-field_catogorie_cast_crew'
-  $field_instances['node-crew-field_catogorie_cast_crew'] = array(
-    'bundle' => 'crew',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 5,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_catogorie_cast_crew',
-    'label' => 'catogorie cast/crew',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
-      'weight' => 52,
     ),
   );
 
@@ -1177,7 +1145,7 @@ function content_paragraph_bundels_field_default_field_instances() {
     'label' => 'Tekst rechts',
     'required' => 1,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1206,7 +1174,7 @@ function content_paragraph_bundels_field_default_field_instances() {
           'image_style' => '',
         ),
         'type' => 'image',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'paragraphs_editor_preview' => array(
         'label' => 'above',
@@ -1250,7 +1218,7 @@ function content_paragraph_bundels_field_default_field_instances() {
         ),
       ),
       'type' => 'media_generic',
-      'weight' => 34,
+      'weight' => 2,
     ),
   );
 
@@ -1267,7 +1235,7 @@ function content_paragraph_bundels_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
       'paragraphs_editor_preview' => array(
         'label' => 'above',
@@ -1291,7 +1259,48 @@ function content_paragraph_bundels_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 32,
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'paragraphs_item-2_kolommen_tekst_afbeelding_rech-field_titel'
+  $field_instances['paragraphs_item-2_kolommen_tekst_afbeelding_rech-field_titel'] = array(
+    'bundle' => '2_kolommen_tekst_afbeelding_rech',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_titel',
+    'label' => 'Titel',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 0,
     ),
   );
 
@@ -2398,10 +2407,9 @@ function content_paragraph_bundels_field_default_field_instances() {
   t('Title Text');
   t('Title text is used in the tool tip when a user hovers their mouse over the image. Adding title text makes it easier to understand the context of an image and improves usability.');
   t('Video');
-  t('afbeelding');
   t('afbeeldingen');
+  t('afbeeldinglink');
   t('call to action');
-  t('catogorie cast/crew');
   t('inhoud');
   t('link');
   t('tekst');

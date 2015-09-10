@@ -38,19 +38,12 @@ function views_agenda_views_default_views() {
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['content'] = '<a href="/eventz">NAAR AGENDA >></a>';
-  /* Field: Content: Datum */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_datum']['id'] = 'field_datum';
   $handler->display->display_options['fields']['field_datum']['table'] = 'field_data_field_datum';
   $handler->display->display_options['fields']['field_datum']['field'] = 'field_datum';
   $handler->display->display_options['fields']['field_datum']['label'] = '';
   $handler->display->display_options['fields']['field_datum']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_datum']['settings'] = array(
-    'format_type' => 'dag_maand',
-    'fromto' => 'both',
-    'multiple_number' => '',
-    'multiple_from' => '',
-    'multiple_to' => '',
-  );
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -58,7 +51,7 @@ function views_agenda_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Sort criterion: Content: Datum (field_datum) */
+  /* Sort criterion: Broken/missing handler */
   $handler->display->display_options['sorts']['field_datum_value']['id'] = 'field_datum_value';
   $handler->display->display_options['sorts']['field_datum_value']['table'] = 'field_data_field_datum';
   $handler->display->display_options['sorts']['field_datum_value']['field'] = 'field_datum_value';

@@ -73,6 +73,27 @@ function field_bases_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_adres'
+  $field_bases['field_adres'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_adres',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_afbeelding'
   $field_bases['field_afbeelding'] = array(
     'active' => 1,
@@ -183,26 +204,26 @@ function field_bases_field_default_field_bases() {
     'type' => 'field_collection',
   );
 
-  // Exported field_base: 'field_afbeeldingevent'
-  $field_bases['field_afbeeldingevent'] = array(
+  // Exported field_base: 'field_afbeeldinglink'
+  $field_bases['field_afbeeldinglink'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_afbeeldingevent',
+    'field_name' => 'field_afbeeldinglink',
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
       ),
     ),
     'locked' => 0,
-    'module' => 'image',
+    'module' => 'linkimagefield',
     'settings' => array(
       'default_image' => 0,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
-    'type' => 'image',
+    'type' => 'linkimagefield',
   );
 
   // Exported field_base: 'field_banner'
@@ -379,6 +400,27 @@ function field_bases_field_default_field_bases() {
     'type' => 'taxonomy_term_reference',
   );
 
+  // Exported field_base: 'field_confectiemaat'
+  $field_bases['field_confectiemaat'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_confectiemaat',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_content'
   $field_bases['field_content'] = array(
     'active' => 1,
@@ -494,6 +536,21 @@ function field_bases_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'datetime',
+  );
+
+  // Exported field_base: 'field_e_mail'
+  $field_bases['field_e_mail'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_e_mail',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'email',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'email',
   );
 
   // Exported field_base: 'field_ervaring'
@@ -644,6 +701,81 @@ function field_bases_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_geboorte_datum'
+  $field_bases['field_geboorte_datum'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_geboorte_datum',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'date',
+    'settings' => array(
+      'cache_count' => 4,
+      'cache_enabled' => 0,
+      'granularity' => array(
+        'day' => 'day',
+        'hour' => 0,
+        'minute' => 0,
+        'month' => 'month',
+        'second' => 0,
+        'year' => 'year',
+      ),
+      'timezone_db' => '',
+      'todate' => '',
+      'tz_handling' => 'none',
+    ),
+    'translatable' => 0,
+    'type' => 'datetime',
+  );
+
+  // Exported field_base: 'field_geslacht'
+  $field_bases['field_geslacht'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_geslacht',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => 'Man',
+        1 => 'Vrouw',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_haarkleur'
+  $field_bases['field_haarkleur'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_haarkleur',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_image'
   $field_bases['field_image'] = array(
     'active' => 1,
@@ -701,6 +833,48 @@ function field_bases_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'field_collection',
+  );
+
+  // Exported field_base: 'field_kleur_ogen'
+  $field_bases['field_kleur_ogen'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_kleur_ogen',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
+  // Exported field_base: 'field_lengte'
+  $field_bases['field_lengte'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_lengte',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
   );
 
   // Exported field_base: 'field_link'
@@ -783,6 +957,27 @@ function field_bases_field_default_field_bases() {
     'type' => 'linkimagefield',
   );
 
+  // Exported field_base: 'field_maat_spijkerbroek'
+  $field_bases['field_maat_spijkerbroek'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_maat_spijkerbroek',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_naam'
   $field_bases['field_naam'] = array(
     'active' => 1,
@@ -802,25 +997,6 @@ function field_bases_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'text',
-  );
-
-  // Exported field_base: 'field_over_mij'
-  $field_bases['field_over_mij'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_over_mij',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'text_with_summary',
   );
 
   // Exported field_base: 'field_paragraph_field_collection'
@@ -873,6 +1049,27 @@ function field_bases_field_default_field_bases() {
     'settings' => array(),
     'translatable' => 0,
     'type' => 'paragraphs',
+  );
+
+  // Exported field_base: 'field_postcode'
+  $field_bases['field_postcode'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_postcode',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
   );
 
   // Exported field_base: 'field_profielfoto'
@@ -954,6 +1151,27 @@ function field_bases_field_default_field_bases() {
     'settings' => array(),
     'translatable' => 0,
     'type' => 'text_long',
+  );
+
+  // Exported field_base: 'field_schoenmaat'
+  $field_bases['field_schoenmaat'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_schoenmaat',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
   );
 
   // Exported field_base: 'field_subtitel'
@@ -1053,6 +1271,27 @@ function field_bases_field_default_field_bases() {
     'type' => 'text_long',
   );
 
+  // Exported field_base: 'field_telefoonnummer'
+  $field_bases['field_telefoonnummer'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_telefoonnummer',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
+  );
+
   // Exported field_base: 'field_test'
   $field_bases['field_test'] = array(
     'active' => 1,
@@ -1135,6 +1374,27 @@ function field_bases_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'image',
+  );
+
+  // Exported field_base: 'field_woonplaats'
+  $field_bases['field_woonplaats'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_woonplaats',
+    'indexes' => array(
+      'format' => array(
+        0 => 'format',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'text',
+    'settings' => array(
+      'max_length' => 255,
+    ),
+    'translatable' => 0,
+    'type' => 'text',
   );
 
   return $field_bases;
