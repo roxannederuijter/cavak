@@ -337,8 +337,8 @@ a {
   border-radius: 0 !important;
   opacity: 1 !important; }
 
-.owl-prev:hover, .owl-next:hover {
-  opacity: 0.5; }
+.owl-prev:hover {
+  opacity: 0.5 !important; }
 
 /* Banner */
 .field-name-field-quotes {
