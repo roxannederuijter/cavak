@@ -153,16 +153,24 @@ a {
 }
 
 .owl-prev {
-  display: block;
-  position: absolute;
-  top: 32%;
-  left: 0px;
-  z-index: 100;
-  background: url("img/la.jpg") no-repeat center!important;
-  background-size: 16px;
-  width: 41px;
-  height: 100px;
-  text-indent: -9999px;
+   display: block;
+   position: absolute;
+   top: 32%;
+   left: 0px;
+   z-index: 100;
+   background: url("img/la.jpg") no-repeat center!important;
+   background-size: 16px;
+   width: 41px;
+   height: 100px;
+   text-indent: -9999px;
+   margin:0;
+   padding:0;
+   border-radius:0;
+   opacity:0;
+ }
+
+.owl-prev:hover {
+  opacity:0.5;
 }
 
 /* Banner */
