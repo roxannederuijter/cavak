@@ -95,7 +95,6 @@ function views_zinema_views_default_views() {
   $handler->display->display_options['sorts']['field_volgorde_value']['id'] = 'field_volgorde_value';
   $handler->display->display_options['sorts']['field_volgorde_value']['table'] = 'field_data_field_volgorde';
   $handler->display->display_options['sorts']['field_volgorde_value']['field'] = 'field_volgorde_value';
-  $handler->display->display_options['sorts']['field_volgorde_value']['order'] = 'DESC';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
