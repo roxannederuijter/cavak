@@ -319,7 +319,7 @@ a {
   margin: 0 !important;
   padding: 0 !important;
   border-radius: 0 !important;
-  opacity: 0 !important; }
+  opacity: 1 !important; }
 
 .owl-prev:hover {
   opacity: 0.5; }
