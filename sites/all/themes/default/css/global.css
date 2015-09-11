@@ -308,7 +308,7 @@ a {
 .owl-prev {
   display: block;
   position: absolute;
-  top: 32%;
+  top: 4%;
   left: 0px;
   z-index: 100;
   background: url("img/la.jpg") no-repeat center !important;
@@ -321,7 +321,23 @@ a {
   border-radius: 0 !important;
   opacity: 1 !important; }
 
-.owl-prev:hover {
+.owl-next {
+  display: block;
+  position: absolute;
+  top: 4%;
+  right: 0px;
+  z-index: 100;
+  background: url("img/ra.jpg") no-repeat center !important;
+  background-size: 16px;
+  width: 41px;
+  height: 100px;
+  text-indent: -9999px;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  opacity: 1 !important; }
+
+.owl-prev:hover, .owl-next:hover {
   opacity: 0.5; }
 
 /* Banner */
