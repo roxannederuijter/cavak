@@ -305,6 +305,18 @@ a {
     width: 41px;
     height: 100px; }
 
+.owl-prev {
+  display: block;
+  position: absolute;
+  top: 32%;
+  left: 0px;
+  z-index: 100;
+  background: url("img/la.jpg") no-repeat center;
+  background-size: 16px;
+  width: 41px;
+  height: 100px;
+  text-indent: -9999px; }
+
 /* Banner */
 .field-name-field-quotes {
   display: none; }
@@ -629,7 +641,7 @@ a {
 .context-filmrecruitzz #zone-content-wrapper {
   background-color: #3989c9; }
 .context-filmrecruitzz #zone-branding-wrapper {
-  padding: 20px 0 px 0;
+  padding: 20px 0 20px 0;
   background-color: #3989c9; }
 .context-filmrecruitzz .zone-footer-wrapper {
   background-color: #3989c9; }
