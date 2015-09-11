@@ -135,11 +135,46 @@ function content_zinema_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-zinema-field_volgorde'
+  $field_instances['node-zinema-field_volgorde'] = array(
+    'bundle' => 'zinema',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_volgorde',
+    'label' => 'Volgorde',
+    'required' => 0,
+    'settings' => array(
+      'max' => '',
+      'min' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 46,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
   t('Catogorie');
   t('Video');
+  t('Volgorde');
 
   return $field_instances;
 }

@@ -91,11 +91,11 @@ function views_zinema_views_default_views() {
   $handler->display->display_options['fields']['field_catogorie']['label'] = '';
   $handler->display->display_options['fields']['field_catogorie']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_catogorie']['type'] = 'taxonomy_term_reference_plain';
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Sort criterion: Content: Volgorde (field_volgorde) */
+  $handler->display->display_options['sorts']['field_volgorde_value']['id'] = 'field_volgorde_value';
+  $handler->display->display_options['sorts']['field_volgorde_value']['table'] = 'field_data_field_volgorde';
+  $handler->display->display_options['sorts']['field_volgorde_value']['field'] = 'field_volgorde_value';
+  $handler->display->display_options['sorts']['field_volgorde_value']['order'] = 'DESC';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
