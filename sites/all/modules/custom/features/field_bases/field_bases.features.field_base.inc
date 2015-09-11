@@ -1376,6 +1376,21 @@ function field_bases_field_default_field_bases() {
     'type' => 'image',
   );
 
+  // Exported field_base: 'field_volgorde'
+  $field_bases['field_volgorde'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_volgorde',
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'number',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'number_integer',
+  );
+
   // Exported field_base: 'field_woonplaats'
   $field_bases['field_woonplaats'] = array(
     'active' => 1,
