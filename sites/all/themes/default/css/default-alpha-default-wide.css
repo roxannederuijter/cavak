@@ -1,13 +1,15 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
-.block-news-frontpage-block .views-row {
-  margin-bottom: 8px;
-  padding: 12px; }
-  .block-news-frontpage-block .views-row .views-field-title a {
-    font-size: 18px; }
-.block-news-frontpage-block .views-field-view-node a {
-  width: 51px;
-  height: 51px;
-  background-size: 51px; }
+.block-news-frontpage-block {
+  right: 363px; }
+  .block-news-frontpage-block .views-row {
+    margin-bottom: 8px;
+    padding: 12px; }
+    .block-news-frontpage-block .views-row .views-field-title a {
+      font-size: 18px; }
+  .block-news-frontpage-block .views-field-view-node a {
+    width: 51px;
+    height: 51px;
+    background-size: 51px; }
 
 .field-name-field-quotes {
   display: inline-block;
