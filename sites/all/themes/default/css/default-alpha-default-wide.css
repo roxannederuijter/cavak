@@ -1,67 +1,55 @@
-/* This file will hold styles that are loaded using the same media query as the wide grid. */
-.block-news-frontpage-block {
-  right: 363px; }
-  .block-news-frontpage-block .views-row {
-    margin-bottom: 8px;
-    padding: 12px; }
-    .block-news-frontpage-block .views-row .views-field-title a {
-      font-size: 18px; }
-  .block-news-frontpage-block .views-field-view-node a {
-    width: 51px;
-    height: 51px;
-    background-size: 51px; }
+/*
+Error: Invalid CSS after "    /width: 59%": expected "{", was ";"
+        on line 56 of default-alpha-default-wide.scss
 
-.field-name-field-quotes {
-  display: inline-block;
-  position: absolute;
-  width: 300px;
-  font-size: 2.813em;
-  color: #fff;
-  top: 9%;
-  padding-left: 19.3%;
-  text-shadow: 1px 1px 1px #050505;
-  font-weight: 700;
-  line-height: 1.1; }
+51:   }
+52: }
+53: 
+54: .block-filmrecruitz-block {
+55:   .views-row {
+56:     /width: 59%;
+57:   }
+58: }
+59: 
+60: #block-bean-socialmedia, #block-bean-filmrecruitz-footer {
+61:   img {
 
-.region-user-first .block-block-2 {
-  width: 16%;
-  float: right;
-  margin-top: 3px; }
-
-.context-filmrecruitzz .region-user-first .block-block-2, .context-filmrecruitz .region-user-first .block-block-2 {
-  width: 16%; }
-
-.block-filmrecruitz-block .views-row {
-  width: 59%; }
-
-#block-bean-socialmedia img, #block-bean-filmrecruitz-footer img {
-  padding-right: 1%; }
-
-.block-views-exp-cast-crew-page, .block-views-exp-cast-crew-page-1 {
-  width: 73%; }
-
-.block-views-exp-cast-crew-page {
-  width: 47%; }
-
-.block-views-eenvoudigepagina-block {
-  top: 10%; }
-  .block-views-eenvoudigepagina-block .views-row .field-name-field-link-filmrecruitz {
-    width: 59%; }
-
-.paragraphs-item-3-kolommen-video-s .field-name-field-videos .field-items .field-item iframe {
-  width: 373px;
-  height: 300px; }
-
-.paragraphs-item-2-kolommen-tekst-video .group-right .field-name-field-video .field-items .field-item iframe {
-  width: 373px;
-  height: 300px; }
-
-.view-id-filmfestival .views-row .views-field-title {
-  font-size: 24px; }
-
-.context-nieuws .group-right .field-name-title h2 a {
-  font-size: 30px; }
-.context-nieuws .group-right .field-name-node-link a {
-  width: 10%; }
-
-/*# sourceMappingURL=default-alpha-default-wide.css.map */
+Backtrace:
+default-alpha-default-wide.scss:56
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1162:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1098:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1093:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:638:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:658:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:647:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:639:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:658:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:647:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:639:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:632:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:657:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:650:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:393:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/bin/scss:13:in `<top (required)>'
+/usr/bin/scss:23:in `load'
+/usr/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    /width: 59%\": expected \"{\", was \";\"\A         on line 56 of default-alpha-default-wide.scss\A \A 51:   }\A 52: }\A 53: \A 54: .block-filmrecruitz-block {\A 55:   .views-row {\A 56:     /width: 59%;\A 57:   }\A 58: }\A 59: \A 60: #block-bean-socialmedia, #block-bean-filmrecruitz-footer {\A 61:   img {"; }
