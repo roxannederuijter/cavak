@@ -198,10 +198,10 @@
 
 .block-filmrecruitz-block {
   display: inline-block;
-  width: 50%;
+  width: 29%;
   position: absolute;
-  right: 0;
-  top: 19%;
+  right: 19%;
+  top: 1%;
   float: left;
   z-index: 100; }
   .block-filmrecruitz-block .views-row {
