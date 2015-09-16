@@ -1381,6 +1381,9 @@ ul#superfish-1 li ul {
   margin-bottom: 20px;
   margin-right: 20px; }
   #block-system-main .view-cast-crew .views-row .views-field-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
