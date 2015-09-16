@@ -240,7 +240,8 @@
   .block-cast-crew-slideshow .views-row {
     width: 25%;
     box-sizing: border-box;
-    padding: 0 1%; }
+    padding: 0 1%;
+    float: left; }
   .block-cast-crew-slideshow .views-slideshow-controls-text-previous {
     display: block;
     position: absolute;
