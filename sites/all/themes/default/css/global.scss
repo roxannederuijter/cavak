@@ -1714,7 +1714,7 @@ ul#superfish-1 li {
     @while $int < 200{
       .views-row-#{$int}{
         clear:left;
-        $int: $int + 5;
+        $int: $int + 4;
       }
     }
   }
