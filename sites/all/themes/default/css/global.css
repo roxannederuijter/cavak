@@ -1377,6 +1377,11 @@ ul#superfish-1 li ul {
 #block-system-main .view-cast-crew .views-row {
   width: 25%;
   float: left;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-right: 20px; }
+#block-system-main .view-cast-crew .views-row-4 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-5 {
+  clear: left; }
 
 /*# sourceMappingURL=global.css.map */
