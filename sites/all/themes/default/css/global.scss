@@ -1668,9 +1668,18 @@ ul#superfish-1 li {
       margin-bottom: 20px;
       margin-right: 20px;
       .views-field-title{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
         position: absolute;
         top: 0;
         z-index: 997;
+
+        background: transparent;
+      }
+      .views-field-title:hover{
+        background: rgba(70, 77, 255, 0.49);
       }
     }
     .views-row-4{

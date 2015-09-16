@@ -1381,9 +1381,15 @@ ul#superfish-1 li ul {
   margin-bottom: 20px;
   margin-right: 20px; }
   #block-system-main .view-cast-crew .views-row .views-field-title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
     position: absolute;
     top: 0;
-    z-index: 997; }
+    z-index: 997;
+    background: transparent; }
+  #block-system-main .view-cast-crew .views-row .views-field-title:hover {
+    background: rgba(70, 77, 255, 0.49); }
 #block-system-main .view-cast-crew .views-row-4 {
   margin-right: 0; }
 #block-system-main .view-cast-crew .views-row-5 {
