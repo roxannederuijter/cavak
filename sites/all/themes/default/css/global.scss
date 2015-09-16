@@ -1667,6 +1667,11 @@ ul#superfish-1 li {
       float:left;
       margin-bottom: 20px;
       margin-right: 20px;
+      .views-field-field-profielfoto {
+        img {
+          width:100%;
+        }
+      }
       .views-field-title{
         display: flex;
         justify-content: center;

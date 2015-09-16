@@ -1380,6 +1380,8 @@ ul#superfish-1 li ul {
   float: left;
   margin-bottom: 20px;
   margin-right: 20px; }
+  #block-system-main .view-cast-crew .views-row .views-field-field-profielfoto img {
+    width: 100%; }
   #block-system-main .view-cast-crew .views-row .views-field-title {
     display: flex;
     justify-content: center;
