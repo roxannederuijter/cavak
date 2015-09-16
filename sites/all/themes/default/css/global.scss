@@ -792,50 +792,6 @@ input[type="submit"] {
   position:relative;
 }
 
-.view-id-cast_crew {
-  .views-row {
-    width:100%;
-
-    float:left;
-    position:relative;
-  }
-  .views-field-field-naam {
-    display: none;
-    position: absolute;
-    top: 85px;
-    left: 20px;
-    text-align:center;
-    color: #fff;
-    font-size: 24px;
-    z-index: 1;
-    border-bottom: 1px solid;
-  }
-  .views-field-field-profielfoto {
-    margin-top: -300px;
-    width:100%;
-  }
-
-  .field-content.image-main {
-    background-color:#3989c9;
-    display:inline-block;
-    border-radius:3px;
-    img {
-      border-radius:3px;
-    }
-  }
-
-  .views-field-title{
-    position: relative;
-    display: inline-block;
-    height: 300px;
-    width: 100%;
-    z-index: 5;
-
-    span{
-      display: none;
-    }
-  }
-}
 
 .views-widget-filter-field_catogorie_cast_crew_tid {
   .views-exposed-form label {
