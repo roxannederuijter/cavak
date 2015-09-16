@@ -486,15 +486,15 @@
   box-sizing: border-box;
   padding-right: 20px; }
 
-.view-zinema .views-row-1, .views-row-4, .views-row-7 {
+.view-zinema .views-row-1, .view-zinema .views-row-4, .view-zinema .views-row-7 {
   box-sizing: border-box;
   padding-right: 10px; }
 
-.view-zinema .views-row-2, .views-row-5, .views-row-8 {
+.view-zinema .views-row-2, .view-zinema .views-row-5, .view-zinema .views-row-8 {
   box-sizing: border-box;
   padding: 0px 10px; }
 
-.view-zinema .views-row-3, .views-row-6, .views-row-9 {
+.view-zinema .views-row-3, .view-zinema .views-row-6, .view-zinema .views-row-9 {
   box-sizing: border-box;
   padding-left: 10px; }
 
