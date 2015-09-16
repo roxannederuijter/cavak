@@ -1702,10 +1702,9 @@ ul#superfish-1 li {
         }
       }
     }
-
     $int: 4;
     @while $int < 200{
-      .view-row-#{$int}{
+      .views-row-#{$int}{
         margin-right: 0;
         $int: $int + 4;
       }
@@ -1713,7 +1712,7 @@ ul#superfish-1 li {
 
     $int: 5;
     @while $int < 200{
-      .view-row-#{$int}{
+      .views-row-#{$int}{
         clear:left;
         $int: $int + 5;
       }
