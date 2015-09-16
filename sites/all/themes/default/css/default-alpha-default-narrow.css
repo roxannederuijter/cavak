@@ -502,4 +502,234 @@
 .paragraphs-item-2-kolommen-tekst-afbeelding-rech .group-right .field-name-field-afbeelding-rechts {
   float: right; }
 
+#block-system-main .view-cast-crew .views-row {
+  position: relative;
+  width: 22.73%;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px; }
+  #block-system-main .view-cast-crew .views-row .views-field-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 997;
+    background: transparent; }
+    #block-system-main .view-cast-crew .views-row .views-field-title a {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      color: transparent; }
+  #block-system-main .view-cast-crew .views-row .views-field-title:hover {
+    background: rgba(70, 77, 255, 0.49); }
+    #block-system-main .view-cast-crew .views-row .views-field-title:hover a {
+      color: #fff; }
+#block-system-main .view-cast-crew .views-row-4 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-8 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-12 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-16 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-20 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-24 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-28 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-32 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-36 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-40 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-44 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-48 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-52 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-56 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-60 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-64 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-68 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-72 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-76 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-80 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-84 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-88 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-92 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-96 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-100 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-104 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-108 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-112 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-116 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-120 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-124 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-128 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-132 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-136 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-140 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-144 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-148 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-152 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-156 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-160 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-164 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-168 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-172 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-176 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-180 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-184 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-188 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-192 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-196 {
+  margin-right: 0; }
+#block-system-main .view-cast-crew .views-row-5 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-9 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-13 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-17 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-21 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-25 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-29 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-33 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-37 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-41 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-45 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-49 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-53 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-57 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-61 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-65 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-69 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-73 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-77 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-81 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-85 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-89 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-93 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-97 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-101 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-105 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-109 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-113 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-117 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-121 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-125 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-129 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-133 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-137 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-141 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-145 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-149 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-153 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-157 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-161 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-165 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-169 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-173 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-177 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-181 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-185 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-189 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-193 {
+  clear: left; }
+#block-system-main .view-cast-crew .views-row-197 {
+  clear: left; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

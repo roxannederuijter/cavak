@@ -713,3 +713,63 @@
   }
 }
 
+#block-system-main{
+  .view-cast-crew{
+    .views-row{
+      position: relative;
+      width: 22.73%;
+      float:left;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      .views-field-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        position: absolute;
+        top: 0;
+        z-index: 997;
+        a{
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          color: transparent;
+        }
+
+        background: transparent;
+      }
+      .views-field-title:hover{
+        background: rgba(70, 77, 255, 0.49);
+        a{
+          color: #fff;
+        }
+      }
+    }
+    $int: 4;
+    @while $int < 200{
+      .views-row-#{$int}{
+        margin-right: 0;
+        $int: $int + 4;
+      }
+    }
+
+    $int: 5;
+    @while $int < 200{
+      .views-row-#{$int}{
+        clear:left;
+        $int: $int + 4;
+      }
+    }
+  }
+}
