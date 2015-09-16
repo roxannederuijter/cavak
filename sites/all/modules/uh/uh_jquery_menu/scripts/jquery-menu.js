@@ -184,47 +184,47 @@
     });
 })(jQuery);
 
-(function ($) {
-    $(document).ready(function(){
-
-        $('.view-id-cast_crew').find('.views-row .views-field-title').each(function() {
-            var imageContainer = $(this).parent().find('.views-field-field-profielfoto');
-            var image = imageContainer.find("img:first");
-            var text = $(this).parent().find('.views-field-field-naam');
-            var container = $(this).parent();
-            var speed = 400; // speed in ms
-
-            container.css('cursor', 'pointer').on('click', function(){
-                location.href = image.parent().attr("href");
-            });
-
-            container.on("mouseenter",function() {
-                text.fadeIn(speed);
-                image.animate({opacity: '0.3'}, speed);
-                //image.css({'visibility': 'hidden'});
-            });
-            container.on("mouseout",function() {
-                text.fadeOut(speed);
-                image.animate({opacity: '1'}, speed);
-                //image.css({'visibility': 'visible'});
-            });
-        });
-
-        //
-        //var foo = $('input.form-radio');
-        //
-        //if ( foo.is(':checked') ) {
-        //    foo.parent().addClass('active');
-        //}
-
-        $('input.form-radio').each(function(){
-            if($(this).prop('checked')){
-                $(this).parent().addClass("active");
-            }
-        });
-
-    });
-})(jQuery);
+//(function ($) {
+//    $(document).ready(function(){
+//
+//        $('.view-id-cast_crew').find('.views-row .views-field-title').each(function() {
+//            var imageContainer = $(this).parent().find('.views-field-field-profielfoto');
+//            var image = imageContainer.find("img:first");
+//            var text = $(this).parent().find('.views-field-field-naam');
+//            var container = $(this).parent();
+//            var speed = 400; // speed in ms
+//
+//            container.css('cursor', 'pointer').on('click', function(){
+//                location.href = image.parent().attr("href");
+//            });
+//
+//            container.on("mouseenter",function() {
+//                text.fadeIn(speed);
+//                image.animate({opacity: '0.3'}, speed);
+//                //image.css({'visibility': 'hidden'});
+//            });
+//            container.on("mouseout",function() {
+//                text.fadeOut(speed);
+//                image.animate({opacity: '1'}, speed);
+//                //image.css({'visibility': 'visible'});
+//            });
+//        });
+//
+//        //
+//        //var foo = $('input.form-radio');
+//        //
+//        //if ( foo.is(':checked') ) {
+//        //    foo.parent().addClass('active');
+//        //}
+//
+//        $('input.form-radio').each(function(){
+//            if($(this).prop('checked')){
+//                $(this).parent().addClass("active");
+//            }
+//        });
+//
+//    });
+//})(jQuery);
 
 
 (function ($) {
