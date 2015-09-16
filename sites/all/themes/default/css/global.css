@@ -1374,4 +1374,9 @@ ul#superfish-1 li ul {
 .context-search ul.primary li.active {
   display: inline !important; }
 
+#block-system-main .view-cast-crew .views-row {
+  width: 25%;
+  float: left;
+  margin-bottom: 20px; }
+
 /*# sourceMappingURL=global.css.map */
